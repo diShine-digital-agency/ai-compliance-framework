@@ -15,16 +15,7 @@ All notable changes to this framework will be documented in this file.
 
 ### Changed
 
-*   `README.md` — Updated to version 2.0.0. Removed marketing language from the introductory paragraph and About section. Replaced "Regulatory Paralysis" framing with "Regulatory Uncertainty" for factual accuracy. Added Interactive Compliance Toolkit as Section 13. Added Contributing and Security sections. Updated How to Use section to reference the interactive toolkit.
-
-### Audit Findings (v2.0.0)
-
-This release was preceded by a full audit of the framework. Key findings:
-
-*   **Regulatory accuracy (9/10):** EU AI Act articles, GDPR references, and sector regulations are correctly cited across all templates.
-*   **Template quality:** All 16 templates and guides are relevant, well-structured, and aligned with the April 2026 regulatory landscape.
-*   **Scoring inconsistency fixed:** The Shadow AI Risk Calculator's Section D (Incident History) had an ambiguous scoring table where column headers (0/10/20) implied a 40-point max for a 20-point section. The interactive toolkit normalizes this to D1 (0/5/10) + D2 (0/5/10) = 20 points, consistent with the stated section maximum.
-*   **Language cleanup:** Removed marketing-oriented phrasing ("business-first," "we engineer operational engines," "bridges the gap") from README in favour of clear, factual descriptions.
+*   `README.md` — Updated to version 2.0.0. Cleaned language from the introductory paragraph and About section. Replaced "Regulatory Paralysis" framing with "Regulatory Uncertainty" for factual accuracy. Added Interactive Compliance Toolkit as Section 13. Added Contributing and Security sections. Updated How to Use section to reference the interactive toolkit.
 
 ## [1.4.1] - 2026-04-06
 
