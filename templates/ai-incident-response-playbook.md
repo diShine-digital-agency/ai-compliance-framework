@@ -74,3 +74,7 @@ Determine the exact nature of the failure:
 *   **Response:** Suspend automated decision-making. Revert to manual human review. Conduct a full fairness audit on the training data and model weights.
 
 *This playbook is part of the AI Compliance Framework by diShine Digital Agency.*
+
+---
+
+> **Framework Navigation:** This document is part of the [AI Compliance Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 4 — Monitor & Respond**, **Step 4.1: Prepare for Incidents**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

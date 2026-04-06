@@ -77,3 +77,7 @@ For a mid-market enterprise starting from zero, achieving ISO 42001 certificatio
 
 ---
 *This guide is provided by [diShine Digital Agency](https://dishine.it) as part of the AI Compliance Framework.*
+
+---
+
+> **Framework Navigation:** This document is part of the [AI Compliance Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 4 — Monitor & Respond**, **Step 4.2: Align with Global Standards**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

@@ -69,6 +69,20 @@ All notable changes to this framework will be documented in this file.
 
 ---
 
+## [1.4.1] - 2026-04-06
+
+### Added
+
+*   `guides/how-to-use-this-framework.md` — A comprehensive step-by-step user guide that maps the full AI compliance journey across four phases: (1) Assess & Contain (Shadow AI Risk Calculator, Acceptable Use Policy, Prompt IP Guidelines); (2) Audit & Procure (Vendor Audit Checklist, Sector-Specific Addenda); (3) Architect & Deploy (Deployment Decision Matrix, DPIA, Algorithmic Bias Audit, GPAI Checklist); (4) Monitor & Respond (Incident Response Playbook, ISO 42001 Alignment). Each step names the responsible owner (CISO, DPO, CTO, Legal Counsel, etc.) and explains the regulatory and business rationale behind the action.
+
+### Changed
+
+*   All 16 template and guide files — A contextual "Framework Navigation" footer has been added to each file, identifying which phase and step it belongs to and linking back to the step-by-step user guide.
+*   `README.md` — Updated to version 1.4.1; Step-by-Step User Guide added as Section 0 (top of the What's Inside list); "How to Use This Framework" section updated with a link to the full guide.
+*   `CHANGELOG.md` — v1.4.1 entry added.
+
+---
+
 ## [Upcoming]
 
 *   Sector-specific addenda (Healthcare, HR): ~~pending~~ *(released in v1.2.0)*;
@@ -76,4 +90,5 @@ All notable changes to this framework will be documented in this file.
 *   AI Incident Response Playbook: ~~pending~~ *(released in v1.3.0)*;
 *   GPAI (General Purpose AI) model governance checklist: ~~pending~~ *(released in v1.3.0)*;
 *   Algorithmic bias audit methodology guide: ~~pending~~ *(released in v1.4.0)*;
+*   Step-by-step user guide: ~~pending~~ *(released in v1.4.1)*;
 *   AI procurement contract clause library (vendor negotiation templates).

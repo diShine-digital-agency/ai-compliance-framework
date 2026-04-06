@@ -4,7 +4,7 @@ A pragmatic, business-first framework for adopting AI safely in corporate enviro
 
 Built by [diShine Digital Agency](https://dishine.it), this repository provides the templates, decision matrices, and audit checklists to help mid-market and enterprise clients navigate the intersection of the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection. Produced in collaboration with a legal advisor team.
 
-*Updated: April 2026 — Version 1.4.0*
+*Updated: April 2026 — Version 1.4.1*
 
 ---
 
@@ -18,7 +18,10 @@ Enterprise AI adoption is currently trapped between two extremes:
 
 ## What's Inside
 
-This repository contains ready-to-use Markdown templates and strategic guidelines:
+This repository contains ready-to-use Markdown templates and strategic guidelines. **New to the framework? Start with the [Step-by-Step User Guide](guides/how-to-use-this-framework.md)** — it explains the correct sequence for deploying these tools, who should own each step, and why each step matters.
+
+### 0. 📖 [Step-by-Step User Guide](guides/how-to-use-this-framework.md)
+A comprehensive guide that walks any team through the full AI compliance journey across four phases: Assess & Contain, Audit & Procure, Architect & Deploy, and Monitor & Respond. Each step references the correct template, names the responsible owner (CISO, DPO, CTO, etc.), and explains the regulatory and business rationale behind the action.
 
 ### 1. 📄 [Acceptable AI Use Policy Template](templates/acceptable-use-policy.md)
 A customizable corporate policy that defines exactly what employees can and cannot do with AI tools. It categorizes data (Public, Internal, Confidential, Restricted) and maps it to approved AI tiers, explicitly addressing the risks of Shadow AI.
@@ -80,10 +83,9 @@ A rigorous, step-by-step methodology for conducting an algorithmic fairness audi
 
 ## How to Use This Framework
 
-1. **Fork or Clone** this repository.
-2. **Adapt the Policy:** Start with the `acceptable-use-policy.md`. Replace the bracketed `[Company Name]` placeholders and adjust the data classification tiers to match your existing infosec policies.
-3. **Audit Your Stack:** Use the `vendor-audit-checklist.md` to evaluate any AI tools currently in use (officially or via Shadow IT).
-4. **Architect for the Future:** Before approving new AI initiatives, run the use case through the `deployment-decision-matrix.md` to ensure the underlying infrastructure matches the data risk profile.
+For a full walkthrough of every step, see the **[Step-by-Step User Guide](guides/how-to-use-this-framework.md)**. It covers the correct sequence, the responsible owner for each action, and the regulatory rationale behind every tool in this repository.
+
+In brief: start by running the [Shadow AI Risk Calculator](templates/shadow-ai-risk-calculator.md) to quantify your current exposure, then establish the rules with the [Acceptable AI Use Policy](templates/acceptable-use-policy.md), audit your existing vendors with the [Vendor Audit Checklist](templates/vendor-audit-checklist.md), and use the [Deployment Decision Matrix](templates/deployment-decision-matrix.md) to govern every new AI initiative. The sector-specific addenda, DPIA templates, and audit methodology guides apply when you are deploying high-risk AI systems.
 
 ## About diShine
 

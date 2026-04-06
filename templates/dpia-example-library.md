@@ -88,3 +88,7 @@ This library provides three pre-filled, pragmatic DPIA examples for common enter
 *   **DPO/SA Consultation:** A DPIA is mandatory. Depending on national law (e.g., Germany, France) and the specific intrusiveness of the tool, **Prior Consultation with the Supervisory Authority (GDPR Art. 36) is highly likely to be triggered** before deployment.
 
 *This library is part of the AI Compliance Framework by diShine Digital Agency.*
+
+---
+
+> **Framework Navigation:** This document is part of the [AI Compliance Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 3 — Architect & Deploy**, **Step 3.2: Conduct the Impact Assessment**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

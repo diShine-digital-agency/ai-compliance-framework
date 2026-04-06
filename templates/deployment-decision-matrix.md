@@ -79,3 +79,7 @@ When evaluating a new AI initiative, ask the following questions:
 
 ---
 *This matrix is provided by [diShine Digital Agency](https://dishine.it) as part of the AI Compliance Framework.*
+
+---
+
+> **Framework Navigation:** This document is part of the [AI Compliance Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 3 — Architect & Deploy**, **Step 3.1: Choose the Deployment Architecture**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

@@ -83,3 +83,7 @@ To comply with the EU AI Act's conformity assessment requirements for high-risk 
 [3] Feldman, M., Friedler, S. A., Moeller, J., Scheidegger, C., & Venkatasubramanian, S. (2015). Certifying and removing disparate impact. In *Proceedings of the 21th ACM SIGKDD international conference on knowledge discovery and data mining* (pp. 259-268).
 
 *This guide is part of the AI Compliance Framework by diShine Digital Agency.*
+
+---
+
+> **Framework Navigation:** This document is part of the [AI Compliance Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 3 — Architect & Deploy**, **Step 3.3: Audit for Algorithmic Bias**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](how-to-use-this-framework.md).

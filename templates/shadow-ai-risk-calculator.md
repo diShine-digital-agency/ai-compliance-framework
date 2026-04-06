@@ -102,3 +102,7 @@ Add up your scores from all four sections.
 
 ---
 *This calculator is provided by [diShine Digital Agency](https://dishine.it) as part of the AI Compliance Framework. It is a self-assessment tool and does not constitute a formal security audit.*
+
+---
+
+> **Framework Navigation:** This document is part of the [AI Compliance Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 1 — Assess & Contain**, **Step 1.1: Quantify the Current Risk**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

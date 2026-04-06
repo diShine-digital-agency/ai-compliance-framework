@@ -71,3 +71,7 @@ The European Commission published the final General-Purpose AI Code of Practice 
 *   [ ] **Implementation:** Review the specific chapters of the Code (Transparency, Copyright, Safety and Security) and implement the recommended state-of-the-art practices.
 
 *This checklist is part of the AI Compliance Framework by diShine Digital Agency.*
+
+---
+
+> **Framework Navigation:** This document is part of the [AI Compliance Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 3 — Architect & Deploy**, **Step 3.4: GPAI Governance**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

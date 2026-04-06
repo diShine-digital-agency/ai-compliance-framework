@@ -82,3 +82,7 @@ It goes beyond standard SOC 2 or ISO 27001 questionnaires to address the unique 
 
 ---
 *This checklist is provided by [diShine Digital Agency](https://dishine.it) as part of the AI Compliance Framework. It is a starting point for vendor due diligence and should be adapted to your specific industry regulations.*
+
+---
+
+> **Framework Navigation:** This document is part of the [AI Compliance Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 2 — Audit & Procure**, **Step 2.1: Audit Existing Vendors**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

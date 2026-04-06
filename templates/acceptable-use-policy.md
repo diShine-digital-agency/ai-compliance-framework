@@ -68,3 +68,7 @@ Violations of this policy, particularly the intentional use of Shadow AI for sen
 
 ---
 *This template is provided by [diShine Digital Agency](https://dishine.it) as part of the AI Compliance Framework. It should be reviewed by your legal counsel before implementation.*
+
+---
+
+> **Framework Navigation:** This document is part of the [AI Compliance Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 1 — Assess & Contain**, **Step 1.2: Establish the Baseline Rules**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

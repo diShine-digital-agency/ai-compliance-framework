@@ -73,3 +73,7 @@ After applying the mitigation measures in Part 2, what is the remaining level of
 
 ---
 *This template is provided by [diShine Digital Agency](https://dishine.it) as part of the AI Compliance Framework.*
+
+---
+
+> **Framework Navigation:** This document is part of the [AI Compliance Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 3 — Architect & Deploy**, **Step 3.2: Conduct the Impact Assessment**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).

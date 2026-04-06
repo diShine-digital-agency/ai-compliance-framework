@@ -68,3 +68,7 @@ If your SaaS product includes a chatbot, virtual assistant, or generates deepfak
 
 ---
 *This addendum is provided by [diShine Digital Agency](https://dishine.it) as part of the AI Compliance Framework.*
+
+---
+
+> **Framework Navigation:** This document is part of the [AI Compliance Framework](../README.md) by [diShine Digital Agency](https://dishine.it). It is used in **Phase 2 — Audit & Procure**, **Step 2.2: Map Sector-Specific Obligations**. For the full deployment sequence, rationale, and ownership guide, see the [Step-by-Step User Guide](../guides/how-to-use-this-framework.md).
