@@ -4,7 +4,7 @@ A practical framework for adopting AI responsibly in corporate environments, bal
 
 Built by [diShine Digital Agency](https://dishine.it) in collaboration with legal advisors, this repository provides templates, decision matrices, and audit checklists for navigating the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.
 
-*Updated: April 2026 — Version 1.4.1*
+*Updated: April 2026 — Version 2.0.0*
 
 ---
 
@@ -71,6 +71,14 @@ A practical compliance checklist for organizations that develop, fine-tune, or d
 ### 12. ⚖️ [Algorithmic Bias Audit Methodology Guide](guides/algorithmic-bias-audit-methodology.md)
 A rigorous, step-by-step methodology for conducting an algorithmic fairness audit, grounded in statistical theory and current regulatory requirements. Covers the four core statistical fairness criteria (Demographic Parity, Equal Opportunity, Equalized Odds, Predictive Parity) with exact mathematical definitions; the Chouldechova (2017) and Kleinberg et al. (2016) impossibility theorems and their practical audit implications; a 4-phase audit methodology (pre-audit scoping, data bias audit, model bias audit, intersectional audit); bias mitigation strategies (pre-processing, in-processing, post-processing) with their accuracy-fairness trade-offs; and EU AI Act Article 10 compliance documentation requirements.
 
+### 13. 🛠️ [Interactive Compliance Toolkit](tools/compliance-toolkit.html)
+A standalone, client-side web application that brings three key framework components to life as interactive tools:
+*   **Shadow AI Risk Calculator** — Automated scoring across four dimensions (Organizational Awareness, Technical Controls, Data Governance, Incident History) with risk band determination and remediation recommendations.
+*   **Vendor Compliance Scorecard** — Interactive 25-item checklist tracking progress against EU AI Act and GDPR vendor requirements, with compliance grading and gap reporting.
+*   **Deployment Tier Advisor** — A guided 3-question decision tree that recommends the appropriate deployment architecture (Tier 2–4) based on data sensitivity, infrastructure capability, and regulatory requirements.
+
+No data is transmitted externally — the toolkit runs entirely in the browser.
+
 ## Visual Reference
 
 ### Enterprise AI Deployment Tiers
@@ -85,7 +93,15 @@ A rigorous, step-by-step methodology for conducting an algorithmic fairness audi
 
 For a full walkthrough of every step, see the **[Step-by-Step User Guide](guides/how-to-use-this-framework.md)**. It covers the correct sequence, the responsible owner for each action, and the regulatory rationale behind every tool in this repository.
 
-In brief: start by running the [Shadow AI Risk Calculator](templates/shadow-ai-risk-calculator.md) to quantify your current exposure, then establish the rules with the [Acceptable AI Use Policy](templates/acceptable-use-policy.md), audit your existing vendors with the [Vendor Audit Checklist](templates/vendor-audit-checklist.md), and use the [Deployment Decision Matrix](templates/deployment-decision-matrix.md) to govern every new AI initiative. The sector-specific addenda, DPIA templates, and audit methodology guides apply when you are deploying high-risk AI systems.
+In brief: start with the [Interactive Compliance Toolkit](tools/compliance-toolkit.html) or the [Shadow AI Risk Calculator](templates/shadow-ai-risk-calculator.md) to quantify your current exposure, then establish the rules with the [Acceptable AI Use Policy](templates/acceptable-use-policy.md), audit your existing vendors with the [Vendor Audit Checklist](templates/vendor-audit-checklist.md), and use the [Deployment Decision Matrix](templates/deployment-decision-matrix.md) to govern every new AI initiative. The sector-specific addenda, DPIA templates, and audit methodology guides apply when you are deploying high-risk AI systems.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this framework.
+
+## Security
+
+See [SECURITY.md](SECURITY.md) for the security policy and vulnerability reporting process.
 
 ## About diShine
 
