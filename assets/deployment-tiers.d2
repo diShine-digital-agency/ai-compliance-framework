@@ -1,0 +1,73 @@
+direction: down
+
+title: {
+  label: "Enterprise AI Deployment Tiers"
+  near: top-center
+  style: {
+    font-size: 24
+    bold: true
+  }
+}
+
+tier1: "Tier 1: Consumer APIs" {
+  label: "Tier 1\nConsumer APIs\n(ChatGPT Plus, Claude Pro)\n\n⚠ HIGH RISK\nData may be used for training\nNo enterprise DPA\nNever use for company data"
+  style: {
+    fill: "#FDECEA"
+    stroke: "#E53935"
+    stroke-width: 2
+    font-size: 13
+    border-radius: 8
+  }
+}
+
+tier2: "Tier 2: Enterprise APIs" {
+  label: "Tier 2\nEnterprise API Agreements\n(OpenAI API, Anthropic API, Vertex AI)\n\n🟡 MEDIUM RISK\nData NOT used for training (DPA)\n30-day retention for abuse monitoring\nUse for Internal data"
+  style: {
+    fill: "#FFFDE7"
+    stroke: "#F9A825"
+    stroke-width: 2
+    font-size: 13
+    border-radius: 8
+  }
+}
+
+tier3: "Tier 3: Private Cloud / VPC" {
+  label: "Tier 3\nPrivate Cloud / VPC\n(Azure OpenAI in VNet, AWS Bedrock PrivateLink)\n\n🟢 LOW RISK\nData stays in your cloud tenant\nEU-only data residency available\nUse for Confidential data"
+  style: {
+    fill: "#E8F5E9"
+    stroke: "#43A047"
+    stroke-width: 2
+    font-size: 13
+    border-radius: 8
+  }
+}
+
+tier4: "Tier 4: Self-Hosted Open-Source" {
+  label: "Tier 4\nSelf-Hosted Open-Source\n(Llama 3, Mistral, Phi-3 on internal GPU)\n\n✅ ZERO EXTERNAL RISK\nAbsolute data sovereignty\nNo third-party access\nUse for Restricted / Secret data"
+  style: {
+    fill: "#E3F2FD"
+    stroke: "#1E88E5"
+    stroke-width: 2
+    font-size: 13
+    border-radius: 8
+  }
+}
+
+tier1 -> tier2: "Upgrade when\ncompany data involved" {
+  style: {
+    stroke: "#888"
+    stroke-dash: 4
+  }
+}
+tier2 -> tier3: "Upgrade when\nConfidential data involved" {
+  style: {
+    stroke: "#888"
+    stroke-dash: 4
+  }
+}
+tier3 -> tier4: "Upgrade when\nair-gap required" {
+  style: {
+    stroke: "#888"
+    stroke-dash: 4
+  }
+}
