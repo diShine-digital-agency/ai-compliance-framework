@@ -4,7 +4,7 @@ A pragmatic, business-first framework for adopting AI safely in corporate enviro
 
 Built by [diShine Digital Agency](https://dishine.it), this repository provides the exact templates, decision matrices, and audit checklists we use to help mid-market and enterprise clients navigate the intersection of the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.
 
-*Updated: April 2026 — Version 1.3.0*
+*Updated: April 2026 — Version 1.4.0*
 
 ---
 
@@ -64,6 +64,9 @@ A structured, forensic AI incident response framework aligned with EU AI Act Art
 
 ### 11. 🤖 [GPAI Model Governance Checklist](templates/gpai-model-governance-checklist.md)
 A practical compliance checklist for organizations that develop, fine-tune, or deploy General Purpose AI (GPAI) models under EU AI Act Articles 53–55. Covers the 10^25 FLOPs systemic risk threshold, Article 53 baseline obligations (technical documentation, Annex XI/XII, copyright policy, training data summary), Article 55 systemic risk obligations (adversarial red-teaming, AI Office incident reporting), deployer due diligence requirements, and the GPAI Code of Practice (published July 2025) as a safe-harbor compliance path.
+
+### 12. ⚖️ [Algorithmic Bias Audit Methodology Guide](guides/algorithmic-bias-audit-methodology.md)
+A rigorous, step-by-step methodology for conducting an algorithmic fairness audit, grounded in statistical theory and current regulatory requirements. Covers the four core statistical fairness criteria (Demographic Parity, Equal Opportunity, Equalized Odds, Predictive Parity) with exact mathematical definitions; the Chouldechova (2017) and Kleinberg et al. (2016) impossibility theorems and their practical audit implications; a 4-phase audit methodology (pre-audit scoping, data bias audit, model bias audit, intersectional audit); bias mitigation strategies (pre-processing, in-processing, post-processing) with their accuracy-fairness trade-offs; and EU AI Act Article 10 compliance documentation requirements.
 
 ## Visual Reference
 

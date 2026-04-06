@@ -56,11 +56,24 @@ All notable changes to this framework will be documented in this file.
 
 ---
 
+## [1.4.0] - 2026-04-06
+
+### Added
+
+*   `guides/algorithmic-bias-audit-methodology.md` — A rigorous, step-by-step algorithmic fairness audit methodology grounded in statistical theory and current regulatory requirements (EU AI Act Article 10, Colorado SB 205, NYC Local Law 144). The guide covers the four core statistical fairness criteria with exact mathematical definitions (Demographic Parity, Equal Opportunity, Equalized Odds, Predictive Parity); the Chouldechova (2017) and Kleinberg et al. (2016) impossibility theorems proving that simultaneous satisfaction of Equalized Odds and Predictive Parity is mathematically impossible when base rates differ; the EU AI Act Article 10(5) legal basis for processing sensitive data strictly for bias correction; a 4-phase audit methodology (pre-audit scoping and legal mapping, data bias audit, model bias audit with disparate impact analysis, intersectional audit); bias mitigation strategies at the pre-processing, in-processing, and post-processing levels with their accuracy-fairness trade-offs; and EU AI Act Annex IV documentation requirements for conformity assessment.
+
+### Changed
+
+*   `README.md` — Updated to version 1.4.0; Algorithmic Bias Audit Methodology Guide added as Section 12.
+*   `CHANGELOG.md` — v1.4.0 entry added; Upcoming section updated.
+
+---
+
 ## [Upcoming]
 
 *   Sector-specific addenda (Healthcare, HR): ~~pending~~ *(released in v1.2.0)*;
 *   DPIA library with pre-filled examples: ~~pending~~ *(released in v1.2.0)*;
 *   AI Incident Response Playbook: ~~pending~~ *(released in v1.3.0)*;
 *   GPAI (General Purpose AI) model governance checklist: ~~pending~~ *(released in v1.3.0)*;
-*   AI procurement contract clause library (vendor negotiation templates);
-*   Algorithmic bias audit methodology guide.
+*   Algorithmic bias audit methodology guide: ~~pending~~ *(released in v1.4.0)*;
+*   AI procurement contract clause library (vendor negotiation templates).
