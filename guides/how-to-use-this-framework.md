@@ -13,7 +13,8 @@ This guide explains the exact sequence in which to deploy these tools, why each 
 Before you can build compliant AI, you must stop the bleeding. Employees are already using consumer-grade AI tools, and your intellectual property is likely already exposed.
 
 ### Step 1.1: Quantify the Current Risk
-*   **Tool:** [`templates/shadow-ai-risk-calculator.md`](../templates/shadow-ai-risk-calculator.md) or use the standalone, client-side web application by opening the file `compliance-toolkit.html` in the folder [`TOOLS`](../tools/).
+*   **Tool:** [`templates/shadow-ai-risk-calculator.md`](../templates/shadow-ai-risk-calculator.md), or use the Shadow AI Risk Calculator
+ in the client-side web application by opening the file `compliance-toolkit.html` in the folder [`TOOLS`](../tools/).
 *   **Owner:** Chief Information Security Officer (CISO) or IT Director.
 *   **Why it matters:** You cannot secure budget or executive buy-in for an AI governance program without quantifying the current exposure. This 100-point calculator translates vague fears about "Shadow AI" into a concrete risk score based on IBM and Gartner benchmarks.
 *   **Action:** Run the assessment. If you score above 50 (Elevated Risk), proceed immediately to Step 1.2.
@@ -37,7 +38,7 @@ Before you can build compliant AI, you must stop the bleeding. Employees are alr
 Once the bleeding is stopped, you must evaluate the third-party AI tools your company is already paying for, and establish a gate for new ones.
 
 ### Step 2.1: Audit Existing Vendors
-*   **Tool:** [`templates/vendor-audit-checklist.md`](../templates/vendor-audit-checklist.md)
+*   **Tool:** [`templates/vendor-audit-checklist.md`](../templates/vendor-audit-checklist.md), or use the Vendor Audit Scorecard in the client-side web application by opening the file `compliance-toolkit.html` in the folder [`TOOLS`](../tools/).
 *   **Owner:** Procurement & Data Protection Officer (DPO).
 *   **Why it matters:** Under GDPR Article 28 and the EU AI Act, you (the Deployer/Controller) are liable for the compliance of your vendors (the Providers/Processors). A standard SOC2 questionnaire does not cover AI-specific risks like training data provenance or automated decision-making.
 *   **Action:** Send this 25-point checklist to every vendor currently providing AI capabilities (e.g., your ATS, your CRM, your customer support platform).
@@ -55,7 +56,7 @@ Once the bleeding is stopped, you must evaluate the third-party AI tools your co
 When the business demands a new, custom AI capability, IT must decide how to build it safely.
 
 ### Step 3.1: Choose the Deployment Architecture
-*   **Tool:** [`templates/deployment-decision-matrix.md`](../templates/deployment-decision-matrix.md)
+*   **Tool:** [`templates/deployment-decision-matrix.md`](../templates/deployment-decision-matrix.md), or use the Deployment Tier Advisor in the client-side web application by opening the file `compliance-toolkit.html` in the folder [`TOOLS`](../tools/).
 *   **Owner:** Chief Technology Officer (CTO) or Chief Architect.
 *   **Why it matters:** Not every AI project needs a self-hosted Llama 3 model, and not every project is safe for the OpenAI public API. This matrix forces a structured decision based on data sensitivity and latency requirements.
 *   **Action:** Require a completed decision matrix as part of the technical design document for any new AI initiative.
