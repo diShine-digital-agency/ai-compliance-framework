@@ -1,20 +1,20 @@
 # AI Compliance Framework for Enterprises
 
-A pragmatic, business-first framework for adopting AI safely in corporate environments without stifling innovation. 
+A practical framework for adopting AI responsibly in corporate environments, balancing innovation with regulatory compliance.
 
-Built by [diShine Digital Agency](https://dishine.it), this repository provides the templates, decision matrices, and audit checklists to help mid-market and enterprise clients navigate the intersection of the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection. Produced in collaboration with a legal advisor team.
+Built by [diShine Digital Agency](https://dishine.it) in collaboration with legal advisors, this repository provides templates, decision matrices, and audit checklists for navigating the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.
 
 *Updated: April 2026 — Version 1.4.1*
 
 ---
 
-## The Problem: Shadow AI and Regulatory Paralysis
+## The Problem: Shadow AI and Regulatory Uncertainty
 
-Enterprise AI adoption is currently trapped between two extremes:
-1. **Shadow AI:** Employees using consumer-grade tools (like ChatGPT Plus or Claude Pro) without IT oversight, leading to documented IP leaks (e.g., the 2023 Samsung source code incident) and GDPR violations. Gartner estimates that by 2026, 80% of employees will use generative AI for work without company approval.
-2. **Regulatory Paralysis:** Legal and compliance teams blocking all AI initiatives due to fear of the EU AI Act (with fines up to €35M or 7% of global turnover) and GDPR enforcement.
+Enterprise AI adoption faces two systemic risks:
+1. **Shadow AI:** Employees using consumer-grade AI tools (ChatGPT, Claude, Gemini) without IT oversight, leading to IP leaks (e.g., the 2023 Samsung source code incident) and potential GDPR violations. Gartner estimates that by 2026, 80% of employees will use generative AI for work without company approval.
+2. **Regulatory Uncertainty:** Legal and compliance teams blocking AI initiatives due to the EU AI Act (fines up to €35M or 7% of global turnover) and unclear enforcement timelines.
 
-**This framework bridges the gap.** It provides the operational guardrails necessary to deploy AI rapidly while maintaining strict data sovereignty and regulatory compliance.
+This framework provides the operational guardrails to deploy AI while maintaining data sovereignty and regulatory compliance.
 
 ## What's Inside
 
@@ -89,9 +89,9 @@ In brief: start by running the [Shadow AI Risk Calculator](templates/shadow-ai-r
 
 ## About diShine
 
-At [diShine](https://dishine.it), we build growth architectures and scale revenue for B2B companies. We don't just write policies; we engineer the operational engines that make AI safe and profitable. 
+[diShine](https://dishine.it) is a digital agency specializing in AI strategy, compliance engineering, and data-sovereign infrastructure for B2B enterprises. This framework was developed in collaboration with legal advisors to address real compliance challenges our clients face.
 
-If you need help auditing your current workflows, deploying a private VPC AI environment, or building a custom AI solution that guarantees data sovereignty, [reach out to our team](https://dishine.it/contacts/).
+For consulting or implementation support, [contact us](https://dishine.it/contacts/).
 
 ## License
 

@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Compliance Toolkit — diShine</title>
+<style>
+  :root {
+    --bg: #f8f9fa;
+    --surface: #ffffff;
+    --text: #1a1a2e;
+    --text-muted: #555;
+    --border: #dee2e6;
+    --primary: #2c3e50;
+    --primary-light: #34495e;
+    --accent: #3498db;
+    --green: #27ae60;
+    --yellow: #f39c12;
+    --orange: #e67e22;
+    --red: #c0392b;
+    --radius: 8px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  header {
+    background: var(--primary);
+    color: #fff;
+    padding: 1.5rem 2rem;
+    text-align: center;
+  }
+
+  header h1 { font-size: 1.5rem; font-weight: 600; }
+  header p { font-size: 0.85rem; opacity: 0.8; margin-top: 0.25rem; }
+
+  nav {
+    display: flex;
+    gap: 0;
+    background: var(--primary-light);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  nav button {
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.7);
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-bottom: 3px solid transparent;
+    font-family: inherit;
+  }
+
+  nav button:hover { color: #fff; background: rgba(255,255,255,0.05); }
+  nav button.active { color: #fff; border-bottom-color: var(--accent); }
+
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+
+  .tool-panel { display: none; }
+  .tool-panel.active { display: block; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .card h2 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+  .card h3 { font-size: 1rem; margin-bottom: 0.5rem; color: var(--primary); }
+  .card p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; }
+
+  /* Form elements */
+  .question {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .question:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+  .question label {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  .question .q-id {
+    color: var(--accent);
+    font-weight: 600;
+    margin-right: 0.35rem;
+  }
+
+  .options {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .options label {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--bg);
+    padding: 0.4rem 0.75rem;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.15s;
+  }
+
+  .options label:has(input:checked) {
+    background: #eaf2ff;
+    border-color: var(--accent);
+  }
+
+  .options input { cursor: pointer; }
+
+  /* Results */
+  .result-box {
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    margin-top: 1rem;
+    display: none;
+  }
+
+  .result-box.show { display: block; }
+
+  .result-box h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+  .result-box .score { font-size: 2.5rem; font-weight: 700; }
+  .result-box .band { font-size: 1rem; margin-top: 0.25rem; }
+
+  .result-managed { background: #e8f5e9; border-left: 4px solid var(--green); }
+  .result-moderate { background: #fff8e1; border-left: 4px solid var(--yellow); }
+  .result-elevated { background: #fff3e0; border-left: 4px solid var(--orange); }
+  .result-critical { background: #ffebee; border-left: 4px solid var(--red); }
+
+  .remediation { margin-top: 1rem; }
+  .remediation h4 { font-size: 0.95rem; margin-bottom: 0.5rem; }
+  .remediation ol { padding-left: 1.25rem; font-size: 0.85rem; }
+  .remediation li { margin-bottom: 0.5rem; }
+
+  /* Buttons */
+  .btn {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    padding: 0.65rem 1.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.15s;
+  }
+
+  .btn:hover { background: #2980b9; }
+  .btn-outline {
+    background: none;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+  }
+  .btn-outline:hover { background: #eaf2ff; }
+
+  .btn-group { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+
+  /* Vendor audit */
+  .audit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.88rem;
+  }
+
+  .audit-item input[type="checkbox"] {
+    margin-top: 0.25rem;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  .audit-item label { cursor: pointer; }
+
+  .audit-progress {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .progress-bar {
+    flex: 1;
+    height: 8px;
+    background: #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 4px;
+    transition: width 0.3s;
+    width: 0%;
+  }
+
+  .progress-text { font-size: 0.8rem; color: var(--text-muted); white-space: nowrap; }
+
+  /* Deployment advisor */
+  .flowchart-step {
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .flowchart-step h3 { margin-bottom: 1rem; }
+
+  .flow-buttons { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem; }
+
+  .flow-btn {
+    padding: 0.6rem 2rem;
+    border-radius: 4px;
+    border: 2px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+
+  .flow-btn:hover { border-color: var(--accent); background: #eaf2ff; }
+
+  .tier-result {
+    display: none;
+    margin-top: 1.5rem;
+  }
+
+  .tier-result.show { display: block; }
+
+  .tier-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .tier-1 { background: #ffebee; color: var(--red); }
+  .tier-2 { background: #fff8e1; color: #e65100; }
+  .tier-3 { background: #e8f5e9; color: var(--green); }
+  .tier-4 { background: #e3f2fd; color: #1565c0; }
+
+  .tier-details { font-size: 0.88rem; }
+  .tier-details dt { font-weight: 600; margin-top: 0.5rem; }
+  .tier-details dd { margin-left: 0; color: var(--text-muted); }
+
+  /* Section scores */
+  .section-scores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .section-score {
+    background: var(--bg);
+    padding: 0.75rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .section-score .label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .section-score .value { font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+  .section-score .max { font-size: 0.75rem; color: var(--text-muted); }
+
+  /* Print */
+  @media print {
+    nav, .btn-group, .no-print { display: none !important; }
+    .tool-panel { display: block !important; page-break-before: always; }
+    main { max-width: 100%; }
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    header h1 { font-size: 1.2rem; }
+    nav button { padding: 0.6rem 1rem; font-size: 0.8rem; }
+    .card { padding: 1rem; }
+    .options { flex-direction: column; }
+    .flow-buttons { flex-direction: column; }
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>AI Compliance Toolkit</h1>
+  <p>Interactive tools for the AI Compliance Framework — diShine Digital Agency</p>
+</header>
+
+<nav>
+  <button class="active" onclick="showPanel('shadow-ai')" id="nav-shadow-ai">Shadow AI Risk Calculator</button>
+  <button onclick="showPanel('vendor')" id="nav-vendor">Vendor Audit Scorecard</button>
+  <button onclick="showPanel('deployment')" id="nav-deployment">Deployment Tier Advisor</button>
+</nav>
+
+<main>
+
+<!-- ==================== SHADOW AI RISK CALCULATOR ==================== -->
+<div class="tool-panel active" id="panel-shadow-ai">
+  <div class="card">
+    <h2>Shadow AI Risk Calculator</h2>
+    <p>Score your organization's Shadow AI exposure across four dimensions. 100 points total — higher scores indicate stronger controls and lower risk.</p>
+  </div>
+
+  <form id="shadow-form">
+    <!-- Section A -->
+    <div class="card">
+      <h3>Section A — Organizational Awareness (25 pts)</h3>
+
+      <div class="question">
+        <label><span class="q-id">A1.</span> Does your company have a formal, written AI Use Policy?</label>
+        <div class="options">
+          <label><input type="radio" name="a1" value="0"> No (0 pts)</label>
+          <label><input type="radio" name="a1" value="5"> Yes (5 pts)</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <label><span class="q-id">A2.</span> Have employees received training on AI data risks in the last 12 months?</label>
+        <div class="options">
+          <label><input type="radio" name="a2" value="0"> No (0 pts)</label>
+          <label><input type="radio" name="a2" value="5"> Yes (5 pts)</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <label><span class="q-id">A3.</span> Do employees know which AI tools are officially approved?</label>
+        <div class="options">
+          <label><input type="radio" name="a3" value="0"> No (0 pts)</label>
+          <label><input type="radio" name="a3" value="5"> Yes (5 pts)</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <label><span class="q-id">A4.</span> Does your IT team have visibility into which AI tools are being used on company devices?</label>
+        <div class="options">
+          <label><input type="radio" name="a4" value="0"> No (0 pts)</label>
+          <label><input type="radio" name="a4" value="5"> Yes (5 pts)</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <label><span class="q-id">A5.</span> Is there a clear process for employees to report accidental data exposure via AI tools?</label>
+        <div class="options">
+          <label><input type="radio" name="a5" value="0"> No (0 pts)</label>
+          <label><input type="radio" name="a5" value="5"> Yes (5 pts)</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section B -->
+    <div class="card">
+      <h3>Section B — Technical Controls (30 pts)</h3>
+
+      <div class="question">
+        <label><span class="q-id">B1.</span> What is the primary AI deployment tier used for business-critical workflows?</label>
+        <div class="options">
+          <label><input type="radio" name="b1" value="0"> Tier 1 — Consumer APIs (0 pts)</label>
+          <label><input type="radio" name="b1" value="5"> Tier 2 — Enterprise API (5 pts)</label>
+          <label><input type="radio" name="b1" value="10"> Tier 3/4 — Private/Self-hosted (10 pts)</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <label><span class="q-id">B2.</span> Are signed Data Processing Agreements (DPAs) in place with all AI vendors?</label>
+        <div class="options">
+          <label><input type="radio" name="b2" value="0"> No (0 pts)</label>
+          <label><input type="radio" name="b2" value="5"> Partially (5 pts)</label>
+          <label><input type="radio" name="b2" value="10"> Yes, for all vendors (10 pts)</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <label><span class="q-id">B3.</span> Is there network-level blocking of unauthorized AI services (e.g., DNS filtering or proxy)?</label>
+        <div class="options">
+          <label><input type="radio" name="b3" value="0"> No (0 pts)</label>
+          <label><input type="radio" name="b3" value="5"> Partially (5 pts)</label>
+          <label><input type="radio" name="b3" value="10"> Yes (10 pts)</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section C -->
+    <div class="card">
+      <h3>Section C — Data Governance (25 pts)</h3>
+
+      <div class="question">
+        <label><span class="q-id">C1.</span> Does your company have a formal Data Classification Policy (Public / Internal / Confidential / Restricted)?</label>
+        <div class="options">
+          <label><input type="radio" name="c1" value="0"> No (0 pts)</label>
+          <label><input type="radio" name="c1" value="5"> Yes (5 pts)</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <label><span class="q-id">C2.</span> Are employees trained on which data classification levels are prohibited from AI tools?</label>
+        <div class="options">
+          <label><input type="radio" name="c2" value="0"> No (0 pts)</label>
+          <label><input type="radio" name="c2" value="5"> Yes (5 pts)</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <label><span class="q-id">C3.</span> Has a Data Protection Impact Assessment (DPIA) been conducted for any AI-powered workflows?</label>
+        <div class="options">
+          <label><input type="radio" name="c3" value="0"> No (0 pts)</label>
+          <label><input type="radio" name="c3" value="5"> Yes (5 pts)</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <label><span class="q-id">C4.</span> Is there a process for auditing what data has been submitted to AI tools in the last 90 days?</label>
+        <div class="options">
+          <label><input type="radio" name="c4" value="0"> No (0 pts)</label>
+          <label><input type="radio" name="c4" value="5"> Yes (5 pts)</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <label><span class="q-id">C5.</span> Do all AI vendor contracts explicitly state that customer data is not used for model training?</label>
+        <div class="options">
+          <label><input type="radio" name="c5" value="0"> No (0 pts)</label>
+          <label><input type="radio" name="c5" value="5"> Yes (5 pts)</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section D -->
+    <div class="card">
+      <h3>Section D — Incident History (20 pts)</h3>
+
+      <div class="question">
+        <label><span class="q-id">D1.</span> Has your organization experienced a known or suspected AI-related data incident in the last 24 months?</label>
+        <div class="options">
+          <label><input type="radio" name="d1" value="0"> Yes, confirmed (0 pts)</label>
+          <label><input type="radio" name="d1" value="5"> Suspected but unconfirmed (5 pts)</label>
+          <label><input type="radio" name="d1" value="10"> No known incidents (10 pts)</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <label><span class="q-id">D2.</span> Have any employees been disciplined or warned for using unauthorized AI tools with company data?</label>
+        <div class="options">
+          <label><input type="radio" name="d2" value="0"> Yes, multiple cases (0 pts)</label>
+          <label><input type="radio" name="d2" value="5"> Yes, isolated case (5 pts)</label>
+          <label><input type="radio" name="d2" value="10"> No known cases (10 pts)</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="btn-group no-print">
+      <button type="button" class="btn" onclick="calculateShadowAI()">Calculate Risk Score</button>
+      <button type="button" class="btn btn-outline" onclick="resetForm('shadow-form', 'shadow-result')">Reset</button>
+    </div>
+  </form>
+
+  <div class="card result-box" id="shadow-result">
+    <h3>Your Shadow AI Risk Assessment</h3>
+    <div class="section-scores" id="shadow-sections"></div>
+    <div style="margin-top:1rem;text-align:center;">
+      <div class="score" id="shadow-score">—</div>
+      <div class="band" id="shadow-band">—</div>
+    </div>
+    <div class="remediation" id="shadow-remediation"></div>
+  </div>
+</div>
+
+<!-- ==================== VENDOR AUDIT SCORECARD ==================== -->
+<div class="tool-panel" id="panel-vendor">
+  <div class="card">
+    <h2>Vendor Audit Scorecard</h2>
+    <p>Evaluate a third-party AI vendor against EU AI Act and GDPR requirements. Check each item that the vendor satisfies. The scorecard tracks your completion progress and generates a compliance summary.</p>
+  </div>
+
+  <div class="card">
+    <div class="audit-progress">
+      <div class="progress-bar"><div class="progress-fill" id="vendor-progress-bar"></div></div>
+      <span class="progress-text" id="vendor-progress-text">0 / 25 items checked</span>
+    </div>
+    <input type="text" placeholder="Vendor name (optional)" id="vendor-name" style="width:100%;padding:0.5rem;border:1px solid var(--border);border-radius:4px;font-family:inherit;font-size:0.9rem;margin-bottom:0.5rem;">
+  </div>
+
+  <form id="vendor-form">
+    <!-- Part 1 -->
+    <div class="card">
+      <h3>Part 1 — Data Processing &amp; GDPR Compliance</h3>
+      <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.75rem;">Section 1.1 — Data Usage for Model Training</p>
+      <div class="audit-item"><input type="checkbox" id="v1" class="vendor-check"><label for="v1">Vendor DPA or ToS explicitly states customer data is NOT used to train foundational models.</label></div>
+      <div class="audit-item"><input type="checkbox" id="v2" class="vendor-check"><label for="v2">If data is used for training, a clear enterprise-wide opt-out mechanism is enabled by default.</label></div>
+      <div class="audit-item"><input type="checkbox" id="v3" class="vendor-check"><label for="v3">If data is used for "service quality" improvement (fine-tuning), this can be disabled.</label></div>
+
+      <p style="font-size:0.8rem;color:var(--text-muted);margin:0.75rem 0;">Section 1.2 — Data Retention &amp; Deletion</p>
+      <div class="audit-item"><input type="checkbox" id="v4" class="vendor-check"><label for="v4">Exact data retention period is documented and acceptable.</label></div>
+      <div class="audit-item"><input type="checkbox" id="v5" class="vendor-check"><label for="v5">Retention period can be configured to zero (immediate deletion after processing).</label></div>
+      <div class="audit-item"><input type="checkbox" id="v6" class="vendor-check"><label for="v6">Customer can trigger immediate deletion of specific data points (Right to Erasure).</label></div>
+
+      <p style="font-size:0.8rem;color:var(--text-muted);margin:0.75rem 0;">Section 1.3 — Data Residency &amp; Cross-Border Transfers</p>
+      <div class="audit-item"><input type="checkbox" id="v7" class="vendor-check"><label for="v7">Data processing and storage location during inference is documented.</label></div>
+      <div class="audit-item"><input type="checkbox" id="v8" class="vendor-check"><label for="v8">EU-only data residency options are available.</label></div>
+      <div class="audit-item"><input type="checkbox" id="v9" class="vendor-check"><label for="v9">If data transferred outside EEA, valid SCCs or Adequacy Decision is in place.</label></div>
+
+      <p style="font-size:0.8rem;color:var(--text-muted);margin:0.75rem 0;">Section 1.4 — Automated Decision-Making (Article 22)</p>
+      <div class="audit-item"><input type="checkbox" id="v10" class="vendor-check"><label for="v10">If tool makes decisions with legal effects, transparency and human intervention mechanisms exist.</label></div>
+      <div class="audit-item"><input type="checkbox" id="v11" class="vendor-check"><label for="v11">Sufficient documentation is provided to allow a DPIA to be conducted.</label></div>
+    </div>
+
+    <!-- Part 2 -->
+    <div class="card">
+      <h3>Part 2 — EU AI Act Compliance</h3>
+      <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.75rem;">Section 2.1 — Risk Classification</p>
+      <div class="audit-item"><input type="checkbox" id="v12" class="vendor-check"><label for="v12">Vendor has formally classified their AI system under EU AI Act risk categories.</label></div>
+      <div class="audit-item"><input type="checkbox" id="v13" class="vendor-check"><label for="v13">If High-Risk (HR, Critical Infrastructure, Biometrics), vendor acknowledges Annex III classification.</label></div>
+
+      <p style="font-size:0.8rem;color:var(--text-muted);margin:0.75rem 0;">Section 2.2 — High-Risk System Obligations</p>
+      <div class="audit-item"><input type="checkbox" id="v14" class="vendor-check"><label for="v14">Documented, continuous risk management system exists (Article 9).</label></div>
+      <div class="audit-item"><input type="checkbox" id="v15" class="vendor-check"><label for="v15">Vendor can demonstrate training data relevance, representativeness, and bias mitigation (Article 10).</label></div>
+      <div class="audit-item"><input type="checkbox" id="v16" class="vendor-check"><label for="v16">Comprehensive technical documentation available to deployer (Article 11).</label></div>
+      <div class="audit-item"><input type="checkbox" id="v17" class="vendor-check"><label for="v17">Tool design allows for effective human oversight (Article 14).</label></div>
+      <div class="audit-item"><input type="checkbox" id="v18" class="vendor-check"><label for="v18">Documented metrics for accuracy, robustness, and cybersecurity (Article 15).</label></div>
+
+      <p style="font-size:0.8rem;color:var(--text-muted);margin:0.75rem 0;">Section 2.3 — GPAI Obligations</p>
+      <div class="audit-item"><input type="checkbox" id="v19" class="vendor-check"><label for="v19">Copyright compliance policy for training data (Article 53).</label></div>
+      <div class="audit-item"><input type="checkbox" id="v20" class="vendor-check"><label for="v20">Sufficiently detailed training data summary published.</label></div>
+      <div class="audit-item"><input type="checkbox" id="v21" class="vendor-check"><label for="v21">If systemic risk model, additional mitigations documented.</label></div>
+
+      <p style="font-size:0.8rem;color:var(--text-muted);margin:0.75rem 0;">Section 2.4 — Transparency</p>
+      <div class="audit-item"><input type="checkbox" id="v22" class="vendor-check"><label for="v22">Chatbot/assistant clearly informs end-users they are interacting with AI (Article 50).</label></div>
+    </div>
+
+    <!-- Part 3 -->
+    <div class="card">
+      <h3>Part 3 — Security &amp; Intellectual Property</h3>
+      <div class="audit-item"><input type="checkbox" id="v23" class="vendor-check"><label for="v23">Customer prompts and outputs are logically isolated in multi-tenant environments.</label></div>
+      <div class="audit-item"><input type="checkbox" id="v24" class="vendor-check"><label for="v24">IP rights of generated output are explicitly assigned to the customer.</label></div>
+      <div class="audit-item"><input type="checkbox" id="v25" class="vendor-check"><label for="v25">Sub-processors are listed in the DPA and adhere to the same data policies.</label></div>
+    </div>
+  </form>
+
+  <div class="btn-group no-print">
+    <button type="button" class="btn" onclick="generateVendorReport()">Generate Report</button>
+    <button type="button" class="btn btn-outline" onclick="resetVendor()">Reset</button>
+  </div>
+
+  <div class="card result-box" id="vendor-result">
+    <h3 id="vendor-report-title">Vendor Compliance Report</h3>
+    <div id="vendor-report-body"></div>
+  </div>
+</div>
+
+<!-- ==================== DEPLOYMENT TIER ADVISOR ==================== -->
+<div class="tool-panel" id="panel-deployment">
+  <div class="card">
+    <h2>Deployment Tier Advisor</h2>
+    <p>Answer three questions to determine the recommended deployment tier for your AI use case, based on data sensitivity, infrastructure capability, and regulatory requirements.</p>
+  </div>
+
+  <div class="card" id="deployment-flow">
+    <!-- Step 1 -->
+    <div class="flowchart-step" id="flow-step-1">
+      <h3>Does this use case involve Confidential or Restricted data?</h3>
+      <p>Examples: PII, trade secrets, unreleased financial data, health records</p>
+      <div class="flow-buttons">
+        <button type="button" class="flow-btn" onclick="flowAnswer(1, false)">No — data is Public or Internal only</button>
+        <button type="button" class="flow-btn" onclick="flowAnswer(1, true)">Yes — involves Confidential or Restricted data</button>
+      </div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="flowchart-step" id="flow-step-2" style="display:none;">
+      <h3>Does your organization have the budget and MLOps expertise to manage dedicated GPU infrastructure?</h3>
+      <p>Self-hosted models require specialized engineering talent and significant hardware investment.</p>
+      <div class="flow-buttons">
+        <button type="button" class="flow-btn" onclick="flowAnswer(2, false)">No — we lack the budget or expertise</button>
+        <button type="button" class="flow-btn" onclick="flowAnswer(2, true)">Yes — we have MLOps capability and budget</button>
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="flowchart-step" id="flow-step-3" style="display:none;">
+      <h3>Is absolute, air-gapped data sovereignty a strict regulatory or contractual requirement?</h3>
+      <p>Examples: defense contracts, certain healthcare regulations, government classified data</p>
+      <div class="flow-buttons">
+        <button type="button" class="flow-btn" onclick="flowAnswer(3, false)">No — private cloud isolation is sufficient</button>
+        <button type="button" class="flow-btn" onclick="flowAnswer(3, true)">Yes — data must never leave our infrastructure</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card tier-result" id="tier-result">
+    <div id="tier-recommendation"></div>
+    <div class="btn-group no-print">
+      <button type="button" class="btn btn-outline" onclick="resetFlow()">Start Over</button>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  Part of the <a href="https://github.com/diShine-digital-agency/ai-compliance-framework">AI Compliance Framework</a> by <a href="https://dishine.it">diShine Digital Agency</a>. Licensed under MIT.
+</footer>
+
+<script>
+/* ===== Navigation ===== */
+function showPanel(id) {
+  document.querySelectorAll('.tool-panel').forEach(function(el) { el.classList.remove('active'); });
+  document.querySelectorAll('nav button').forEach(function(el) { el.classList.remove('active'); });
+  document.getElementById('panel-' + id).classList.add('active');
+  document.getElementById('nav-' + id).classList.add('active');
+}
+
+/* ===== Shadow AI Risk Calculator ===== */
+function calculateShadowAI() {
+  var form = document.getElementById('shadow-form');
+  var sections = {
+    a: { keys: ['a1','a2','a3','a4','a5'], max: 25, label: 'Awareness' },
+    b: { keys: ['b1','b2','b3'], max: 30, label: 'Technical Controls' },
+    c: { keys: ['c1','c2','c3','c4','c5'], max: 25, label: 'Data Governance' },
+    d: { keys: ['d1','d2'], max: 20, label: 'Incident History' }
+  };
+
+  var total = 0;
+  var allAnswered = true;
+  var sectionScores = {};
+
+  for (var s in sections) {
+    var sec = sections[s];
+    var secTotal = 0;
+    for (var i = 0; i < sec.keys.length; i++) {
+      var key = sec.keys[i];
+      var radios = form.querySelectorAll('input[name="' + key + '"]');
+      var answered = false;
+      for (var r = 0; r < radios.length; r++) {
+        if (radios[r].checked) {
+          secTotal += parseInt(radios[r].value, 10);
+          answered = true;
+          break;
+        }
+      }
+      if (!answered) allAnswered = false;
+    }
+    sectionScores[s] = { score: secTotal, max: sec.max, label: sec.label };
+    total += secTotal;
+  }
+
+  if (!allAnswered) {
+    alert('Please answer all questions before calculating.');
+    return;
+  }
+
+  // Determine risk band
+  var band, bandClass, remediation;
+  if (total >= 85) {
+    band = '🟢 Managed';
+    bandClass = 'result-managed';
+    remediation = '<h4>Managed — Continuous Improvement</h4><ol>' +
+      '<li>Review and update all AI policies every 6 months, or immediately following significant regulatory changes (e.g., the 2 August 2026 EU AI Act deadline).</li>' +
+      '<li>Establish a formal AI Governance Committee with representation from Legal, IT, and Business Operations.</li>' +
+      '<li>Consider publishing your AI governance approach externally as a trust signal to clients and partners.</li></ol>';
+  } else if (total >= 65) {
+    band = '🟡 Moderate';
+    bandClass = 'result-moderate';
+    remediation = '<h4>Moderate — 90-Day Programme</h4><ol>' +
+      '<li>Complete the Vendor Audit Checklist for all currently approved AI tools.</li>' +
+      '<li>Conduct a DPIA for any AI workflow that processes Confidential or Restricted data.</li>' +
+      '<li>Implement the Deployment Decision Matrix as a mandatory gate for all new AI initiatives.</li></ol>';
+  } else if (total >= 40) {
+    band = '🟠 Elevated';
+    bandClass = 'result-elevated';
+    remediation = '<h4>Elevated — 30-Day Sprint</h4><ol>' +
+      '<li>Adopt and publish the Acceptable AI Use Policy template, customized for your organization.</li>' +
+      '<li>Identify and formally approve at least one enterprise-grade AI tool with a signed DPA.</li>' +
+      '<li>Run a mandatory 30-minute awareness session for all employees on AI data risks.</li></ol>';
+  } else {
+    band = '🔴 Critical';
+    bandClass = 'result-critical';
+    remediation = '<h4>Critical — Immediate Actions</h4><ol>' +
+      '<li>Conduct an emergency audit of all AI tools currently in use across the organization.</li>' +
+      '<li>Issue an immediate communication to all employees clarifying that consumer AI tools must not be used for any company data.</li>' +
+      '<li>Engage legal counsel to assess whether any existing incidents constitute a GDPR data breach requiring notification within 72 hours (Article 33).</li></ol>';
+  }
+
+  // Render
+  var resultEl = document.getElementById('shadow-result');
+  resultEl.className = 'card result-box show ' + bandClass;
+  document.getElementById('shadow-score').textContent = total + ' / 100';
+  document.getElementById('shadow-band').textContent = band;
+  document.getElementById('shadow-remediation').innerHTML = remediation;
+
+  // Section breakdown
+  var secHtml = '';
+  for (var k in sectionScores) {
+    var ss = sectionScores[k];
+    secHtml += '<div class="section-score"><div class="label">' + ss.label + '</div><div class="value">' + ss.score + '</div><div class="max">/ ' + ss.max + '</div></div>';
+  }
+  document.getElementById('shadow-sections').innerHTML = secHtml;
+
+  resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetForm(formId, resultId) {
+  document.getElementById(formId).reset();
+  var r = document.getElementById(resultId);
+  r.classList.remove('show');
+  r.className = 'card result-box';
+}
+
+/* ===== Vendor Audit ===== */
+var totalVendorItems = 25;
+
+document.addEventListener('change', function(e) {
+  if (e.target.classList.contains('vendor-check')) updateVendorProgress();
+});
+
+function updateVendorProgress() {
+  var checked = document.querySelectorAll('.vendor-check:checked').length;
+  var pct = Math.round((checked / totalVendorItems) * 100);
+  document.getElementById('vendor-progress-bar').style.width = pct + '%';
+  document.getElementById('vendor-progress-text').textContent = checked + ' / ' + totalVendorItems + ' items checked';
+}
+
+function generateVendorReport() {
+  var vendorName = document.getElementById('vendor-name').value || 'Unnamed Vendor';
+  var checked = document.querySelectorAll('.vendor-check:checked').length;
+  var unchecked = totalVendorItems - checked;
+  var pct = Math.round((checked / totalVendorItems) * 100);
+
+  // Categorize unchecked items
+  var failedItems = [];
+  var allChecks = document.querySelectorAll('.vendor-check');
+  for (var i = 0; i < allChecks.length; i++) {
+    if (!allChecks[i].checked) {
+      var lbl = allChecks[i].nextElementSibling;
+      failedItems.push(lbl ? lbl.textContent : ('Item ' + (i + 1)));
+    }
+  }
+
+  var grade, gradeColor;
+  if (pct >= 90) { grade = 'Strong'; gradeColor = 'var(--green)'; }
+  else if (pct >= 70) { grade = 'Acceptable with Conditions'; gradeColor = 'var(--yellow)'; }
+  else if (pct >= 50) { grade = 'Significant Gaps'; gradeColor = 'var(--orange)'; }
+  else { grade = 'Not Recommended'; gradeColor = 'var(--red)'; }
+
+  var html = '<p style="margin-bottom:0.75rem"><strong>Vendor:</strong> ' + escapeHtml(vendorName) + '</p>';
+  html += '<p><strong>Compliance Score:</strong> <span style="font-size:1.5rem;font-weight:700;color:' + gradeColor + '">' + checked + '/' + totalVendorItems + ' (' + pct + '%)</span></p>';
+  html += '<p style="margin-top:0.25rem"><strong>Assessment:</strong> <span style="color:' + gradeColor + ';font-weight:600">' + grade + '</span></p>';
+
+  if (failedItems.length > 0) {
+    html += '<h4 style="margin-top:1rem;margin-bottom:0.5rem">Items Not Satisfied (' + failedItems.length + ')</h4><ol style="padding-left:1.25rem;font-size:0.85rem">';
+    for (var j = 0; j < failedItems.length; j++) {
+      html += '<li style="margin-bottom:0.35rem">' + escapeHtml(failedItems[j]) + '</li>';
+    }
+    html += '</ol>';
+  }
+
+  html += '<p style="margin-top:1rem;font-size:0.8rem;color:var(--text-muted)">Assessment date: ' + new Date().toISOString().split('T')[0] + '. Based on the AI Compliance Framework Vendor Audit Checklist v1.0.</p>';
+
+  document.getElementById('vendor-report-title').textContent = 'Vendor Compliance Report — ' + escapeHtml(vendorName);
+  document.getElementById('vendor-report-body').innerHTML = html;
+  var result = document.getElementById('vendor-result');
+  result.classList.add('show');
+  result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetVendor() {
+  document.getElementById('vendor-form').reset();
+  document.getElementById('vendor-name').value = '';
+  document.getElementById('vendor-result').classList.remove('show');
+  updateVendorProgress();
+}
+
+function escapeHtml(str) {
+  var div = document.createElement('div');
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+}
+
+/* ===== Deployment Tier Advisor ===== */
+function flowAnswer(step, yes) {
+  if (step === 1 && !yes) {
+    showTierResult(2);
+  } else if (step === 1 && yes) {
+    document.getElementById('flow-step-1').style.display = 'none';
+    document.getElementById('flow-step-2').style.display = 'block';
+  } else if (step === 2 && !yes) {
+    showTierResult(3);
+  } else if (step === 2 && yes) {
+    document.getElementById('flow-step-2').style.display = 'none';
+    document.getElementById('flow-step-3').style.display = 'block';
+  } else if (step === 3 && !yes) {
+    showTierResult(3);
+  } else if (step === 3 && yes) {
+    showTierResult(4);
+  }
+}
+
+var tierData = {
+  2: {
+    name: 'Tier 2 — Enterprise API Agreements',
+    badge: 'tier-2',
+    risk: 'Medium Risk',
+    examples: 'OpenAI API (Enterprise Tier), Anthropic API, Google Cloud Vertex AI',
+    retention: 'Standard enterprise DPAs state that API data is not used for model training. Data typically retained for 30 days for abuse monitoring.',
+    useCases: 'Customer service chatbots, internal knowledge base search (RAG), automated document summarization of Internal data.',
+    cost: 'Variable (pay-per-token)',
+    gdpr: 'Requires a robust DPA and potentially Standard Contractual Clauses if data leaves the EU.',
+    aiAct: 'If the application is High-Risk (e.g., HR screening), the enterprise becomes the "deployer" with significant obligations.',
+    avoid: 'Do not use for highly sensitive Restricted data where even temporary third-party retention is unacceptable.'
+  },
+  3: {
+    name: 'Tier 3 — Private Cloud / VPC Deployment',
+    badge: 'tier-3',
+    risk: 'Low Risk',
+    examples: 'Azure OpenAI Service (dedicated VNet), AWS Bedrock (PrivateLink)',
+    retention: 'Data never traverses the public internet. Cloud provider guarantees isolation; data is not used for training.',
+    useCases: 'Analyzing Confidential financial data, processing PII at scale (with DPIA), internal copilots for Legal/HR.',
+    cost: 'High (significant cloud infrastructure spend and provisioned throughput commitments)',
+    gdpr: 'Strong data sovereignty — data remains within specific geographic regions (e.g., EU-only).',
+    aiAct: 'Integrates with enterprise IAM and network security controls.',
+    avoid: 'Overkill for simple, non-sensitive tasks where Tier 2 APIs are sufficient and more cost-effective.'
+  },
+  4: {
+    name: 'Tier 4 — Self-Hosted Open-Source Models',
+    badge: 'tier-4',
+    risk: 'Zero External Risk',
+    examples: 'Llama 3, Mistral, Phi-3 deployed on internal bare-metal or private cloud clusters',
+    retention: 'Zero external risk. The enterprise has absolute control over all data, prompts, and model weights.',
+    useCases: 'Highly Restricted data (defense, healthcare PHI, core IP development), specialized fine-tuned models.',
+    cost: 'Very High (dedicated GPU clusters, specialized MLOps talent, ongoing maintenance)',
+    gdpr: 'Ultimate control. Guarantees absolute data privacy and immunity from third-party vendor ToS changes.',
+    aiAct: 'The enterprise assumes full responsibility for the model\'s performance, bias mitigation, and security.',
+    avoid: 'If the organization lacks dedicated MLOps talent and budget for complex GPU infrastructure.'
+  }
+};
+
+function showTierResult(tier) {
+  var d = tierData[tier];
+  var html = '<span class="tier-badge ' + d.badge + '">' + d.risk + '</span>';
+  html += '<h3>' + d.name + '</h3>';
+  html += '<dl class="tier-details">';
+  html += '<dt>Examples</dt><dd>' + d.examples + '</dd>';
+  html += '<dt>Data Retention &amp; Training Risk</dt><dd>' + d.retention + '</dd>';
+  html += '<dt>Typical Use Cases</dt><dd>' + d.useCases + '</dd>';
+  html += '<dt>Cost</dt><dd>' + d.cost + '</dd>';
+  html += '<dt>GDPR Considerations</dt><dd>' + d.gdpr + '</dd>';
+  html += '<dt>EU AI Act Considerations</dt><dd>' + d.aiAct + '</dd>';
+  html += '<dt>When NOT to Use</dt><dd>' + d.avoid + '</dd>';
+  html += '</dl>';
+
+  document.getElementById('tier-recommendation').innerHTML = html;
+  document.getElementById('tier-result').classList.add('show');
+  document.getElementById('deployment-flow').style.display = 'none';
+  document.getElementById('tier-result').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetFlow() {
+  document.getElementById('flow-step-1').style.display = 'block';
+  document.getElementById('flow-step-2').style.display = 'none';
+  document.getElementById('flow-step-3').style.display = 'none';
+  document.getElementById('deployment-flow').style.display = 'block';
+  document.getElementById('tier-result').classList.remove('show');
+}
+
+/* ===== Initialize ===== */
+updateVendorProgress();
+</script>
+
+</body>
+</html>
