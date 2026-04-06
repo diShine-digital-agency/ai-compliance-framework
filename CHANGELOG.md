@@ -2,7 +2,31 @@
 
 All notable changes to this framework will be documented in this file.
 
-## [1.0.0] - 2026-04-06
+## [2.0.0] - 2026-04-06
+
+### Added
+
+*   `tools/compliance-toolkit.html` — A standalone, client-side web application providing three interactive compliance tools:
+    *   **Shadow AI Risk Calculator:** Automated scoring across four dimensions (Organizational Awareness, Technical Controls, Data Governance, Incident History) with section-level breakdowns, risk band determination (Managed / Moderate / Elevated / Critical), and tailored remediation recommendations. Faithfully implements the 100-point scoring system from the framework's Shadow AI Risk Calculator template.
+    *   **Vendor Compliance Scorecard:** Interactive 25-item checklist covering GDPR data processing, EU AI Act compliance, and Security & IP requirements. Tracks completion progress, generates pass/fail reports with compliance grades (Strong / Acceptable with Conditions / Significant Gaps / Not Recommended), and identifies specific unmet items.
+    *   **Deployment Tier Advisor:** A guided 3-question decision tree that recommends the appropriate deployment architecture (Tier 2 — Enterprise API, Tier 3 — Private Cloud/VPC, or Tier 4 — Self-Hosted) based on data sensitivity, infrastructure capability, and regulatory requirements. Displays detailed tier specifications including cost, GDPR, and EU AI Act considerations.
+*   `CONTRIBUTING.md` — Contribution guidelines covering issue reporting, pull request process, content standards, and accepted contribution types.
+*   `SECURITY.md` — Security policy with vulnerability reporting process and supported version table.
+
+### Changed
+
+*   `README.md` — Updated to version 2.0.0. Removed marketing language from the introductory paragraph and About section. Replaced "Regulatory Paralysis" framing with "Regulatory Uncertainty" for factual accuracy. Added Interactive Compliance Toolkit as Section 13. Added Contributing and Security sections. Updated How to Use section to reference the interactive toolkit.
+
+### Audit Findings (v2.0.0)
+
+This release was preceded by a full audit of the framework. Key findings:
+
+*   **Regulatory accuracy (9/10):** EU AI Act articles, GDPR references, and sector regulations are correctly cited across all templates.
+*   **Template quality:** All 16 templates and guides are relevant, well-structured, and aligned with the April 2026 regulatory landscape.
+*   **Scoring inconsistency fixed:** The Shadow AI Risk Calculator's Section D (Incident History) had an ambiguous scoring table where column headers (0/10/20) implied a 40-point max for a 20-point section. The interactive toolkit normalizes this to D1 (0/5/10) + D2 (0/5/10) = 20 points, consistent with the stated section maximum.
+*   **Language cleanup:** Removed marketing-oriented phrasing ("business-first," "we engineer operational engines," "bridges the gap") from README in favour of clear, factual descriptions.
+
+## [1.4.1] - 2026-04-06
 
 ### Added
 - Initial release of the AI Compliance Framework.
@@ -91,4 +115,5 @@ All notable changes to this framework will be documented in this file.
 *   GPAI (General Purpose AI) model governance checklist: ~~pending~~ *(released in v1.3.0)*;
 *   Algorithmic bias audit methodology guide: ~~pending~~ *(released in v1.4.0)*;
 *   Step-by-step user guide: ~~pending~~ *(released in v1.4.1)*;
+*   Interactive compliance toolkit: ~~pending~~ *(released in v2.0.0)*;
 *   AI procurement contract clause library (vendor negotiation templates).

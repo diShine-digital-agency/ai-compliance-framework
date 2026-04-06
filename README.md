@@ -1,20 +1,20 @@
 # AI Compliance Framework for Enterprises
 
-A pragmatic, business-first framework for adopting AI safely in corporate environments without stifling innovation. 
+A practical framework for adopting AI responsibly in corporate environments, balancing innovation with regulatory compliance.
 
-Built by [diShine Digital Agency](https://dishine.it), this repository provides the templates, decision matrices, and audit checklists to help mid-market and enterprise clients navigate the intersection of the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection. Produced in collaboration with a legal advisor team.
+Built by [diShine Digital Agency](https://dishine.it) in collaboration with legal advisors, this repository provides templates, decision matrices, and audit checklists for navigating the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.
 
-*Updated: April 2026 — Version 1.4.1*
+*Updated: April 2026 — Version 2.0.0*
 
 ---
 
-## The Problem: Shadow AI and Regulatory Paralysis
+## The Problem: Shadow AI and Regulatory Uncertainty
 
-Enterprise AI adoption is currently trapped between two extremes:
-1. **Shadow AI:** Employees using consumer-grade tools (like ChatGPT Plus or Claude Pro) without IT oversight, leading to documented IP leaks (e.g., the 2023 Samsung source code incident) and GDPR violations. Gartner estimates that by 2026, 80% of employees will use generative AI for work without company approval.
-2. **Regulatory Paralysis:** Legal and compliance teams blocking all AI initiatives due to fear of the EU AI Act (with fines up to €35M or 7% of global turnover) and GDPR enforcement.
+Enterprise AI adoption faces two systemic risks:
+1. **Shadow AI:** Employees using consumer-grade AI tools (ChatGPT, Claude, Gemini) without IT oversight, leading to IP leaks (e.g., the 2023 Samsung source code incident) and potential GDPR violations. Gartner estimates that by 2026, 80% of employees will use generative AI for work without company approval.
+2. **Regulatory Uncertainty:** Legal and compliance teams blocking AI initiatives due to the EU AI Act (fines up to €35M or 7% of global turnover) and unclear enforcement timelines.
 
-**This framework bridges the gap.** It provides the operational guardrails necessary to deploy AI rapidly while maintaining strict data sovereignty and regulatory compliance.
+This framework provides the operational guardrails to deploy AI while maintaining data sovereignty and regulatory compliance.
 
 ## What's Inside
 
@@ -71,6 +71,14 @@ A practical compliance checklist for organizations that develop, fine-tune, or d
 ### 12. ⚖️ [Algorithmic Bias Audit Methodology Guide](guides/algorithmic-bias-audit-methodology.md)
 A rigorous, step-by-step methodology for conducting an algorithmic fairness audit, grounded in statistical theory and current regulatory requirements. Covers the four core statistical fairness criteria (Demographic Parity, Equal Opportunity, Equalized Odds, Predictive Parity) with exact mathematical definitions; the Chouldechova (2017) and Kleinberg et al. (2016) impossibility theorems and their practical audit implications; a 4-phase audit methodology (pre-audit scoping, data bias audit, model bias audit, intersectional audit); bias mitigation strategies (pre-processing, in-processing, post-processing) with their accuracy-fairness trade-offs; and EU AI Act Article 10 compliance documentation requirements.
 
+### 13. 🛠️ [Interactive Compliance Toolkit](tools/compliance-toolkit.html)
+A standalone, client-side web application that brings three key framework components to life as interactive tools:
+*   **Shadow AI Risk Calculator** — Automated scoring across four dimensions (Organizational Awareness, Technical Controls, Data Governance, Incident History) with risk band determination and remediation recommendations.
+*   **Vendor Compliance Scorecard** — Interactive 25-item checklist tracking progress against EU AI Act and GDPR vendor requirements, with compliance grading and gap reporting.
+*   **Deployment Tier Advisor** — A guided 3-question decision tree that recommends the appropriate deployment architecture (Tier 2–4) based on data sensitivity, infrastructure capability, and regulatory requirements.
+
+No data is transmitted externally — the toolkit runs entirely in the browser.
+
 ## Visual Reference
 
 ### Enterprise AI Deployment Tiers
@@ -85,13 +93,21 @@ A rigorous, step-by-step methodology for conducting an algorithmic fairness audi
 
 For a full walkthrough of every step, see the **[Step-by-Step User Guide](guides/how-to-use-this-framework.md)**. It covers the correct sequence, the responsible owner for each action, and the regulatory rationale behind every tool in this repository.
 
-In brief: start by running the [Shadow AI Risk Calculator](templates/shadow-ai-risk-calculator.md) to quantify your current exposure, then establish the rules with the [Acceptable AI Use Policy](templates/acceptable-use-policy.md), audit your existing vendors with the [Vendor Audit Checklist](templates/vendor-audit-checklist.md), and use the [Deployment Decision Matrix](templates/deployment-decision-matrix.md) to govern every new AI initiative. The sector-specific addenda, DPIA templates, and audit methodology guides apply when you are deploying high-risk AI systems.
+In brief: start with the [Interactive Compliance Toolkit](tools/compliance-toolkit.html) or the [Shadow AI Risk Calculator](templates/shadow-ai-risk-calculator.md) to quantify your current exposure, then establish the rules with the [Acceptable AI Use Policy](templates/acceptable-use-policy.md), audit your existing vendors with the [Vendor Audit Checklist](templates/vendor-audit-checklist.md), and use the [Deployment Decision Matrix](templates/deployment-decision-matrix.md) to govern every new AI initiative. The sector-specific addenda, DPIA templates, and audit methodology guides apply when you are deploying high-risk AI systems.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this framework.
+
+## Security
+
+See [SECURITY.md](SECURITY.md) for the security policy and vulnerability reporting process.
 
 ## About diShine
 
-At [diShine](https://dishine.it), we build growth architectures and scale revenue for B2B companies. We don't just write policies; we engineer the operational engines that make AI safe and profitable. 
+[diShine](https://dishine.it) is a digital agency specializing in AI strategy, compliance engineering, and data-sovereign infrastructure for B2B enterprises. This framework was developed in collaboration with legal advisors to address real compliance challenges our clients face.
 
-If you need help auditing your current workflows, deploying a private VPC AI environment, or building a custom AI solution that guarantees data sovereignty, [reach out to our team](https://dishine.it/contacts/).
+For consulting or implementation support, [contact us](https://dishine.it/contacts/).
 
 ## License
 
