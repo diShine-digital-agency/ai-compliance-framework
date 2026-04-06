@@ -2,7 +2,7 @@
 
 A pragmatic, business-first framework for adopting AI safely in corporate environments without stifling innovation. 
 
-Built by [diShine Digital Agency](https://dishine.it), this repository provides the exact templates, decision matrices, and audit checklists we use to help mid-market and enterprise clients navigate the intersection of the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.
+Built by [diShine Digital Agency](https://dishine.it), this repository provides the templates, decision matrices, and audit checklists to help mid-market and enterprise clients navigate the intersection of the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection. Produced in collaboration with a legal advisor team.
 
 *Updated: April 2026 — Version 1.4.0*
 
