@@ -13,7 +13,7 @@ This guide explains the exact sequence in which to deploy these tools, why each 
 Before you can build compliant AI, you must stop the bleeding. Employees are already using consumer-grade AI tools, and your intellectual property is likely already exposed.
 
 ### Step 1.1: Quantify the Current Risk
-*   **Tool:** [`templates/shadow-ai-risk-calculator.md`](../templates/shadow-ai-risk-calculator.md) or use the standalone, client-side web application by opening the file compliance-toolkit.html in the folder [`TOOLS`](../tools/).
+*   **Tool:** [`templates/shadow-ai-risk-calculator.md`](../templates/shadow-ai-risk-calculator.md) or use the standalone, client-side web application by opening the file `compliance-toolkit.html` in the folder [`TOOLS`](../tools/).
 *   **Owner:** Chief Information Security Officer (CISO) or IT Director.
 *   **Why it matters:** You cannot secure budget or executive buy-in for an AI governance program without quantifying the current exposure. This 100-point calculator translates vague fears about "Shadow AI" into a concrete risk score based on IBM and Gartner benchmarks.
 *   **Action:** Run the assessment. If you score above 50 (Elevated Risk), proceed immediately to Step 1.2.
