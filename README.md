@@ -4,7 +4,7 @@ A pragmatic, business-first framework for adopting AI safely in corporate enviro
 
 Built by [diShine Digital Agency](https://dishine.it), this repository provides the exact templates, decision matrices, and audit checklists we use to help mid-market and enterprise clients navigate the intersection of the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.
 
-*Updated: April 2026 — Version 1.2.0*
+*Updated: April 2026 — Version 1.3.0*
 
 ---
 
@@ -58,6 +58,12 @@ Three pre-filled, pragmatic Data Protection Impact Assessment (DPIA) examples fo
 *   **AI Recruitment Screening Tool** — algorithmic bias risks, Art. 22 obligations, mandatory human oversight;
 *   **AI Customer Service Chatbot with Sentiment Analysis** — special category data inference, DLP masking, Art. 50 transparency;
 *   **AI Employee Performance Monitoring** — profiling risks, Works Council consultation, mandatory prior SA consultation trigger.
+
+### 10. 🚨 [AI Incident Response Playbook](templates/ai-incident-response-playbook.md)
+A structured, forensic AI incident response framework aligned with EU AI Act Article 73 (Serious Incident Reporting), GDPR Articles 33/34, and the NIST AI RMF 1.0. Covers the full 6-phase response lifecycle, a P1–P4 severity taxonomy, regulatory notification timelines (15-day AI Act window, 72-hour GDPR window), and specific response tactics for prompt injection, model inversion, and algorithmic bias discovery.
+
+### 11. 🤖 [GPAI Model Governance Checklist](templates/gpai-model-governance-checklist.md)
+A practical compliance checklist for organizations that develop, fine-tune, or deploy General Purpose AI (GPAI) models under EU AI Act Articles 53–55. Covers the 10^25 FLOPs systemic risk threshold, Article 53 baseline obligations (technical documentation, Annex XI/XII, copyright policy, training data summary), Article 55 systemic risk obligations (adversarial red-teaming, AI Office incident reporting), deployer due diligence requirements, and the GPAI Code of Practice (published July 2025) as a safe-harbor compliance path.
 
 ## Visual Reference
 

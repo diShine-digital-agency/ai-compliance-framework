@@ -42,9 +42,25 @@ All notable changes to this framework will be documented in this file.
 
 ---
 
+## [1.3.0] - 2026-04-06
+
+### Added
+
+*   `templates/ai-incident-response-playbook.md` — A structured, forensic AI incident response framework aligned with EU AI Act Article 73 (Serious Incident Reporting), GDPR Articles 33/34, and the NIST AI RMF 1.0. Includes a P1–P4 severity classification taxonomy, a 6-phase response lifecycle (Preparation, Detection, Containment, Forensic Investigation, Regulatory Notification, Recovery), exact regulatory notification timelines (15-day AI Act window; 2-day window for widespread infringement; 10-day window for death; 72-hour GDPR window), and specific response tactics for prompt injection, model inversion attacks, and algorithmic bias discovery.
+*   `templates/gpai-model-governance-checklist.md` — A practical compliance checklist for organizations that develop, fine-tune, or deploy General Purpose AI (GPAI) models under EU AI Act Articles 53–55. Covers the 10^25 FLOPs systemic risk threshold, Article 53 baseline obligations (technical documentation per Annex XI, downstream provider information per Annex XII, copyright compliance policy, mandatory AI Office training data summary template), Article 55 systemic risk obligations (adversarial red-teaming, AI Office incident reporting, cybersecurity measures), deployer due diligence requirements for API users, and the GPAI Code of Practice (published 10 July 2025, endorsed by the AI Board) as a safe-harbor compliance path.
+
+### Changed
+
+*   `README.md` — Updated to version 1.3.0; AI Incident Response Playbook added as Section 10; GPAI Model Governance Checklist added as Section 11.
+*   `CHANGELOG.md` — v1.3.0 entry added; Upcoming section updated.
+
+---
+
 ## [Upcoming]
 
 *   Sector-specific addenda (Healthcare, HR): ~~pending~~ *(released in v1.2.0)*;
 *   DPIA library with pre-filled examples: ~~pending~~ *(released in v1.2.0)*;
-*   AI Incident Response Playbook;
-*   GPAI (General Purpose AI) model governance checklist.
+*   AI Incident Response Playbook: ~~pending~~ *(released in v1.3.0)*;
+*   GPAI (General Purpose AI) model governance checklist: ~~pending~~ *(released in v1.3.0)*;
+*   AI procurement contract clause library (vendor negotiation templates);
+*   Algorithmic bias audit methodology guide.
