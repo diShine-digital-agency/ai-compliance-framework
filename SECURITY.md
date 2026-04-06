@@ -11,7 +11,7 @@ The interactive [Compliance Toolkit](tools/compliance-toolkit.html) runs entirel
 If you discover a security issue in this repository (e.g., a cross-site scripting vulnerability in the HTML tool, or a supply-chain concern with linked resources), please report it responsibly:
 
 1. **Do not open a public issue.**
-2. Email **dev@dishine.it** with the subject line `[SECURITY] ai-compliance-framework`.
+2. Email **kevin@dishine.it** with the subject line `[SECURITY] ai-compliance-framework`.
 3. Include a description of the vulnerability, steps to reproduce, and any suggested fix.
 4. We will acknowledge receipt within 48 hours and provide a resolution timeline.
 
