@@ -20,6 +20,6 @@ All notable changes to this framework will be documented in this file.
 - GDPR remains fully in force; the Italian DPA (Garante) ChatGPT investigation (2023) established precedent for active DPA enforcement against AI tools.
 
 ## [Upcoming]
-- Sector-specific addenda (Healthcare, Finance, HR).
+- Sector-specific addenda (Finance, Tech, Beauty).
 - DPIA (Data Protection Impact Assessment) template for high-risk AI deployments.
 - ISO 42001 (AI Management System) alignment guide.
