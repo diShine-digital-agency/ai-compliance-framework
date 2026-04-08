@@ -6,7 +6,7 @@
 
 Built by [diShine Digital Agency](https://dishine.it) in collaboration with legal advisors, this repository provides templates, decision matrices, and audit checklists for navigating the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.
 
-*Updated: April 2026 — Version 2.0.0*
+*Updated: April 2026 — Version 2.2.0*
 
 <p align="center">
   <img src="assets/ai_compliance_02_vendor_audit_scorecard.webp" alt="AI Compliance audit scorecard" width="49%">
@@ -23,7 +23,7 @@ Built by [diShine Digital Agency](https://dishine.it) in collaboration with lega
 
 Enterprise AI adoption faces two systemic risks:
 1. **Shadow AI:** Employees using consumer-grade AI tools (ChatGPT, Claude, Gemini) without IT oversight, leading to IP leaks (e.g., the 2023 Samsung source code incident) and potential GDPR violations. Gartner estimates that by 2026, 80% of employees will use generative AI for work without company approval.
-2. **Regulatory Uncertainty:** Legal and compliance teams blocking AI initiatives due to the EU AI Act (fines up to €35M or 7% of global turnover) and unclear enforcement timelines.
+2. **Regulatory Uncertainty:** Legal and compliance teams blocking AI initiatives due to the EU AI Act — penalties reach up to €35M or 7% of global turnover for prohibited practices, €15M or 3% for high-risk system violations, and €7.5M or 1% for providing incorrect information — and complex, phased enforcement timelines.
 
 This framework provides the operational guardrails to deploy AI while maintaining data sovereignty and regulatory compliance.
 
@@ -68,19 +68,19 @@ Industry-specific regulatory mapping and risk classifications:
 *   [Human Resources & Employment Addendum](templates/sector-addendum-hr.md) (Annex III.4, Art. 22 Automated Decisions, Emotion Recognition Prohibition)
 
 ### 9. 📋 [DPIA Example Library](templates/dpia-example-library.md)
-Three pre-filled, pragmatic Data Protection Impact Assessment (DPIA) examples for the most common enterprise AI deployments, combining GDPR Article 35 and EU AI Act Article 30 (Fundamental Rights Impact Assessment) requirements:
+Three pre-filled, pragmatic Data Protection Impact Assessment (DPIA) examples for the most common enterprise AI deployments, covering GDPR Article 35 requirements. For the separate EU AI Act Article 27 Fundamental Rights Impact Assessment, see the standalone [FRIA Template](templates/fria-template.md).
 *   **AI Recruitment Screening Tool** — algorithmic bias risks, Art. 22 obligations, mandatory human oversight;
 *   **AI Customer Service Chatbot with Sentiment Analysis** — special category data inference, DLP masking, Art. 50 transparency;
 *   **AI Employee Performance Monitoring** — profiling risks, Works Council consultation, mandatory prior SA consultation trigger.
 
 ### 10. 🚨 [AI Incident Response Playbook](templates/ai-incident-response-playbook.md)
-A structured, forensic AI incident response framework aligned with EU AI Act Article 73 (Serious Incident Reporting), GDPR Articles 33/34, and the NIST AI RMF 1.0. Covers the full 6-phase response lifecycle, a P1–P4 severity taxonomy, regulatory notification timelines (15-day AI Act window, 72-hour GDPR window), and specific response tactics for prompt injection, model inversion, and algorithmic bias discovery.
+A structured, forensic AI incident response framework aligned with EU AI Act Article 73 (Serious Incident Reporting), GDPR Articles 33/34, and the ENISA AI Threat Landscape. Covers the full 6-phase response lifecycle, a P1–P4 severity taxonomy, regulatory notification timelines (15-day AI Act window, 72-hour GDPR window), and specific response tactics for prompt injection, model inversion, and algorithmic bias discovery.
 
 ### 11. 🤖 [GPAI Model Governance Checklist](templates/gpai-model-governance-checklist.md)
-A practical compliance checklist for organizations that develop, fine-tune, or deploy General Purpose AI (GPAI) models under EU AI Act Articles 53–55. Covers the 10^25 FLOPs systemic risk threshold, Article 53 baseline obligations (technical documentation, Annex XI/XII, copyright policy, training data summary), Article 55 systemic risk obligations (adversarial red-teaming, AI Office incident reporting), deployer due diligence requirements, and the GPAI Code of Practice (published July 2025) as a safe-harbor compliance path.
+A practical compliance checklist for organizations that develop, fine-tune, or deploy General Purpose AI (GPAI) models under EU AI Act Articles 53–55. Covers the 10^25 FLOPs systemic risk threshold, Article 53 baseline obligations (technical documentation, Annex XI/XII, copyright policy, training data summary), Article 55 systemic risk obligations (adversarial red-teaming, AI Office incident reporting), deployer due diligence requirements, and the GPAI Code of Practice (published July 2025) as a presumption-of-compliance path.
 
 ### 12. ⚖️ [Algorithmic Bias Audit Methodology Guide](guides/algorithmic-bias-audit-methodology.md)
-A rigorous, step-by-step methodology for conducting an algorithmic fairness audit, grounded in statistical theory and current regulatory requirements. Covers the four core statistical fairness criteria (Demographic Parity, Equal Opportunity, Equalized Odds, Predictive Parity) with exact mathematical definitions; the Chouldechova (2017) and Kleinberg et al. (2016) impossibility theorems and their practical audit implications; a 4-phase audit methodology (pre-audit scoping, data bias audit, model bias audit, intersectional audit); bias mitigation strategies (pre-processing, in-processing, post-processing) with their accuracy-fairness trade-offs; and EU AI Act Article 10 compliance documentation requirements.
+A rigorous, step-by-step methodology for conducting an algorithmic fairness audit, grounded in statistical theory and current EU regulatory requirements. Covers the four core statistical fairness criteria (Demographic Parity, Equal Opportunity, Equalized Odds, Predictive Parity) with exact mathematical definitions; the Chouldechova (2017) and Kleinberg et al. (2016) impossibility theorems and their practical audit implications; a 4-phase audit methodology (pre-audit scoping, data bias audit, model bias audit, intersectional audit); bias mitigation strategies (pre-processing, in-processing, post-processing) with their accuracy-fairness trade-offs; and EU AI Act Article 10 compliance documentation requirements.
 
 ### 13. 🛠️ [Interactive Compliance Toolkit](tools/compliance-toolkit.html)
 A standalone, client-side web application that brings three key framework components to life as interactive tools:
@@ -89,6 +89,21 @@ A standalone, client-side web application that brings three key framework compon
 *   **Deployment Tier Advisor** — A guided 3-question decision tree that recommends the appropriate deployment architecture (Tier 2–4) based on data sensitivity, infrastructure capability, and regulatory requirements.
 
 No data is transmitted externally — the toolkit runs entirely in the browser.
+
+### 14. 🔍 [Fundamental Rights Impact Assessment (FRIA) Template](templates/fria-template.md)
+A standalone FRIA template implementing EU AI Act Article 27, distinct from the GDPR DPIA. Assesses impact on EU Charter fundamental rights including human dignity (Art. 1), non-discrimination (Art. 21), right to effective remedy (Art. 47), freedom of expression (Art. 11), privacy (Arts. 7–8), workers' rights (Arts. 27–31), rights of children (Art. 24), and rights of persons with disabilities (Art. 26). Includes sign-off workflow and MSA notification requirements.
+
+### 15. 🎓 [AI Literacy Programme Template](templates/ai-literacy-programme.md)
+A practical template for implementing the EU AI Act Article 4 AI literacy obligation (in force since February 2025). Provides a role-based needs assessment matrix, a four-module core curriculum (AI Fundamentals, Regulatory Landscape, Responsible AI for Technical Teams, Human Oversight in Practice), delivery and assessment standards, and guidance on evidencing compliance to regulators.
+
+### 16. 🗄️ [EU AI Database Registration Guide](templates/eu-ai-database-registration-guide.md)
+A step-by-step guide for registering high-risk AI systems in the EU AI Database as required by Article 49. Covers provider and deployer registration obligations, required information per Annex VIII, the registration procedure, and penalties for non-registration (up to €15M / 3% of turnover).
+
+### 17. ✅ [Conformity Assessment Pathway Guide](templates/conformity-assessment-guide.md)
+A practical guide for providers of high-risk AI systems to navigate the conformity assessment process. Explains the two pathways: Internal Control (Annex VI) for most Annex III systems vs. Third-Party Assessment via Notified Body (Annex VII) for regulated products and biometric identification. Includes a decision flowchart, QMS requirements (Article 17), technical documentation requirements (Annex IV), and CE marking procedures.
+
+### 18. ⚖️ [AI Liability & Product Safety Guide](guides/ai-liability-product-safety.md)
+A comprehensive guide to the EU's three-pillar liability framework for AI: the EU AI Act (rules), the AI Liability Directive (fault-based liability with presumption of causality), and the revised Product Liability Directive 2024/2853 (strict liability extending to software and AI). Covers the transposition deadline (December 2026), burden of proof lightening, post-deployment learning liability, and practical implications for both providers and deployers.
 
 ## Visual Reference
 
@@ -104,7 +119,7 @@ No data is transmitted externally — the toolkit runs entirely in the browser.
 
 For a full walkthrough of every step, see the **[Step-by-Step User Guide](guides/how-to-use-this-framework.md)**. It covers the correct sequence, the responsible owner for each action, and the regulatory rationale behind every tool in this repository.
 
-In brief: start with the [Interactive Compliance Toolkit](tools/compliance-toolkit.html) or the [Shadow AI Risk Calculator](templates/shadow-ai-risk-calculator.md) to quantify your current exposure, then establish the rules with the [Acceptable AI Use Policy](templates/acceptable-use-policy.md), audit your existing vendors with the [Vendor Audit Checklist](templates/vendor-audit-checklist.md), and use the [Deployment Decision Matrix](templates/deployment-decision-matrix.md) to govern every new AI initiative. The sector-specific addenda, DPIA templates, and audit methodology guides apply when you are deploying high-risk AI systems.
+In brief: start with the [Interactive Compliance Toolkit](tools/compliance-toolkit.html) or the [Shadow AI Risk Calculator](templates/shadow-ai-risk-calculator.md) to quantify your current exposure, then establish the rules with the [Acceptable AI Use Policy](templates/acceptable-use-policy.md) and [AI Literacy Programme](templates/ai-literacy-programme.md), audit your existing vendors with the [Vendor Audit Checklist](templates/vendor-audit-checklist.md), and use the [Deployment Decision Matrix](templates/deployment-decision-matrix.md) to govern every new AI initiative. The sector-specific addenda, DPIA/[FRIA](templates/fria-template.md) templates, [Conformity Assessment Guide](templates/conformity-assessment-guide.md), and audit methodology guides apply when you are deploying high-risk AI systems.
 
 ## Contributing
 

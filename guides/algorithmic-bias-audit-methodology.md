@@ -2,7 +2,7 @@
 
 **Version:** 1.4.0
 
-As of 2026, algorithmic bias auditing has moved from an academic exercise to a strict regulatory requirement. Under the **EU AI Act (Article 10)**, providers of high-risk AI systems must implement data governance practices that specifically examine and mitigate biases likely to lead to discrimination. Concurrently, US regulations like NYC Local Law 144 and Colorado SB 205 mandate independent bias audits for automated decision tools.
+As of 2026, algorithmic bias auditing has moved from an academic exercise to a strict regulatory requirement. Under the **EU AI Act (Article 10)**, providers of high-risk AI systems must implement data governance practices that specifically examine and mitigate biases likely to lead to discrimination. The **EU Employment Equality Directives** (2000/78/EC and 2006/54/EC) and the **EU Charter of Fundamental Rights (Article 21)** provide the core legal framework for non-discrimination in algorithmic decision-making across the European Union.
 
 This guide provides a rigorous, step-by-step methodology for conducting an algorithmic fairness audit. It moves beyond the simplistic "80% rule" to cover statistical fairness metrics, the mathematical impossibility theorems that govern them, and the specific requirements of Article 10(5) regarding the use of sensitive data for bias correction.
 
@@ -46,7 +46,7 @@ Bias often originates in the training data before a model is even trained.
 
 ### Phase 3: Model Bias Audit (Performance Disparity)
 Evaluate the trained model's performance across demographic slices.
-*   **Disparate Impact Analysis (The 80% Rule):** Calculate the selection rate for the protected group divided by the selection rate for the privileged group. While the US EEOC uses a 4/5ths (80%) threshold as a rule of thumb, EU audits should aim for statistical parity unless justified by objective, non-discriminatory factors [3].
+*   **Disparate Impact Analysis:** Calculate the selection rate for the protected group divided by the selection rate for the privileged group. Under EU law, there is no fixed numerical threshold (unlike the US EEOC's 4/5ths rule); instead, the CJEU assesses indirect discrimination based on whether a practice places persons sharing a protected characteristic at a "particular disadvantage" (*Bilka-Kaufhaus v Weber von Hartz*, C-170/84). EU audits should aim for statistical parity unless justified by a legitimate aim pursued by proportionate means.
 *   **Error Rate Disparity:** Calculate the False Positive Rate (FPR) and False Negative Rate (FNR) for each group. A model that denies loans to qualified minority applicants (high FNR) at twice the rate of qualified majority applicants fails the Equal Opportunity test.
 *   **Threshold Optimization:** Evaluate how changing the decision threshold (e.g., moving the approval cutoff from 0.5 to 0.6) impacts the fairness metrics across different groups.
 
@@ -80,7 +80,7 @@ To comply with the EU AI Act's conformity assessment requirements for high-risk 
 
 [1] Chouldechova, A. (2017). Fair prediction with disparate impact: A study of bias in recidivism prediction instruments. *Big data*, 5(2), 153-163.
 [2] European Parliament and Council. (2024). *Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)*. Article 10: Data and Data Governance.
-[3] Feldman, M., Friedler, S. A., Moeller, J., Scheidegger, C., & Venkatasubramanian, S. (2015). Certifying and removing disparate impact. In *Proceedings of the 21th ACM SIGKDD international conference on knowledge discovery and data mining* (pp. 259-268).
+[3] Court of Justice of the European Union. (1986). *Bilka-Kaufhaus GmbH v Karin Weber von Hartz*, Case C-170/84. Established the EU framework for assessing indirect discrimination through statistical disparity analysis.
 
 *This guide is part of the AI Compliance Framework by diShine Digital Agency.*
 

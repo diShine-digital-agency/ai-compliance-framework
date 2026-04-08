@@ -4,7 +4,7 @@
 
 Traditional cybersecurity incident response plans (IRPs) are insufficient for Artificial Intelligence. When an AI system fails, it rarely looks like a traditional hack; it looks like a model hallucinating sensitive data, a silent degradation in accuracy, or an algorithmic bias that triggers a regulatory investigation.
 
-This playbook provides a structured, forensic approach to AI incident response, aligned with the **EU AI Act (Article 73)**, **GDPR (Article 33/34)**, and the **NIST AI Risk Management Framework (AI RMF 1.0)**.
+This playbook provides a structured, forensic approach to AI incident response, aligned with the **EU AI Act (Article 73)**, **GDPR (Article 33/34)**, and the **ENISA AI Threat Landscape**. It also references the NIST AI Risk Management Framework (AI RMF 1.0) as a complementary international standard.
 
 ---
 
@@ -23,19 +23,19 @@ Not all AI anomalies are incidents. Use this taxonomy to classify events and tri
 
 ## 2. The 6-Phase AI Incident Response Lifecycle
 
-### Phase 1: Preparation & Governance (NIST GOVERN/MAP)
+### Phase 1: Preparation & Governance (AI Act Art. 9 / Art. 72)
 *   **Establish the AI-IRT:** Form an AI Incident Response Team including Data Science, Legal/Compliance, IT Security, and PR.
 *   **Logging & Telemetry:** Ensure all high-risk AI systems have immutable logging enabled (EU AI Act Art. 12). You cannot investigate an AI incident without input/output logs and model version history.
 *   **Kill Switches:** Implement automated circuit breakers and manual kill switches for all production models.
 
-### Phase 2: Detection & Triage (NIST MEASURE)
+### Phase 2: Detection & Triage (AI Act Art. 12 / Art. 61)
 *   **Monitoring Triggers:** Set alerts for statistical deviation (model drift), sudden spikes in API error rates, or specific keyword triggers in LLM outputs (e.g., profanity, competitor names).
 *   **Triage Questions:**
     1. Is the model producing harmful, biased, or factually dangerous outputs?
     2. Has personal data (PII) or intellectual property (IP) been exposed?
     3. Is the system under active adversarial attack (e.g., prompt injection, data poisoning)?
 
-### Phase 3: Containment & Mitigation (NIST MANAGE)
+### Phase 3: Containment & Mitigation (AI Act Art. 73(1))
 *   **Tier 1 Containment (Soft):** Route all AI traffic to a human fallback (Human-in-the-loop) or a simpler, deterministic rules engine.
 *   **Tier 2 Containment (Hard):** Activate the kill switch. Take the model offline immediately.
 *   **Evidence Preservation:** **DO NOT OVERWRITE THE MODEL.** Preserve the exact model weights, the specific training data snapshot, and the inference logs from the time of the incident. This is critical for forensic analysis and regulatory reporting.
@@ -48,8 +48,8 @@ Determine the exact nature of the failure:
 *   **Hallucination / Stochastic Failure:** Did the LLM simply generate a statistically probable but factually incorrect output?
 
 ### Phase 5: Regulatory Notification & Communication
-*   **EU AI Act (Article 73):** If P1 (Serious Incident), notify the national Market Surveillance Authority (MSA) **within 15 days**. If it involves death or widespread infringement, notify within **2 to 10 days**.
-*   **GDPR (Article 33/34):** If the AI incident resulted in a personal data breach (e.g., model inversion revealing PII), notify the Data Protection Authority (DPA) **within 72 hours**.
+*   **EU AI Act (Article 73):** If P1 (Serious Incident), the provider must report to the national Market Surveillance Authority (MSA). The notification process is multi-step: (a) initial report **without undue delay** after awareness, (b) full incident report **within 15 days**. Accelerated timelines apply: **2 days** if the incident involves widespread fundamental rights infringement; **10 days** if death has occurred or is imminent. *Note: As of April 2026, the Irish DPC has issued the first formal Article 11 documentation request against a SaaS provider of a candidate-screening AI tool, signalling that enforcement is now active across the EU.*
+*   **GDPR (Article 33/34):** If the AI incident resulted in a personal data breach (e.g., model inversion revealing PII), notify the Data Protection Authority (DPA) **within 72 hours**. If the breach is likely to result in high risk to individuals, also notify the affected data subjects (Article 34).
 *   **Internal/External Comms:** Draft communications explaining the AI failure without using overly technical jargon. Be transparent about the steps taken to fix the model.
 
 ### Phase 6: Recovery & Post-Incident Review

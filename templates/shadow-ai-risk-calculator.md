@@ -92,13 +92,13 @@ Add up your scores from all four sections.
 3. Implement the [Deployment Decision Matrix](deployment-decision-matrix.md) as a mandatory gate for all new AI initiatives.
 
 ### 🟢 Managed (85–100): Continuous Improvement
-1. Review and update all AI policies every 6 months, or immediately following significant regulatory changes (e.g., the 2 August 2026 EU AI Act deadline);
+1. Review and update all AI policies every 6 months, or immediately following significant regulatory changes (e.g., the EU AI Act high-risk obligations deadline of 2 December 2027);
 2. Establish a formal AI Governance Committee with representation from Legal, IT, and Business Operations;
 3. Consider publishing your AI governance approach externally as a trust signal to clients and partners.
 
 ---
 
-> **Context:** According to IBM's 2024 Cost of a Data Breach Report, the average cost of a data breach globally is **$4.88 million**. Breaches involving Shadow AI or unauthorized third-party tools add a significant premium to this figure. Gartner predicts that by 2027, 40% of enterprise AI-related security incidents will be attributable to Shadow AI. The cost of prevention is orders of magnitude lower than the cost of a breach.
+> **Context:** According to IBM's 2024 Cost of a Data Breach Report, the average cost of a data breach globally is **$4.88 million**. In the European Union, GDPR fines compound this cost significantly — the Italian DPA (Garante) alone has issued over €100 million in fines since 2019. Breaches involving Shadow AI or unauthorized third-party tools add a significant premium to this figure. Gartner predicts that by 2027, 40% of enterprise AI-related security incidents will be attributable to Shadow AI. The cost of prevention is orders of magnitude lower than the cost of a breach.
 
 ---
 *This calculator is provided by [diShine Digital Agency](https://dishine.it) as part of the AI Compliance Framework. It is a self-assessment tool and does not constitute a formal security audit.*
