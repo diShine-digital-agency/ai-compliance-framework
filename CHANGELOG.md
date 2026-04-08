@@ -2,6 +2,27 @@
 
 All notable changes to this framework will be documented in this file.
 
+## [2.2.0] - 2026-04-08
+
+### Changed — April 2026 Enforcement Updates & Content Audit
+
+*   `tools/compliance-toolkit.html` — Fixed outdated date in Shadow AI Risk Calculator "Managed" remediation text: changed "2 August 2026 EU AI Act deadline" to "2 December 2027" to match the Digital Omnibus timeline correction applied to the Markdown templates in v2.1.0.
+*   `templates/gpai-model-governance-checklist.md` — Added reference to the GPAI Code of Practice v2.1 (released 3 April 2026) with strengthened training data summary requirements and standardised format.
+*   `templates/ai-incident-response-playbook.md` — Added note on the Irish DPC's first formal Article 11 documentation request (April 2026) against a SaaS candidate-screening tool, signalling active enforcement.
+*   `templates/conformity-assessment-guide.md` — Added reference to the EU AI Office standardised documentation templates (released April 2026), now the practical benchmark for MSA compliance audits.
+*   `templates/acceptable-use-policy.md` — Added reference to the European Commission's updated Article 5 prohibited practices guidance (published 2 April 2026), expanding the scope of "subliminal techniques" to include recommender systems using hidden user signals for nudging.
+*   `templates/iso42001-alignment-guide.md` — Added reference to Europrivacy certification as an emerging pathway for demonstrating integrated AI Act and GDPR compliance.
+*   `SECURITY.md` — Updated supported versions table from "2.0.x" to "2.x.x" to correctly reflect the v2.1.0+ release.
+
+### Regulatory Context (April 2026)
+
+*   The Irish Data Protection Commission issued the first formal Article 11 documentation request under the EU AI Act, targeting a SaaS provider of a candidate-screening AI tool. This is the first known active enforcement action under the AI Act's technical documentation obligations.
+*   The European Commission published updated guidance on Article 5 prohibited practices (2 April 2026), clarifying the prohibition on "subliminal techniques" — specifically, recommender systems using hidden user signals for nudging must now perform and document a "user-interest test."
+*   The GPAI Code of Practice v2.1 was released on 3 April 2026, strengthening the training data summary requirements with a new standardised format template from the AI Office.
+*   The EU AI Office released standardised documentation templates that national Market Surveillance Authorities are now using as the benchmark for compliance audits. These templates align with Annex IV requirements and should be adopted by all providers of high-risk AI systems.
+*   Europrivacy certification is emerging as an efficient pathway for demonstrating integrated compliance with both the AI Act and GDPR.
+*   The `eu-ai-act-timeline.png` diagram needs regeneration from the updated `eu-ai-act-timeline.mmd` source file to reflect Digital Omnibus dates (requires Mermaid CLI or a Mermaid renderer).
+
 ## [2.1.0] - 2026-04-08
 
 ### Added
@@ -141,4 +162,6 @@ All notable changes to this framework will be documented in this file.
 *   Interactive compliance toolkit: ~~pending~~ *(released in v2.0.0)*;
 *   FRIA template, AI Literacy programme, EU AI Database guide, Conformity Assessment guide, AI Liability guide: ~~pending~~ *(released in v2.1.0)*;
 *   AI procurement contract clause library (vendor negotiation templates);
-*   Sector addenda for Education, Law Enforcement, Public Administration, Energy/Critical Infrastructure.
+*   Sector addenda for Education, Law Enforcement, Public Administration, Energy/Critical Infrastructure;
+*   Regenerate `eu-ai-act-timeline.png` from the updated Mermaid source to reflect Digital Omnibus dates;
+*   Integration of EU AI Office standardised documentation templates as downloadable annexes.

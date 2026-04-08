@@ -19,7 +19,7 @@ If you discover a security issue in this repository (e.g., a cross-site scriptin
 
 | Version | Supported |
 | ------- | --------- |
-| 2.0.x   | ✅ Yes    |
+| 2.x.x   | ✅ Yes    |
 | 1.x.x   | ❌ No     |
 
 ## Disclaimer

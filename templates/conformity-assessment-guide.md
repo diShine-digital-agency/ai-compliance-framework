@@ -81,7 +81,7 @@ Regardless of the pathway, every provider of a high-risk AI system must implemen
 
 ## 4. Technical Documentation (Annex IV)
 
-The technical documentation must include, at minimum:
+The technical documentation must include, at minimum. *Note: The EU AI Office released standardised documentation templates in April 2026 which are now the practical benchmark for compliance audits by national Market Surveillance Authorities.*
 
 *   [ ] A general description of the AI system and its intended purpose.
 *   [ ] A detailed description of the elements and development process, including:
