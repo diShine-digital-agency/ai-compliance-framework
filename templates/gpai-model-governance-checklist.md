@@ -67,7 +67,7 @@ If you are building an application on top of a third-party GPAI model (e.g., usi
 
 The European Commission published the final General-Purpose AI Code of Practice in July 2025.
 
-*   [ ] **Signatory Status:** Consider voluntarily signing the Code of Practice. The AI Office and AI Board have confirmed that adherence to the Code is an adequate means of demonstrating compliance with the AI Act's GPAI obligations.
+*   [ ] **Signatory Status:** Consider voluntarily signing the Code of Practice. The AI Office and AI Board have confirmed that adherence to the Code creates a **presumption of compliance** with the AI Act's GPAI obligations. *Note: this is not a "safe harbour" — the presumption can be rebutted by the AI Office if concrete evidence of non-compliance arises.*
 *   [ ] **Implementation:** Review the specific chapters of the Code (Transparency, Copyright, Safety and Security) and implement the recommended state-of-the-art practices.
 
 *This checklist is part of the AI Compliance Framework by diShine Digital Agency.*

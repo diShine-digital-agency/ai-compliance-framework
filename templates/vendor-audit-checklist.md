@@ -5,7 +5,7 @@
 **Vendor Name:** [Vendor]
 **Date:** [Date]
 
-This checklist is designed to evaluate third-party AI vendors (SaaS, APIs, or integrated tools) against the stringent requirements of the **EU AI Act** (fully enforceable for high-risk systems by August 2026) and the **GDPR**. 
+This checklist is designed to evaluate third-party AI vendors (SaaS, APIs, or integrated tools) against the stringent requirements of the **EU AI Act** and the **GDPR**. High-risk AI system obligations under Annex III apply from **2 December 2027** (as revised by the Digital Omnibus); transparency obligations under Article 50 apply from **2 November 2026**.
 
 It goes beyond standard SOC 2 or ISO 27001 questionnaires to address the unique risks of Large Language Models (LLMs) and Generative AI.
 
@@ -29,7 +29,7 @@ It goes beyond standard SOC 2 or ISO 27001 questionnaires to address the unique 
 *Crucial for EU companies using US-based AI providers.*
 - [ ] Where is the data physically processed and stored during inference (when the model generates a response)?
 - [ ] Does the vendor offer EU-only data residency options (e.g., Azure OpenAI in European regions)?
-- [ ] If data is transferred outside the EEA, are valid Standard Contractual Clauses (SCCs) or an Adequacy Decision (e.g., EU-US Data Privacy Framework) in place?
+- [ ] If data is transferred outside the EEA, are valid Standard Contractual Clauses (SCCs) or an Adequacy Decision in place? *Note: The EU-US Data Privacy Framework (DPF) was upheld by the EU General Court in September 2025 (Latombe case), but remains under legal uncertainty — a "Schrems III" challenge is anticipated. **Always implement SCCs as a parallel safeguard** alongside the DPF to ensure continuity if the adequacy decision is invalidated.*
 
 ### 1.4 Automated Decision-Making (Article 22)
 *If the AI tool is used for HR, credit scoring, or profiling.*
@@ -39,7 +39,7 @@ It goes beyond standard SOC 2 or ISO 27001 questionnaires to address the unique 
 
 ---
 
-## Part 2: EU AI Act Compliance (Effective Aug 2026)
+## Part 2: EU AI Act Compliance
 
 ### 2.1 Risk Classification
 *Determining the regulatory burden.*

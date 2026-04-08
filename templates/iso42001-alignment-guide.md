@@ -12,7 +12,7 @@ This guide provides a practical roadmap for mid-market enterprises to implement 
 ISO/IEC 42001 is the world's first international standard for AI management systems. While ISO 27001 focuses on information security (confidentiality, integrity, availability) and ISO 9001 focuses on quality, ISO 42001 specifically addresses the unique risks of AI: **fairness, transparency, explainability, and accountability.**
 
 **Why it matters in 2026:**
-The EU AI Act (Article 40) presumes conformity with certain requirements if a provider complies with harmonized European standards. While ISO 42001 is international, it is the foundational blueprint for demonstrating "state-of-the-art" AI governance to regulators, auditors, and enterprise clients.
+The EU AI Act (Article 40) establishes a presumption of conformity with certain requirements when a provider complies with **harmonised European standards** adopted via the CEN/CENELEC standardisation process. ISO 42001 is an *international* standard, not a harmonised European standard (EN), and therefore **does not automatically trigger the Art. 40 presumption of conformity**. However, it is the foundational blueprint for demonstrating "state-of-the-art" AI governance to regulators, auditors, and enterprise clients, and will likely inform the future EN standards.
 
 ---
 

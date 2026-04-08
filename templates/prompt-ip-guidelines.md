@@ -9,7 +9,7 @@ This document provides technical and legal guidelines for preventing Intellectua
 
 ## 1. The Legal Risk: Trade Secret Disclosure
 
-Under the Uniform Trade Secrets Act (UTSA) and the EU Trade Secrets Directive (2016/943), information qualifies as a trade secret only if the company makes "reasonable efforts to maintain its secrecy."
+Under the **EU Trade Secrets Directive (2016/943)**, Article 2(1), information qualifies as a trade secret only if the company makes "reasonable steps" to maintain its secrecy. This includes implementing technical and organisational measures to prevent disclosure.
 
 **The Danger:** Sending trade secret information (e.g., proprietary source code, unreleased financial models, unique algorithms) to an external AI service—especially one where the provider's terms allow for data retention or model training—can be interpreted by a court as a failure to maintain secrecy. 
 
