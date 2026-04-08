@@ -1,0 +1,53 @@
+name: Sync Wiki
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'wiki/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Sync wiki
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Configure git
+          git config --global user.name "diShine Digital Agency"
+          git config --global user.email "dev@dishine.it"
+
+          # Clone the wiki repository
+          WIKI_URL="https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.wiki.git"
+          git clone "${WIKI_URL}" wiki-repo 2>/dev/null || {
+            # Wiki doesn't exist yet — initialise it
+            mkdir wiki-repo
+            cd wiki-repo
+            git init
+            git remote add origin "${WIKI_URL}"
+            cd ..
+          }
+
+          # Copy wiki source files, replacing any existing content
+          rm -f wiki-repo/*.md
+          cp wiki/*.md wiki-repo/
+
+          # Commit and push
+          cd wiki-repo
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No wiki changes to push."
+          else
+            git commit -m "Sync wiki from repository ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push origin HEAD:master || git push origin HEAD:main
+            echo "Wiki synced successfully."
+          fi
