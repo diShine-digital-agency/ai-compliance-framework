@@ -17,6 +17,8 @@ Built by [diShine Digital Agency](https://dishine.it) in collaboration with lega
   <img src="assets/ai_compliance_03_deployment_tier_advisor.webp" alt="AI Compliance deployment tier advisor" width="60%">
 </p>
 
+> **📚 Looking for more?** Explore the **[AI Compliance Framework Wiki](https://github.com/diShine-digital-agency/ai-compliance-framework/wiki)** for in-depth regulatory deep dives, a glossary, FAQ, sector-specific guides, and step-by-step compliance walkthroughs beyond these templates.
+
 ---
 
 ## The Problem: Shadow AI and Regulatory Uncertainty
