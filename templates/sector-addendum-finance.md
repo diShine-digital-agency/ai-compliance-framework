@@ -13,7 +13,7 @@ Financial services deploy AI in high-stakes environments. The EU AI Act (Regulat
 
 | AI Use Case | EU AI Act Classification | Key Regulatory Drivers |
 | :--- | :--- | :--- |
-| **Credit Scoring & Loan Approval** | 🔴 **High-Risk** (Annex III, 5b) | Must comply with full Title III obligations (risk management, data governance, technical documentation, human oversight). *Exception: SMEs providing interest-free deferred payment.* |
+| **Credit Scoring & Loan Approval** | 🔴 **High-Risk** (Annex III, 5b) | Must comply with full Title III obligations (risk management, data governance, technical documentation, human oversight). *Exception: AI systems intended to detect financial fraud are excluded; SMEs providing interest-free deferred payment for purchases of their own goods or services are also excluded (Annex III, 5(b)).* |
 | **Life & Health Insurance Pricing** | 🔴 **High-Risk** (Annex III, 5c) | AI used for risk assessment and pricing in life and health insurance requires full conformity assessment. |
 | **Algorithmic Trading** | 🟡 **Limited/Minimal Risk*** | *Not explicitly high-risk under AI Act, but heavily regulated by MiFID II (Article 17) requiring algorithmic testing and circuit breakers. |
 | **Fraud Detection / AML** | 🟡 **Limited/Minimal Risk*** | *Unless it leads to decisions significantly impacting access to essential services. Requires strong GDPR Article 22 safeguards. |

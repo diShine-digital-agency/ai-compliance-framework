@@ -4,7 +4,7 @@
 
 Under the EU AI Act, General Purpose AI (GPAI) models—such as large language models (LLMs) and foundation models—are subject to specific obligations under Articles 53 to 55. These rules apply to the *models* themselves, distinct from the *systems* they are integrated into.
 
-This checklist is designed for organizations that **develop**, **fine-tune**, or **deploy** GPAI models. It reflects the regulatory landscape as of April 2026, including the final GPAI Code of Practice.
+This checklist is designed for organizations that **develop**, **fine-tune**, or **deploy** GPAI models. It reflects the regulatory landscape as of April 2026, including the final GPAI Code of Practice and the Digital Omnibus timeline revisions.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Version:** 1.2.0
 
-Under GDPR Article 35 and the EU AI Act (Article 30 Fundamental Rights Impact Assessment), deploying high-risk AI systems requires a comprehensive Data Protection Impact Assessment (DPIA).
+Under GDPR Article 35, deploying high-risk AI systems requires a comprehensive Data Protection Impact Assessment (DPIA). The EU AI Act Article 27 additionally requires a separate **Fundamental Rights Impact Assessment (FRIA)** for deployers of high-risk AI systems — see the standalone [FRIA Template](fria-template.md) for that assessment.
 
 This library provides three pre-filled, pragmatic DPIA examples for common enterprise AI deployments. These are not generic templates; they contain specific risks, technical measures, and residual risk assessments based on April 2026 regulatory standards.
 
@@ -31,7 +31,7 @@ This library provides three pre-filled, pragmatic DPIA examples for common enter
 
 ### 4. Residual Risk Assessment
 *   With mandatory human oversight and proactive bias testing, the residual risk of systemic discrimination is **Medium-Low**.
-*   **DPO/SA Consultation:** Given the robust controls, prior consultation with the Supervisory Authority (GDPR Art. 36) is *not* triggered. However, the FRIA results must be documented internally.
+*   **DPO/SA Consultation:** Given the robust controls, prior consultation with the Supervisory Authority (GDPR Art. 36) is *not* triggered. However, a separate [FRIA](fria-template.md) must be completed and documented before deployment.
 
 ---
 
