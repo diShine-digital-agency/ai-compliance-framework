@@ -2,6 +2,77 @@
 
 All notable changes to this framework will be documented in this file.
 
+## [2.2.1] - 2026-04-08
+
+### Added — In-Depth Wiki Knowledge Base
+
+*   **`wiki/` directory (42 pages)** — A comprehensive, in-depth knowledge base covering the full scope of EU AI regulation and practical compliance guidance. The wiki complements the repository's templates, guides, and tools with deep regulatory explanations, process walkthroughs, and cross-referenced reference material. It is automatically synced to the [GitHub Wiki](https://github.com/diShine-digital-agency/ai-compliance-framework/wiki) via the `sync-wiki.yml` GitHub Actions workflow.
+
+    **EU AI Act — Core Concepts (12 pages):**
+    *   `EU-AI-Act-Overview.md` — Structure, scope, and objectives of Regulation (EU) 2024/1689.
+    *   `EU-AI-Act-Risk-Classification.md` — The four-tier risk model (Unacceptable, High, Limited, Minimal).
+    *   `EU-AI-Act-Enforcement-Timeline.md` — All key compliance dates from August 2024 through August 2027.
+    *   `EU-AI-Act-Penalties-and-Fines.md` — The three-tier penalty structure and fine calculation.
+    *   `EU-AI-Act-Roles.md` — Provider, Deployer, Importer, Distributor obligations.
+    *   `Prohibited-AI-Practices.md` — Article 5 prohibitions effective since February 2025.
+    *   `High-Risk-AI-Systems.md` — Annex III use cases, Articles 9–15 requirements, conformity assessment.
+    *   `General-Purpose-AI-GPAI.md` — Articles 51–55, systemic risk, GPAI Code of Practice.
+    *   `Transparency-Obligations.md` — Article 50 disclosure, content labelling, deepfake rules.
+    *   `Conformity-Assessment.md` — Internal control vs. Notified Body pathways.
+    *   `EU-AI-Database-Registration.md` — Article 49 registration obligations.
+    *   `Post-Market-Monitoring.md` — Article 72 continuous monitoring obligations.
+
+    **Related EU Regulations (7 pages):**
+    *   `GDPR-and-AI.md` — GDPR intersection with AI systems.
+    *   `EU-Regulatory-Landscape-for-AI.md` — AI Act interaction with NIS2, DORA, CRA, DSA, and PLD.
+    *   `AI-Liability-in-the-EU.md` — Three-pillar liability framework (AI Act, AILD, revised PLD).
+    *   `National-Implementation.md` — Member State progress on competent authority designation.
+    *   `Regulatory-Sandboxes.md` — Article 57 supervised testing environments.
+    *   `Harmonised-Standards.md` — CEN/CENELEC standardisation and presumption of conformity.
+    *   `Open-Source-AI-and-the-EU-AI-Act.md` — Scope and limits of the open-source exemption.
+
+    **Compliance Processes (8 pages):**
+    *   `DPIA-for-AI.md` — Data Protection Impact Assessment adapted for AI (GDPR Article 35).
+    *   `Fundamental-Rights-Impact-Assessment.md` — EU AI Act Article 27 FRIA.
+    *   `Shadow-AI.md` — Risks of unsanctioned AI use and mitigation strategies.
+    *   `AI-Vendor-Due-Diligence.md` — Evaluating third-party AI vendors for GDPR/AI Act compliance.
+    *   `Algorithmic-Bias-and-Fairness.md` — Fairness metrics, impossibility theorems, audit methodology.
+    *   `AI-Incident-Response.md` — Detecting, containing, and reporting AI-related incidents.
+    *   `AI-Literacy-Obligation.md` — Article 4 requirements effective since February 2025.
+    *   `IP-Protection-and-AI.md` — Protecting intellectual property and trade secrets when using AI.
+
+    **Standards & Governance (2 pages):**
+    *   `ISO-42001-and-AI-Governance-Standards.md` — ISO/IEC 42001:2023 and its EU AI Act relationship.
+    *   `AI-Governance-and-Board-Oversight.md` — Board-level accountability, governance committees, AI risk registers.
+
+    **Sector-Specific Guides (7 pages):**
+    *   `Sector-Guide-Financial-Services.md` — DORA, MiFID II, credit scoring, insurance pricing.
+    *   `Sector-Guide-Healthcare.md` — MDR/IVDR, clinical decision support, health data governance.
+    *   `Sector-Guide-Human-Resources.md` — Recruitment AI, performance monitoring, worker rights.
+    *   `Sector-Guide-Technology.md` — Provider vs. Deployer, NIS2, CRA, SaaS obligations.
+    *   `Sector-Guide-Beauty-and-Cosmetics.md` — Virtual try-on, skin analysis, biometric rules.
+    *   `Sector-Guide-Education.md` — Admissions AI, automated grading, exam proctoring, student data.
+    *   `Sector-Guide-Public-Administration.md` — Government AI, social benefits, law enforcement, public-sector FRIA.
+
+    **Reference (3 pages):**
+    *   `Glossary.md` — 14+ key terms with definitions sourced from the EU AI Act, GDPR, and related legislation.
+    *   `Key-Regulatory-References.md` — Official regulatory texts, guidance documents, and authoritative sources.
+    *   `FAQ.md` — 7+ categories of frequently asked questions covering the framework, EU AI Act, risk classification, GDPR, practical compliance, sector-specific rules, and transparency.
+
+    **Framework & Repository (3 pages):**
+    *   `Home.md` — Wiki landing page with navigation and reading guidance.
+    *   `About-This-Framework.md` — What the framework is, who it serves, and how it was built.
+    *   `Repository-Guide.md` — Complete file-by-file reference of every template, guide, and tool.
+
+*   `.github/workflows/sync-wiki.yml` — GitHub Actions workflow that automatically synchronises the `wiki/` directory to the GitHub Wiki on every push to `main` that modifies wiki files. Supports manual dispatch.
+
+### Changed
+
+*   `README.md` — Updated to version 2.2.1. Added comprehensive "Wiki — In-Depth Knowledge Base" section with categorised links to all 42 wiki pages. Added note on automatic wiki synchronisation from the `wiki/` directory.
+*   `guides/how-to-use-this-framework.md` — Updated to version 2.2.1. Added wiki cross-reference directing users to the knowledge base for regulatory background.
+*   `CONTRIBUTING.md` — Added wiki contributions as an accepted contribution type with guidance on file naming and cross-linking conventions.
+*   `wiki/Repository-Guide.md` — Updated directory structure to include the `wiki/` directory listing and `sync-wiki.yml` workflow.
+
 ## [2.2.0] - 2026-04-08
 
 ### Changed — April 2026 Enforcement Updates & Content Audit

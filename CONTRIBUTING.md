@@ -22,6 +22,7 @@ Thank you for your interest in contributing to this project. This document outli
 - **New sector addenda:** If you have domain expertise in a regulated industry not yet covered (e.g., Education, Legal, Real Estate, Government), we welcome new addenda following the existing format.
 - **Template improvements:** Clarifications, additional guidance, and structural improvements to existing templates.
 - **Tool enhancements:** Bug fixes and feature additions to the interactive compliance toolkit.
+- **Wiki contributions:** New wiki pages or improvements to existing ones in the `wiki/` directory. Follow the existing naming convention (`Kebab-Case-Title.md`), include cross-links to related pages, and update `wiki/Home.md` with a link to any new page. Wiki content is automatically synced to the GitHub Wiki via GitHub Actions.
 - **Translation:** Translations of templates into other EU languages are welcome, placed in a `translations/{language-code}/` directory.
 
 ### What We Do Not Accept

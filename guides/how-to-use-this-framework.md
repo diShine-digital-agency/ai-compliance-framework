@@ -1,10 +1,12 @@
 # How to Use the AI Compliance Framework: A Step-by-Step Guide
 
-**Version:** 2.1.0
+**Version:** 2.2.1
 
 This framework is not a collection of isolated documents; it is a sequential, operational engine designed to move an enterprise from "Shadow AI chaos" to "auditable, compliant AI deployment" under the EU AI Act and GDPR. 
 
 This guide explains the exact sequence in which to deploy these tools, why each step matters, and who should own it.
+
+> **📚 Need regulatory background?** The [AI Compliance Framework Wiki](https://github.com/diShine-digital-agency/ai-compliance-framework/wiki) provides in-depth explanations of the EU AI Act, GDPR, related regulations, and compliance processes referenced throughout this guide.
 
 ---
 

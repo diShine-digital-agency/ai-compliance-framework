@@ -6,7 +6,7 @@
 
 Built by [diShine Digital Agency](https://dishine.it) in collaboration with legal advisors, this repository provides templates, decision matrices, and audit checklists for navigating the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.
 
-*Updated: April 2026 — Version 2.2.0*
+*Updated: April 2026 — Version 2.2.1*
 
 <p align="center">
   <img src="assets/ai_compliance_02_vendor_audit_scorecard.webp" alt="AI Compliance audit scorecard" width="49%">

@@ -20,6 +20,9 @@ ai-compliance-framework/
 ├── SECURITY.md                         # Security policy
 ├── CHANGELOG.md                        # Version history
 ├── LICENSE                             # MIT License
+├── .github/
+│   └── workflows/
+│       └── sync-wiki.yml               # Auto-syncs wiki/ to GitHub Wiki
 ├── assets/                             # Images, diagrams
 ├── guides/                             # Strategic guides
 │   ├── how-to-use-this-framework.md
@@ -47,7 +50,49 @@ ai-compliance-framework/
 │   └── vendor-audit-checklist.md
 ├── tools/                              # Interactive tools
 │   └── compliance-toolkit.html
-└── wiki/                               # Wiki source files (auto-synced)
+└── wiki/                               # Wiki source files (auto-synced to GitHub Wiki)
+    ├── Home.md                         # Wiki landing page
+    ├── About-This-Framework.md
+    ├── Repository-Guide.md
+    ├── FAQ.md
+    ├── Glossary.md
+    ├── Key-Regulatory-References.md
+    ├── EU-AI-Act-Overview.md
+    ├── EU-AI-Act-Risk-Classification.md
+    ├── EU-AI-Act-Enforcement-Timeline.md
+    ├── EU-AI-Act-Penalties-and-Fines.md
+    ├── EU-AI-Act-Roles.md
+    ├── Prohibited-AI-Practices.md
+    ├── High-Risk-AI-Systems.md
+    ├── General-Purpose-AI-GPAI.md
+    ├── Transparency-Obligations.md
+    ├── Conformity-Assessment.md
+    ├── EU-AI-Database-Registration.md
+    ├── Post-Market-Monitoring.md
+    ├── GDPR-and-AI.md
+    ├── EU-Regulatory-Landscape-for-AI.md
+    ├── AI-Liability-in-the-EU.md
+    ├── National-Implementation.md
+    ├── Regulatory-Sandboxes.md
+    ├── Harmonised-Standards.md
+    ├── Open-Source-AI-and-the-EU-AI-Act.md
+    ├── DPIA-for-AI.md
+    ├── Fundamental-Rights-Impact-Assessment.md
+    ├── Shadow-AI.md
+    ├── AI-Vendor-Due-Diligence.md
+    ├── Algorithmic-Bias-and-Fairness.md
+    ├── AI-Incident-Response.md
+    ├── AI-Literacy-Obligation.md
+    ├── IP-Protection-and-AI.md
+    ├── ISO-42001-and-AI-Governance-Standards.md
+    ├── AI-Governance-and-Board-Oversight.md
+    ├── Sector-Guide-Financial-Services.md
+    ├── Sector-Guide-Healthcare.md
+    ├── Sector-Guide-Human-Resources.md
+    ├── Sector-Guide-Technology.md
+    ├── Sector-Guide-Beauty-and-Cosmetics.md
+    ├── Sector-Guide-Education.md
+    └── Sector-Guide-Public-Administration.md
 ```
 
 ## File-by-File Reference
