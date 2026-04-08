@@ -1,10 +1,21 @@
-# AI Compliance Framework for Enterprises
+# AI Compliance Framework for Enterprises: a practical Framework for adopting AI responsibly in corporate environments, balancing innovation with regulatory compliance.
 
-A practical framework for adopting AI responsibly in corporate environments, balancing innovation with regulatory compliance.
+<p align="center">
+  <img src="assets/ai_compliance_05_executive_compliance_workbench.webp" alt="AI Compliance workbench" width="60%">
+</p>
 
 Built by [diShine Digital Agency](https://dishine.it) in collaboration with legal advisors, this repository provides templates, decision matrices, and audit checklists for navigating the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.
 
 *Updated: April 2026 — Version 2.0.0*
+
+<p align="center">
+  <img src="assets/ai_compliance_02_vendor_audit_scorecard.webp" alt="AI Compliance audit scorecard" width="49%">
+  <img src="assets/ai_compliance_04_governance_document_report.webp" alt="AI Compliance report" width="49%">
+</p>
+
+<p align="center">
+  <img src="assets/ai_compliance_03_deployment_tier_advisor.webp" alt="AI Compliance deployment tier advisor" width="60%">
+</p>
 
 ---
 
