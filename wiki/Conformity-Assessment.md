@@ -116,4 +116,4 @@ The repository's [Conformity Assessment Pathway Guide](https://github.com/diShin
 
 ---
 
-**See also:** [High-Risk AI Systems](High-Risk-AI-Systems) · [EU AI Database Registration](EU-AI-Database-Registration) · [EU AI Act Roles](EU-AI-Act-Roles) · [Home](Home)
+**See also:** [High-Risk AI Systems](High-Risk-AI-Systems) · [EU AI Database Registration](EU-AI-Database-Registration) · [EU AI Act Roles](EU-AI-Act-Roles) · [Harmonised Standards (CEN/CENELEC)](Harmonised-Standards) · [Post-Market Monitoring](Post-Market-Monitoring) · [Home](Home)

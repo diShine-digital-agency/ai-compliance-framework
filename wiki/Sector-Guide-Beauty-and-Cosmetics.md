@@ -72,4 +72,4 @@ The repository's [Beauty & Cosmetics Sector Addendum](https://github.com/diShine
 
 ---
 
-**See also:** [EU AI Act Risk Classification](EU-AI-Act-Risk-Classification) · [Prohibited AI Practices](Prohibited-AI-Practices) · [GDPR and AI](GDPR-and-AI) · [Sector Guide: Healthcare](Sector-Guide-Healthcare) · [Home](Home)
+**See also:** [EU AI Act Risk Classification](EU-AI-Act-Risk-Classification) · [Prohibited AI Practices](Prohibited-AI-Practices) · [Transparency Obligations (Article 50)](Transparency-Obligations) · [AI Liability in the EU](AI-Liability-in-the-EU) · [GDPR and AI](GDPR-and-AI) · [Sector Guide: Healthcare](Sector-Guide-Healthcare) · [Home](Home)

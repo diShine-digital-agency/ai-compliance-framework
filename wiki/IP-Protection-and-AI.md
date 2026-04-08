@@ -89,4 +89,4 @@ Organisations that fine-tune GPAI models on proprietary data should ensure their
 
 ---
 
-**See also:** [Shadow AI: Risks and Mitigation](Shadow-AI) · [AI Vendor Due Diligence](AI-Vendor-Due-Diligence) · [General Purpose AI (GPAI)](General-Purpose-AI-GPAI) · [Home](Home)
+**See also:** [Shadow AI: Risks and Mitigation](Shadow-AI) · [AI Vendor Due Diligence](AI-Vendor-Due-Diligence) · [General Purpose AI (GPAI)](General-Purpose-AI-GPAI) · [Algorithmic Bias and Fairness](Algorithmic-Bias-and-Fairness) · [Home](Home)

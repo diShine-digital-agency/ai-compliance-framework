@@ -110,4 +110,4 @@ The AI Compliance Framework repository provides practical templates that operati
 
 ---
 
-**See also:** [EU AI Act Risk Classification](EU-AI-Act-Risk-Classification) · [EU AI Act Enforcement Timeline](EU-AI-Act-Enforcement-Timeline) · [EU AI Act Penalties and Fines](EU-AI-Act-Penalties-and-Fines) · [Home](Home)
+**See also:** [EU AI Act Risk Classification](EU-AI-Act-Risk-Classification) · [EU AI Act Enforcement Timeline](EU-AI-Act-Enforcement-Timeline) · [EU AI Act Penalties and Fines](EU-AI-Act-Penalties-and-Fines) · [AI Governance and Board Oversight](AI-Governance-and-Board-Oversight) · [Home](Home)

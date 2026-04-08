@@ -81,4 +81,4 @@ The AI Act has a partial exemption for **free and open-source AI systems**:
 
 ---
 
-**See also:** [EU AI Act Roles](EU-AI-Act-Roles) · [General Purpose AI (GPAI)](General-Purpose-AI-GPAI) · [EU Regulatory Landscape for AI](EU-Regulatory-Landscape-for-AI) · [Conformity Assessment](Conformity-Assessment) · [Home](Home)
+**See also:** [EU AI Act Roles](EU-AI-Act-Roles) · [General Purpose AI (GPAI)](General-Purpose-AI-GPAI) · [Open-Source AI and the EU AI Act](Open-Source-AI-and-the-EU-AI-Act) · [Transparency Obligations (Article 50)](Transparency-Obligations) · [EU Regulatory Landscape for AI](EU-Regulatory-Landscape-for-AI) · [Conformity Assessment](Conformity-Assessment) · [Home](Home)

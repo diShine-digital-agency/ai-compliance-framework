@@ -91,6 +91,31 @@ If your AI system has a medical purpose (diagnosis, treatment, prevention, monit
 ### I work in HR. Can we use AI for recruitment?
 Yes, but AI recruitment tools are high-risk under Annex III. You must ensure meaningful human oversight (not rubber-stamping), conduct bias testing, comply with Article 22, and consult Works Councils where required. Emotion recognition in interviews is prohibited. See [Sector Guide: Human Resources](Sector-Guide-Human-Resources).
 
+### I work in education. What AI rules apply to schools and universities?
+AI systems used for admissions, grading, and exam proctoring are high-risk under Annex III, Point 3. Emotion recognition in educational institutions is prohibited. Students have the right to explanation and human review of automated decisions. See [Sector Guide: Education](Sector-Guide-Education).
+
+### I work in government. What extra obligations apply?
+Public bodies deploying high-risk AI must conduct a Fundamental Rights Impact Assessment with public disclosure and register as deployers in the EU AI Database. Social scoring by public authorities is prohibited. See [Sector Guide: Public Administration and Government](Sector-Guide-Public-Administration).
+
+---
+
+## Transparency and Content Labelling
+
+### Do I need to label AI-generated content?
+Yes. Article 50 requires providers of AI systems that generate synthetic content (text, image, audio, video) to ensure outputs are marked in a machine-readable format as artificially generated. Deployers publishing deepfakes must additionally provide human-readable disclosure. See [Transparency Obligations (Article 50)](Transparency-Obligations).
+
+### Does the AI Act apply to open-source AI models?
+Partially. Open-source AI systems are generally exempt from provider obligations under Article 2(12), but the exemption does NOT apply if the system is high-risk, falls within prohibited practices, or triggers Article 50 transparency obligations. Open-source GPAI models with systemic risk are never exempt. See [Open-Source AI and the EU AI Act](Open-Source-AI-and-the-EU-AI-Act).
+
+### What are regulatory sandboxes and how can I participate?
+AI regulatory sandboxes are supervised testing environments established by national authorities under Article 57 where AI systems can be developed and tested under regulatory guidance. Every Member State must have at least one by August 2026. Participants benefit from regulatory certainty and protection from administrative fines during sandbox engagement. See [AI Regulatory Sandboxes](Regulatory-Sandboxes).
+
+### What should my board be doing about AI governance?
+The board should approve an AI governance policy, establish an AI governance committee, maintain an AI risk register, and receive structured AI governance reporting. AI compliance is a board-level responsibility — fines can reach 7% of global turnover. See [AI Governance and Board Oversight](AI-Governance-and-Board-Oversight).
+
+### What are harmonised standards and when will they be ready?
+Harmonised standards are European standards developed by CEN/CENELEC that create a presumption of conformity with AI Act requirements. Most are still in development (spring 2026) and are not expected to be fully available until late 2026 or 2027. Organisations should not wait for them — use ISO 42001 and Commission guidance in the interim. See [Harmonised Standards](Harmonised-Standards).
+
 ---
 
 **See also:** [Home](Home) · [Glossary](Glossary) · [Key Regulatory References and Resources](Key-Regulatory-References)

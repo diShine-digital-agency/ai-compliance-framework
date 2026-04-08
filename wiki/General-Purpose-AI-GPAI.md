@@ -104,4 +104,4 @@ The European Commission has the power to update this threshold through delegated
 
 ---
 
-**See also:** [EU AI Act Overview](EU-AI-Act-Overview) · [EU AI Act Roles](EU-AI-Act-Roles) · [AI Vendor Due Diligence](AI-Vendor-Due-Diligence) · [Home](Home)
+**See also:** [EU AI Act Overview](EU-AI-Act-Overview) · [EU AI Act Roles](EU-AI-Act-Roles) · [Open-Source AI and the EU AI Act](Open-Source-AI-and-the-EU-AI-Act) · [AI Vendor Due Diligence](AI-Vendor-Due-Diligence) · [Home](Home)

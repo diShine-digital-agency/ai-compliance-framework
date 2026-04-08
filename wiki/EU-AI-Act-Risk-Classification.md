@@ -109,4 +109,4 @@ The repository's [Deployment Decision Matrix](https://github.com/diShine-digital
 
 ---
 
-**See also:** [EU AI Act Overview](EU-AI-Act-Overview) · [High-Risk AI Systems](High-Risk-AI-Systems) · [Prohibited AI Practices](Prohibited-AI-Practices) · [EU AI Act Roles](EU-AI-Act-Roles) · [Home](Home)
+**See also:** [EU AI Act Overview](EU-AI-Act-Overview) · [High-Risk AI Systems](High-Risk-AI-Systems) · [Prohibited AI Practices](Prohibited-AI-Practices) · [Transparency Obligations (Article 50)](Transparency-Obligations) · [EU AI Act Roles](EU-AI-Act-Roles) · [Home](Home)

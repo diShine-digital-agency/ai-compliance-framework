@@ -16,6 +16,8 @@ Official regulatory texts, guidance documents, and authoritative sources for EU 
 | **Medical Devices Regulation** | Regulation (EU) 2017/745 | [Official Journal](https://eur-lex.europa.eu/eli/reg/2017/745/oj) |
 | **EU Trade Secrets Directive** | Directive (EU) 2016/943 | [Official Journal](https://eur-lex.europa.eu/eli/dir/2016/943/oj) |
 | **EU Cosmetics Regulation** | Regulation (EC) No 1223/2009 | [Official Journal](https://eur-lex.europa.eu/eli/reg/2009/1223/oj) |
+| **Digital Services Act** | Regulation (EU) 2022/2065 | [Official Journal](https://eur-lex.europa.eu/eli/reg/2022/2065/oj) |
+| **Digital Markets Act** | Regulation (EU) 2022/1925 | [Official Journal](https://eur-lex.europa.eu/eli/reg/2022/1925/oj) |
 
 ## EU AI Act Guidance Documents
 
@@ -96,4 +98,4 @@ The EU Charter underpins the FRIA and many AI Act provisions. Key articles for A
 
 ---
 
-**See also:** [Glossary](Glossary) · [EU AI Act Overview](EU-AI-Act-Overview) · [Home](Home)
+**See also:** [Glossary](Glossary) · [EU AI Act Overview](EU-AI-Act-Overview) · [Harmonised Standards and the CEN/CENELEC Standardisation Process](Harmonised-Standards) · [Home](Home)

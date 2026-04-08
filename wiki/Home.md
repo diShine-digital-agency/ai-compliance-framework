@@ -37,17 +37,22 @@ This wiki complements the repository's templates, guides, and tools with in-dept
 | [Prohibited AI Practices](Prohibited-AI-Practices) | What is banned under Article 5, effective February 2025 |
 | [High-Risk AI Systems](High-Risk-AI-Systems) | Annex III use cases, requirements (Articles 9–15), and conformity assessment |
 | [General Purpose AI (GPAI)](General-Purpose-AI-GPAI) | Articles 51–55, systemic risk, and the GPAI Code of Practice |
+| [Transparency Obligations (Article 50)](Transparency-Obligations) | AI interaction disclosure, content labelling, deepfake rules, and the Transparency Code of Practice |
 | [Conformity Assessment](Conformity-Assessment) | Internal control vs. Notified Body pathways for high-risk systems |
 | [EU AI Database Registration](EU-AI-Database-Registration) | Article 49 registration obligations for providers and deployers |
+| [Post-Market Monitoring (Article 72)](Post-Market-Monitoring) | Continuous monitoring obligations for AI system providers |
 
 ### Related EU Regulations
 
 | Page | Description |
 |------|-------------|
 | [GDPR and AI](GDPR-and-AI) | How the General Data Protection Regulation intersects with AI systems |
-| [EU Regulatory Landscape for AI](EU-Regulatory-Landscape-for-AI) | How the AI Act interacts with NIS2, DORA, CRA, and the Product Liability Directive |
+| [EU Regulatory Landscape for AI](EU-Regulatory-Landscape-for-AI) | How the AI Act interacts with NIS2, DORA, CRA, DSA, and the Product Liability Directive |
 | [AI Liability in the EU](AI-Liability-in-the-EU) | The three-pillar liability framework: AI Act, AILD, and revised PLD |
 | [National Implementation by Member States](National-Implementation) | Member state progress on designating competent authorities |
+| [AI Regulatory Sandboxes (Article 57)](Regulatory-Sandboxes) | Regulatory sandboxes for supervised AI testing before market deployment |
+| [Harmonised Standards (CEN/CENELEC)](Harmonised-Standards) | The standardisation process and the presumption of conformity |
+| [Open-Source AI and the EU AI Act](Open-Source-AI-and-the-EU-AI-Act) | Scope and limits of the open-source exemption |
 
 ### Compliance Processes
 
@@ -67,6 +72,7 @@ This wiki complements the repository's templates, guides, and tools with in-dept
 | Page | Description |
 |------|-------------|
 | [ISO 42001 and AI Governance Standards](ISO-42001-and-AI-Governance-Standards) | ISO/IEC 42001:2023 and its relationship to EU AI Act conformity |
+| [AI Governance and Board Oversight](AI-Governance-and-Board-Oversight) | Board-level accountability, governance committees, and AI risk registers |
 
 ### Sector-Specific Guides
 
@@ -77,6 +83,8 @@ This wiki complements the repository's templates, guides, and tools with in-dept
 | [Sector Guide: Human Resources](Sector-Guide-Human-Resources) | Recruitment AI, performance monitoring, and worker rights |
 | [Sector Guide: Technology](Sector-Guide-Technology) | Provider vs. Deployer, NIS2, CRA, and SaaS obligations |
 | [Sector Guide: Beauty and Cosmetics](Sector-Guide-Beauty-and-Cosmetics) | Virtual try-on, skin analysis, AI influencers, and biometric rules |
+| [Sector Guide: Education](Sector-Guide-Education) | Admissions AI, automated grading, exam proctoring, and student data |
+| [Sector Guide: Public Administration](Sector-Guide-Public-Administration) | Government AI, social benefits, law enforcement, and public-sector FRIA |
 
 ### Reference
 

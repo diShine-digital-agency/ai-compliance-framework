@@ -16,6 +16,10 @@ The EU AI Act does not exist in isolation. It is part of a broader regulatory ec
 │   DORA (2022/2554)    │   PLD (2024/2853)      │   AILD (proposed)  │
 │   Financial sector    │   Product liability     │   AI-specific      │
 │   resilience          │   (strict)              │   liability (fault)│
+├───────────────────────┼────────────────────────┼────────────────────┤
+│   DSA (2022/2065)     │   DMA (2022/1925)      │                    │
+│   Platform content    │   Digital market        │                    │
+│   & algorithms        │   gatekeepers           │                    │
 └───────────────────────┴────────────────────────┴────────────────────┘
 ```
 
@@ -97,6 +101,22 @@ See [Sector Guide: Technology](Sector-Guide-Technology).
 
 See [AI Liability in the EU](AI-Liability-in-the-EU) for a comprehensive analysis of the three-pillar liability framework.
 
+### 7. Digital Services Act (DSA, 2022/2065)
+
+| | |
+|---|---|
+| **In force since** | 16 November 2022; applies fully since 17 February 2024 |
+| **Scope** | Intermediary services, hosting services, online platforms, very large online platforms (VLOPs) and very large online search engines (VLOSEs) with 45+ million monthly EU users |
+| **Maximum penalty** | 6% of global annual turnover for VLOPs/VLOSEs |
+| **AI-specific relevance** | Algorithmic transparency for recommender systems; content moderation by AI; systemic risk assessments for AI-driven platforms; user rights regarding algorithmic recommendations |
+
+**Key overlap with AI Act:**
+- Both regulate AI-powered content moderation and recommender systems, but the DSA focuses on platform obligations while the AI Act focuses on system-level requirements.
+- VLOPs must conduct annual systemic risk assessments covering AI-driven content amplification, manipulation of public discourse, and impacts on fundamental rights.
+- VLOPs must provide users with at least one non-profiling-based recommender system option.
+- Content moderation AI must be transparent — platforms must explain how automated tools flag, remove, or deprioritise content.
+- The DSA Digital Services Coordinator in each Member State may need to coordinate with the AI Act market surveillance authority.
+
 ## Incident Reporting — A Comparison
 
 One of the most practical compliance challenges is managing overlapping incident reporting obligations:
@@ -127,4 +147,4 @@ The AI Compliance Framework repository is designed to help organisations manage 
 
 ---
 
-**See also:** [GDPR and AI](GDPR-and-AI) · [AI Liability in the EU](AI-Liability-in-the-EU) · [EU AI Act Overview](EU-AI-Act-Overview) · [National Implementation by Member States](National-Implementation) · [Home](Home)
+**See also:** [GDPR and AI](GDPR-and-AI) · [AI Liability in the EU](AI-Liability-in-the-EU) · [EU AI Act Overview](EU-AI-Act-Overview) · [National Implementation by Member States](National-Implementation) · [Transparency Obligations (Article 50)](Transparency-Obligations) · [Home](Home)

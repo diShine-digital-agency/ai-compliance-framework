@@ -85,4 +85,4 @@ The [AI Literacy Programme template](https://github.com/diShine-digital-agency/a
 
 ---
 
-**See also:** [EU AI Act Overview](EU-AI-Act-Overview) · [EU AI Act Enforcement Timeline](EU-AI-Act-Enforcement-Timeline) · [Shadow AI: Risks and Mitigation](Shadow-AI) · [Home](Home)
+**See also:** [EU AI Act Overview](EU-AI-Act-Overview) · [EU AI Act Enforcement Timeline](EU-AI-Act-Enforcement-Timeline) · [Shadow AI: Risks and Mitigation](Shadow-AI) · [AI Governance and Board Oversight](AI-Governance-and-Board-Oversight) · [Sector Guide: Human Resources](Sector-Guide-Human-Resources) · [Home](Home)

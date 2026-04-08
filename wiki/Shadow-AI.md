@@ -85,4 +85,4 @@ The calculator is also available as an interactive tool in the [Compliance Toolk
 
 ---
 
-**See also:** [IP Protection and AI](IP-Protection-and-AI) · [AI Vendor Due Diligence](AI-Vendor-Due-Diligence) · [AI Literacy Obligation](AI-Literacy-Obligation) · [GDPR and AI](GDPR-and-AI) · [Home](Home)
+**See also:** [IP Protection and AI](IP-Protection-and-AI) · [AI Vendor Due Diligence](AI-Vendor-Due-Diligence) · [AI Literacy Obligation](AI-Literacy-Obligation) · [AI Incident Response](AI-Incident-Response) · [AI Governance and Board Oversight](AI-Governance-and-Board-Oversight) · [GDPR and AI](GDPR-and-AI) · [Home](Home)

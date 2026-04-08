@@ -31,6 +31,14 @@ Implementation progress varies significantly across Member States. As of early 2
 - **Belgium, Austria, Portugal, and others:** At various stages of consultation and legislative drafting as of late 2025 / early 2026.
 - Most Member States were still finalising their implementing legislation as of the first quarter of 2026.
 
+### Other Notable Member States
+
+- **Ireland:** The Department of Enterprise, Trade and Employment leads on AI Act implementation. Given Ireland's role as the European headquarters for many US technology companies (Google, Meta, Microsoft, Apple), the Irish AI regulatory approach will be particularly significant for the technology sector. The Data Protection Commission (DPC) will coordinate on GDPR–AI Act overlap.
+- **Luxembourg:** The Institut Luxembourgeois de Régulation (ILR) is involved in AI oversight, relevant for the country's financial services and fund management sector.
+- **Sweden:** The Swedish Post and Telecom Authority (PTS) is among the authorities designated for AI oversight. Sweden has been an early adopter of AI in public services, creating practical experience with AI governance.
+- **Finland:** Has taken a proactive approach with the Ministry of Economic Affairs and Employment coordinating AI policy. Finland's AuroraAI programme for government AI services provides practical deployment experience.
+- **Poland:** The Office of Electronic Communications (UKE) is expected to play a role in AI oversight. As the EU's fifth-largest economy and a growing technology hub, Poland's implementation approach will have significant practical impact.
+
 ## EU-Level Governance
 
 | Body | Function |
@@ -68,4 +76,4 @@ Spain, the Netherlands, and France were among the first to announce sandbox prog
 
 ---
 
-**See also:** [EU AI Act Overview](EU-AI-Act-Overview) · [EU AI Act Enforcement Timeline](EU-AI-Act-Enforcement-Timeline) · [EU AI Act Penalties and Fines](EU-AI-Act-Penalties-and-Fines) · [Home](Home)
+**See also:** [EU AI Act Overview](EU-AI-Act-Overview) · [EU AI Act Enforcement Timeline](EU-AI-Act-Enforcement-Timeline) · [EU AI Act Penalties and Fines](EU-AI-Act-Penalties-and-Fines) · [AI Regulatory Sandboxes](Regulatory-Sandboxes) · [Home](Home)
