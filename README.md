@@ -1,12 +1,29 @@
-# AI Compliance Framework for Enterprises: a practical Framework for adopting AI responsibly in corporate environments, balancing innovation with regulatory compliance.
+# 🌟 Enterprise AI Compliance Toolkit: operational guardrails for corporate innovation
+
+<div align="center">
+  
+[![diShine Logo](https://dishine.it/favicon.ico)](https://dishine.it/)
+
+***Transform. Automate. Shine!***
+
+[![Website](https://img.shields.io/badge/Website-dishine.it-blue)](https://dishine.it/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-diShine-blue)](https://linkedin.com/company/100682596)
+[![Location](https://img.shields.io/badge/Location-Milan%2C%20Italy-green)]()
+[![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey)](LICENSE)
 
 <p align="center">
-  <img src="assets/ai_compliance_05_executive_compliance_workbench.webp" alt="AI Compliance workbench" width="60%">
+  <img src="assets/ai_compliance_05_executive_compliance_workbench.webp" alt="AI Compliance workbench" width="85%">
 </p>
 
-Built by [diShine Digital Agency](https://dishine.it) in collaboration with legal advisors, this repository provides templates, decision matrices, and audit checklists for navigating the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.
+*The Enterprise AI Compliance Toolkit is a practical framework for adopting AI responsibly in corporate environments, balancing innovation with regulatory compliance. Built in collaboration with legal advisors, this repository provides templates, decision matrices, and audit checklists for navigating the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.*
 
 *Updated: April 2026 — Version 2.2.1*
+
+> **📚 Looking for more?** Explore the **[AI Compliance Framework Wiki](https://github.com/diShine-digital-agency/ai-compliance-framework/wiki)** for in-depth regulatory deep dives, a glossary, FAQ, sector-specific guides, and step-by-step compliance walkthroughs beyond these templates.
+
+Built by [diShine Digital Agency](https://dishine.it).
+
+</div>
 
 <p align="center">
   <img src="assets/ai_compliance_02_vendor_audit_scorecard.webp" alt="AI Compliance audit scorecard" width="49%">
@@ -16,8 +33,6 @@ Built by [diShine Digital Agency](https://dishine.it) in collaboration with lega
 <p align="center">
   <img src="assets/ai_compliance_03_deployment_tier_advisor.webp" alt="AI Compliance deployment tier advisor" width="60%">
 </p>
-
-> **📚 Looking for more?** Explore the **[AI Compliance Framework Wiki](https://github.com/diShine-digital-agency/ai-compliance-framework/wiki)** for in-depth regulatory deep dives, a glossary, FAQ, sector-specific guides, and step-by-step compliance walkthroughs beyond these templates.
 
 ---
 
