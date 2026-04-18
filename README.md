@@ -19,6 +19,8 @@
 
 *Updated: April 2026 | Version 2.2.1*
 
+# More details / official wiki on [the website](https://compliance.dishine.it).
+
 > **📚 Looking for more?** Explore the **[AI Compliance Framework Wiki](https://github.com/diShine-digital-agency/ai-compliance-framework/wiki)** for in-depth regulatory deep dives, a glossary, FAQ, sector-specific guides, and step-by-step compliance walkthroughs beyond these templates.
 
 Built by [diShine Digital Agency](https://dishine.it).
@@ -121,6 +123,8 @@ A practical guide for providers of high-risk AI systems to navigate the conformi
 
 ### 18. ⚖️ [AI Liability & Product Safety Guide](guides/ai-liability-product-safety.md)
 A comprehensive guide to the EU's three-pillar liability framework for AI: the EU AI Act (rules), the AI Liability Directive (fault-based liability with presumption of causality), and the revised Product Liability Directive 2024/2853 (strict liability extending to software and AI). Covers the transposition deadline (December 2026), burden of proof lightening, post-deployment learning liability, and practical implications for both providers and deployers.
+
+# Complementary wiki on [the website](https://compliance.dishine.it).
 
 ## Visual reference
 
