@@ -1,6 +1,6 @@
 # EU AI Database Registration
 
-Article 49 of the EU AI Act requires the registration of high-risk AI systems in a publicly accessible **EU AI Database** before they are placed on the market or put into service. This registration obligation takes effect on **2 August 2026**.
+Article 49 of the EU AI Act requires the registration of high-risk AI systems in a publicly accessible **EU AI Database** before they are placed on the market or put into service. This registration obligation takes effect on **2 December 2027** under the Digital Omnibus proposal (**2 August 2026** remains legally binding until the Omnibus is adopted).
 
 ## Who Must Register
 
@@ -60,8 +60,8 @@ Failure to register a high-risk AI system carries penalties under Tier 3:
 
 | Date | Obligation |
 |---|---|
-| **2 August 2026** | Registration required for new high-risk AI systems |
-| **2 August 2027** | Registration required for legacy systems in regulated products (Annex I) |
+| **2 December 2027** *(Omnibus)* | Registration required for new high-risk Annex III AI systems (**2 August 2026** pre-Omnibus) |
+| **2 August 2028** *(Omnibus)* | Registration required for high-risk AI in regulated products (Annex I / Art. 6(1)) |
 
 ## Relationship to Other Obligations
 

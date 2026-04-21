@@ -110,7 +110,6 @@ The repository's [ISO/IEC 42001 Alignment Guide](https://github.com/diShine-digi
 | **ISO/IEC 27001:2022** | Information security management (complements ISO 42001 for cybersecurity aspects) |
 | **ISO/IEC 27701:2019** | Privacy information management (extends ISO 27001 for GDPR compliance) |
 | **ISO/IEC 25059:2023** | AI systems quality model |
-| **NIST AI RMF 1.0** | US-based AI risk management framework (complementary, not a substitute for EU requirements) |
 
 ## Europrivacy / GDPR Certification
 

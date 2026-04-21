@@ -1,6 +1,6 @@
 # AI Regulatory Sandboxes (Article 57)
 
-Article 57 of the EU AI Act requires each Member State to establish at least one **AI regulatory sandbox** by **2 August 2026**. Regulatory sandboxes provide controlled environments where AI systems can be developed, tested, and validated under regulatory supervision before being placed on the market.
+Article 57 of the EU AI Act requires each Member State to establish at least one **AI regulatory sandbox** by **2 August 2026** — this deadline is **retained under the Digital Omnibus proposal** (unlike the high-risk and Article 50 deadlines, which are pushed to 2027). Regulatory sandboxes provide controlled environments where AI systems can be developed, tested, and validated under regulatory supervision before being placed on the market.
 
 ## What Is a Regulatory Sandbox
 

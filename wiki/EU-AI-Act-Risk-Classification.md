@@ -27,7 +27,7 @@ For detailed guidance, see [Prohibited AI Practices](Prohibited-AI-Practices).
 
 ### 2. High Risk — Permitted with Strict Requirements (Articles 6–15, Annex III)
 
-AI systems used in sensitive domains are classified as **high-risk** and are subject to comprehensive compliance requirements. These obligations come into force on **2 August 2026** (with some legacy systems receiving additional time until August 2027).
+AI systems used in sensitive domains are classified as **high-risk** and are subject to comprehensive compliance requirements. These obligations come into force on **2 December 2027** under the Digital Omnibus proposal (**2 August 2026** remains legally binding until the Omnibus is adopted; legacy systems in regulated products receive additional time until 2 August 2028).
 
 **Annex III high-risk use cases include:**
 

@@ -15,7 +15,7 @@ Non-compliance with the AI Act has direct implications for liability: failing to
 | | |
 |---|---|
 | **Adopted** | November 2024 |
-| **Transposition deadline** | December 2026 |
+| **Transposition deadline** | 9 December 2026 |
 | **Replaces** | Directive 85/374/EEC |
 | **Liability type** | Strict (no-fault) |
 

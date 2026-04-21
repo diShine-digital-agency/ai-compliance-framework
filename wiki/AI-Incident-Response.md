@@ -94,7 +94,6 @@ The repository's [AI Incident Response Playbook](https://github.com/diShine-digi
 - EU AI Act Article 73 (Serious Incident Reporting)
 - GDPR Articles 33/34 (Breach Notification)
 - ENISA AI Threat Landscape
-- NIST AI RMF 1.0
 
 ---
 

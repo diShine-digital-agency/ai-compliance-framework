@@ -74,7 +74,7 @@ Each Member State must designate its national authorities. See [National Impleme
 
 - **2 February 2025:** Penalties for prohibited AI practices are enforceable.
 - **2 August 2025:** Penalties for GPAI non-compliance activate.
-- **2 August 2026:** Full penalty regime in effect for all obligations, including high-risk system requirements.
+- **2 August 2026** *(pre-Omnibus)* **/ 2 December 2027** *(Omnibus)***:** Full penalty regime in effect for all obligations, including high-risk system requirements. The applicable date depends on the adoption of the Digital Omnibus on AI Regulation.
 
 ## Practical Considerations
 

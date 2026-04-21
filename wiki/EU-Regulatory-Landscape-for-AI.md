@@ -85,7 +85,7 @@ See [Sector Guide: Technology](Sector-Guide-Technology).
 
 | | |
 |---|---|
-| **Adopted** | November 2024; transposition deadline December 2026 |
+| **Adopted** | November 2024; transposition deadline 9 December 2026 |
 | **Scope** | All products placed on the EU market, explicitly including software and AI systems |
 | **Liability type** | **Strict liability** — the injured party does not need to prove fault, only that the product was defective and caused the damage |
 | **AI-specific relevance** | AI systems and their outputs are explicitly covered as "products"; non-compliance with the AI Act may constitute evidence of defectiveness; burden of proof lightening for claimants |

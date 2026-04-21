@@ -2,7 +2,7 @@
 
 Article 50 of the EU AI Act establishes transparency obligations for providers and deployers of certain AI systems. These obligations define the **limited risk** tier of the AI Act's risk-based framework and apply to AI systems that interact with people, generate synthetic content, or perform emotion recognition or biometric categorisation.
 
-Article 50 obligations will be **fully enforceable from 2 August 2026**.
+Article 50 obligations will be **fully enforceable from 2 November 2026** under the Digital Omnibus proposal (**2 August 2026** pre-Omnibus).
 
 ## Who Must Comply
 

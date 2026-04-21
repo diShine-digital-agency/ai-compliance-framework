@@ -92,9 +92,10 @@ The EU Charter underpins the FRIA and many AI Act provisions. Key articles for A
 
 | Framework | Source | Description |
 |---|---|---|
-| **NIST AI RMF 1.0** | U.S. NIST | AI risk management framework (complementary to EU requirements) |
+| **GPAI Code of Practice** | European Commission | Voluntary compliance framework for GPAI models (final version 10 July 2025) |
+| **ENISA AI Threat Landscape** | ENISA (EU) | EU-native AI threat taxonomy and mitigation guidance |
 | **OECD AI Principles** | OECD | International AI governance principles |
-| **GPAI Code of Practice** | European Commission | Voluntary compliance framework for GPAI models |
+| **ISO/IEC 42001:2023** | ISO/IEC | AI management system standard |
 
 ---
 

@@ -1,5 +1,7 @@
 # About This Framework
 
+> 🌐 **New home:** The framework's canonical, up-to-date version now lives at **[compliance.dishine.it](https://compliance.dishine.it)**. Going forward, **primary content updates will be published on the site first**. This GitHub repository and its wiki remain **actively maintained** as the open collaboration space — the place for community issues, pull requests, forks, and discussion.
+
 ## What It Is
 
 The AI Compliance Framework is an open-source collection of Markdown templates, strategic guides, decision matrices, audit checklists, and an interactive HTML toolkit designed to help organisations adopt AI responsibly within the European regulatory environment.
@@ -59,12 +61,13 @@ The framework was developed by [diShine Digital Agency](https://dishine.it) in c
 
 The framework is licensed under the MIT License. Contributions are welcome — see the [Contributing Guide](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/CONTRIBUTING.md) for guidelines.
 
-## Relationship Between Repository and Wiki
+## Relationship Between the Website, the Repository, and the Wiki
 
-- The **repository** contains actionable templates and tools that you customise for your organisation.
-- The **wiki** provides background knowledge, regulatory explanations, and reference material to help you understand and apply those templates correctly.
+- The **website ([compliance.dishine.it](https://compliance.dishine.it))** is the canonical, up-to-date version of the framework — templates, guides, toolkit, and wiki are all consolidated there for end readers. Primary content updates are published on the site first.
+- The **repository** contains the source-of-truth Markdown templates and tools that you can fork, customise for your organisation, and redistribute under the MIT license. It is the open collaboration space where issues, pull requests, and discussions happen.
+- The **wiki** provides background knowledge, regulatory explanations, and reference material to help you understand and apply the templates correctly. It is synchronised from the `wiki/` directory of the repository and mirrored on the website.
 
-Both are maintained together and cross-reference each other. When a wiki page discusses a compliance process, it links to the relevant repository template. When a repository template references a regulatory concept, it is explained in depth on the corresponding wiki page.
+All three are maintained together and cross-reference each other. When a wiki page discusses a compliance process, it links to the relevant repository template. When a repository template references a regulatory concept, it is explained in depth on the corresponding wiki page and on the website.
 
 ---
 

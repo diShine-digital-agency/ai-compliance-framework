@@ -65,7 +65,7 @@ The AI risk register should be reviewed by the AI Governance Committee at least 
 Boards should receive structured AI governance reporting, including:
 
 - **AI system inventory** — how many AI systems are in use, their risk classifications, and compliance status
-- **Compliance dashboard** — progress against key compliance milestones (especially the August 2026 high-risk deadline)
+- **Compliance dashboard** — progress against key compliance milestones (especially the high-risk deadline: 2 December 2027 under the Digital Omnibus proposal, 2 August 2026 pre-Omnibus)
 - **Incident report** — any AI-related incidents, near-misses, or regulatory enquiries
 - **Regulatory developments** — material changes in AI regulation, guidance, or enforcement
 - **Shadow AI assessment** — current state of Shadow AI exposure (using the [Shadow AI Risk Calculator](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/templates/shadow-ai-risk-calculator.md))
@@ -105,7 +105,7 @@ The committee should have a formal mandate (terms of reference) covering:
 
 1. **Scope** — all AI systems developed, deployed, or procured by the organisation
 2. **Authority** — power to approve or reject AI deployments, mandate risk assessments, and escalate to the board
-3. **Cadence** — at least monthly meetings during the compliance implementation phase (through August 2026); at least quarterly thereafter
+3. **Cadence** — at least monthly meetings during the compliance implementation phase (through the applicable high-risk deadline: 2 August 2026 pre-Omnibus or 2 December 2027 under the Digital Omnibus proposal); at least quarterly thereafter
 4. **Reporting line** — direct reporting to the board or a board committee (Audit, Risk, or Technology committee)
 5. **Decision rights** — authority to classify AI systems, mandate assessments, approve vendor selections, and halt non-compliant deployments
 

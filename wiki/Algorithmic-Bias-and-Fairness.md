@@ -65,7 +65,7 @@ The bias audit methodology in the repository follows a structured four-phase app
 - Legal mapping: identify applicable anti-discrimination law (EU Employment Equality Directives, EU Charter Article 21, national law)
 - Define protected characteristics to assess
 - Define the fairness criteria appropriate to the use case
-- Establish acceptable thresholds (e.g., 80% rule / four-fifths rule for disparate impact)
+- Establish acceptable thresholds in line with CJEU indirect-discrimination case law (*Bilka-Kaufhaus*, C-170/84) and the EU Employment Equality Directives; document the statistical threshold chosen and its justification
 
 ### Phase 2: Data Bias Audit
 - Representation analysis: assess whether training data adequately represents all groups
@@ -74,8 +74,8 @@ The bias audit methodology in the repository follows a structured four-phase app
 - Historical bias assessment: determine whether the target variable itself encodes historical discrimination
 
 ### Phase 3: Model Bias Audit
-- Calculate fairness metrics across all protected groups
-- Test for disparate impact using the four-fifths rule
+- Calculate fairness metrics across all protected groups (demographic parity, equal opportunity, equalized odds, predictive parity)
+- Test for statistically significant adverse impact on protected groups in line with CJEU indirect-discrimination case law
 - Conduct counterfactual analysis: would the outcome change if the protected characteristic were different?
 - Evaluate model calibration across groups
 

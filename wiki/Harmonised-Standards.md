@@ -50,12 +50,13 @@ Key standards under development include:
 
 ## The Compliance Gap
 
-The high-risk AI system obligations become enforceable on **2 August 2026**, but harmonised standards are not expected to be fully published and referenced until late 2026 or 2027. This creates a **compliance gap**:
+The high-risk AI system obligations become enforceable on **2 December 2027** under the Digital Omnibus proposal (**2 August 2026** pre-Omnibus), but harmonised standards are not expected to be fully published and referenced until 2027. This creates a **compliance gap**:
 
 | Date | Situation |
 |---|---|
-| **2 August 2026** | High-risk obligations enforceable; harmonised standards not yet published |
-| **Late 2026 – 2027** | Standards expected to be finalised and published in the Official Journal |
+| **2 August 2026** *(pre-Omnibus binding date)* | High-risk obligations enforceable if Omnibus not adopted; harmonised standards not yet published |
+| **2027** | Standards expected to be finalised and published in the Official Journal |
+| **2 December 2027** *(Omnibus)* | High-risk obligations fully enforceable under Omnibus timeline |
 | **After OJ publication** | Presumption of conformity available |
 
 ### What to Do During the Gap
@@ -102,7 +103,7 @@ This fallback mechanism provides the Commission with the ability to fill gaps if
 
 ## Implications for Organisations
 
-1. **Do not wait for harmonised standards** — the August 2026 compliance deadline will not be postponed even if standards are delayed.
+1. **Do not wait for harmonised standards** — whether the binding date is 2 August 2026 (pre-Omnibus) or 2 December 2027 (Omnibus), it will not be postponed further if standards are delayed.
 2. **Build on ISO 42001 and existing frameworks** — use international standards as a foundation for your compliance programme, knowing that harmonised standards will build upon similar principles.
 3. **Document everything** — in the absence of harmonised standards, your ability to demonstrate compliance depends on thorough documentation of your risk management, data governance, testing, and monitoring processes.
 4. **Participate in standardisation** — if your organisation has the resources, participation in JTC 21 through your national standardisation body provides early access to draft standards and influence over their content.

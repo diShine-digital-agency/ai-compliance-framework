@@ -28,7 +28,7 @@ See the [Contributing Guide](https://github.com/diShine-digital-agency/ai-compli
 The EU AI Act (Regulation (EU) 2024/1689) is the world's first comprehensive legal framework for artificial intelligence. It entered into force on 1 August 2024 and establishes a risk-based regulatory framework. See [EU AI Act Overview](EU-AI-Act-Overview).
 
 ### When does the EU AI Act take effect?
-The Act entered into force on 1 August 2024. Prohibited practices and AI literacy obligations have been in force since February 2025. GPAI obligations since August 2025. High-risk requirements and the full penalty regime take effect on 2 August 2026. See [EU AI Act Enforcement Timeline](EU-AI-Act-Enforcement-Timeline).
+The Act entered into force on 1 August 2024. Prohibited practices and AI literacy obligations have been in force since February 2025. GPAI obligations since August 2025. High-risk requirements and the full penalty regime take effect on **2 December 2027** under the Digital Omnibus proposal (**2 August 2026** pre-Omnibus). Article 50 transparency obligations take effect **2 November 2026** (Omnibus). See [EU AI Act Enforcement Timeline](EU-AI-Act-Enforcement-Timeline).
 
 ### Does the EU AI Act apply to my organisation?
 If you develop, deploy, import, or distribute AI systems that affect persons in the EU, the Act likely applies to you — regardless of where your organisation is established. See [EU AI Act Overview](EU-AI-Act-Overview) for the full scope.
@@ -108,13 +108,13 @@ Yes. Article 50 requires providers of AI systems that generate synthetic content
 Partially. Open-source AI systems are generally exempt from provider obligations under Article 2(12), but the exemption does NOT apply if the system is high-risk, falls within prohibited practices, or triggers Article 50 transparency obligations. Open-source GPAI models with systemic risk are never exempt. See [Open-Source AI and the EU AI Act](Open-Source-AI-and-the-EU-AI-Act).
 
 ### What are regulatory sandboxes and how can I participate?
-AI regulatory sandboxes are supervised testing environments established by national authorities under Article 57 where AI systems can be developed and tested under regulatory guidance. Every Member State must have at least one by August 2026. Participants benefit from regulatory certainty and protection from administrative fines during sandbox engagement. See [AI Regulatory Sandboxes](Regulatory-Sandboxes).
+AI regulatory sandboxes are supervised testing environments established by national authorities under Article 57 where AI systems can be developed and tested under regulatory guidance. Every Member State must have at least one by **2 August 2026** (this Article 57 deadline is retained under the Digital Omnibus proposal). Participants benefit from regulatory certainty and protection from administrative fines during sandbox engagement. See [AI Regulatory Sandboxes](Regulatory-Sandboxes).
 
 ### What should my board be doing about AI governance?
 The board should approve an AI governance policy, establish an AI governance committee, maintain an AI risk register, and receive structured AI governance reporting. AI compliance is a board-level responsibility — fines can reach 7% of global turnover. See [AI Governance and Board Oversight](AI-Governance-and-Board-Oversight).
 
 ### What are harmonised standards and when will they be ready?
-Harmonised standards are European standards developed by CEN/CENELEC that create a presumption of conformity with AI Act requirements. Most are still in development (spring 2026) and are not expected to be fully available until late 2026 or 2027. Organisations should not wait for them — use ISO 42001 and Commission guidance in the interim. See [Harmonised Standards](Harmonised-Standards).
+Harmonised standards are European standards developed by CEN/CENELEC that create a presumption of conformity with AI Act requirements. Most are still in development (spring 2026) and are not expected to be fully available until 2027. Organisations should not wait for them — use ISO 42001 and Commission guidance in the interim. See [Harmonised Standards](Harmonised-Standards).
 
 ---
 

@@ -4,6 +4,8 @@ Welcome to the official wiki for the [AI Compliance Framework](https://github.co
 
 This wiki complements the repository's templates, guides, and tools with in-depth explanations of the regulatory landscape, practical compliance guidance, and reference material for anyone navigating AI governance in the EU.
 
+> 🌐 **New home:** The framework now lives at **[compliance.dishine.it](https://compliance.dishine.it)** — the canonical, up-to-date reference for every page in this wiki. Primary content updates will be published on the site first. The GitHub repository and this wiki remain **actively maintained** as the open collaboration space for issues, pull requests, forks, and discussion.
+
 ---
 
 ## How to Use This Wiki

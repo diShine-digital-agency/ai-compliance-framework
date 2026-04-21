@@ -66,7 +66,7 @@ The Code is organised into three chapters:
 
 ### Enforcement
 
-- Enforcement actions by the European Commission (model recalls, information requests) for GPAI obligations become available from **2 August 2026**.
+- Enforcement actions by the European Commission (model recalls, information requests) for GPAI obligations have been available since **2 August 2025** (penalty provisions and AI Office enforcement powers activated on that date).
 - GPAI models placed on the market before 2 August 2025 must be brought into compliance by **2 August 2027**.
 
 ## Provider vs. Deployer Obligations for GPAI
