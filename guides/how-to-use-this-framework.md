@@ -1,6 +1,8 @@
 # How to Use the AI Compliance Framework: A Step-by-Step Guide
 
-**Version:** 2.2.1
+**Version:** 2.3.0
+
+> 🌐 **New home:** The framework's canonical, up-to-date version now lives at **[compliance.dishine.it](https://compliance.dishine.it)**. Primary content updates will be published there first. This GitHub repository remains **actively maintained** as the open collaboration space for issues, pull requests, forks, and discussion.
 
 This framework is not a collection of isolated documents; it is a sequential, operational engine designed to move an enterprise from "Shadow AI chaos" to "auditable, compliant AI deployment" under the EU AI Act and GDPR. 
 
@@ -60,7 +62,7 @@ Once the bleeding is stopped, you must evaluate the third-party AI tools your co
 ### Step 2.3: Understand AI Liability Exposure
 *   **Tool:** [`guides/ai-liability-product-safety.md`](ai-liability-product-safety.md)
 *   **Owner:** Legal Counsel & Risk Management.
-*   **Why it matters:** The EU AI Act sets rules, but the revised **Product Liability Directive** (2024/2853, transposition deadline December 2026) and the proposed **AI Liability Directive** create private rights of action for individuals harmed by AI. Non-compliance with the AI Act triggers a presumption of causality in liability claims.
+*   **Why it matters:** The EU AI Act sets rules, but the revised **Product Liability Directive** (2024/2853, transposition deadline **9 December 2026**) and the proposed **AI Liability Directive** create private rights of action for individuals harmed by AI. Non-compliance with the AI Act triggers a presumption of causality in liability claims.
 *   **Action:** Review the three-pillar liability framework. Update vendor contracts with liability allocation and indemnification clauses. Assess whether AI-specific product liability insurance is needed.
 
 ---

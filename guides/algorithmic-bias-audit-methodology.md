@@ -4,7 +4,7 @@
 
 As of 2026, algorithmic bias auditing has moved from an academic exercise to a strict regulatory requirement. Under the **EU AI Act (Article 10)**, providers of high-risk AI systems must implement data governance practices that specifically examine and mitigate biases likely to lead to discrimination. The **EU Employment Equality Directives** (2000/78/EC and 2006/54/EC) and the **EU Charter of Fundamental Rights (Article 21)** provide the core legal framework for non-discrimination in algorithmic decision-making across the European Union.
 
-This guide provides a rigorous, step-by-step methodology for conducting an algorithmic fairness audit. It moves beyond the simplistic "80% rule" to cover statistical fairness metrics, the mathematical impossibility theorems that govern them, and the specific requirements of Article 10(5) regarding the use of sensitive data for bias correction.
+This guide provides a rigorous, step-by-step methodology for conducting an algorithmic fairness audit under the EU framework. It covers statistical fairness metrics (demographic parity, equal opportunity, equalized odds, predictive parity), the mathematical impossibility theorems that govern them, the CJEU indirect-discrimination standard established in *Bilka-Kaufhaus v Weber von Hartz* (C-170/84), and the specific requirements of Article 10(5) regarding the use of sensitive data for bias correction.
 
 ---
 
@@ -63,7 +63,7 @@ If the audit reveals unacceptable disparities, the data science team must implem
 
 1.  **Pre-processing (Data Level):** Reweighting the training data to give more importance to underrepresented groups, or using techniques like SMOTE to oversample minority classes.
 2.  **In-processing (Algorithm Level):** Adding a fairness constraint or regularization term to the model's loss function during training (e.g., adversarial debiasing), forcing the model to optimize for both accuracy and fairness simultaneously.
-3.  **Post-processing (Decision Level):** Adjusting the decision thresholds differently for different groups to achieve the desired fairness metric (e.g., Equalized Odds post-processing). *Note: This approach carries high legal risk in some jurisdictions as it constitutes explicit disparate treatment to correct disparate impact.*
+3.  **Post-processing (Decision Level):** Adjusting the decision thresholds differently for different groups to achieve the desired fairness metric (e.g., Equalized Odds post-processing). *Note: Under EU non-discrimination law, group-differentiated thresholds constitute direct differential treatment on a protected characteristic and are generally lawful only where they can be justified as a proportionate positive-action measure; legal review is required before deployment.*
 
 ---
 
