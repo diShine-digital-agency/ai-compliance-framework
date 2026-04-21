@@ -2,6 +2,8 @@
 
 Thank you for your interest in contributing to this project. This document outlines how to contribute effectively.
 
+> 🌐 **New home & contribution model:** The framework's canonical, up-to-date version now lives at **[compliance.dishine.it](https://compliance.dishine.it)**. Going forward, **primary content updates will be published on the website first**. This GitHub repository is **actively maintained as the open collaboration space** — it is where the community files issues, opens pull requests, forks, and discusses changes. Accepted contributions are reviewed here and then propagated to the site. If you are reading, using, or referencing the framework, use the site. If you want to improve it, this repo is the right place.
+
 ## How to Contribute
 
 ### Reporting Issues

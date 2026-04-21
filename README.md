@@ -6,10 +6,12 @@
 
 ***Transform. Automate. Shine!***
 
-[![Website](https://img.shields.io/badge/Website-dishine.it-blue)](https://dishine.it/)
+[![Website](https://img.shields.io/badge/Website-dishine.it-blue)](https://compliance.dishine.it/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-diShine-blue)](https://linkedin.com/company/100682596)
 [![Location](https://img.shields.io/badge/Location-Milan%2C%20Italy-green)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
+
+# 👉 Discover [the full operative framework here.](https://compliance.dishine.it)
 
 <p align="center">
   <img src="assets/ai_compliance_05_executive_compliance_workbench.webp" alt="AI Compliance workbench" width="85%">
@@ -17,9 +19,13 @@
 
 *The Enterprise AI Compliance Toolkit is a practical framework for adopting AI responsibly in corporate environments, balancing innovation with regulatory compliance. Built in collaboration with legal advisors, this repository provides templates, decision matrices, and audit checklists for navigating the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.*
 
-*Updated: April 2026 | Version 2.2.1*
+*Updated: April 2026 | Version 2.3.0*
 
-# More details / official wiki on [the website](https://compliance.dishine.it).
+> **⚖️ Digital Omnibus status (April 2026):** The December 2027 / November 2026 deadlines referenced throughout this framework reflect the **Digital Omnibus on AI Regulation** proposal adopted by the European Parliament (26 March 2026) and the Council (13 March 2026). **Final adoption is pending trilogue conclusion** (political agreement expected at the 28 April 2026 trilogue, publication in the Official Journal targeted for July 2026). Until publication, 2 August 2026 remains the legally binding date for Annex III high-risk obligations. Providers and deployers should plan for the earlier of the two dates.
+
+> 🌐 **The framework's new home is [compliance.dishine.it](https://compliance.dishine.it).**
+> The website is now the **canonical, up-to-date reference** for every template, guide, and wiki page in this framework — going forward, primary content updates will be published there first.
+> This GitHub repository remains **actively maintained** as the open collaboration space for **issues, pull requests, forks, and discussion**. Use the site for the latest version; use the repo to contribute, fork, or collaborate.
 
 > **📚 Looking for more?** Explore the **[AI Compliance Framework Wiki](https://github.com/diShine-digital-agency/ai-compliance-framework/wiki)** for in-depth regulatory deep dives, a glossary, FAQ, sector-specific guides, and step-by-step compliance walkthroughs beyond these templates.
 
@@ -122,9 +128,7 @@ A step-by-step guide for registering high-risk AI systems in the EU AI Database 
 A practical guide for providers of high-risk AI systems to navigate the conformity assessment process. Explains the two pathways: Internal Control (Annex VI) for most Annex III systems vs. Third-Party Assessment via Notified Body (Annex VII) for regulated products and biometric identification. Includes a decision flowchart, QMS requirements (Article 17), technical documentation requirements (Annex IV), and CE marking procedures.
 
 ### 18. ⚖️ [AI Liability & Product Safety Guide](guides/ai-liability-product-safety.md)
-A comprehensive guide to the EU's three-pillar liability framework for AI: the EU AI Act (rules), the AI Liability Directive (fault-based liability with presumption of causality), and the revised Product Liability Directive 2024/2853 (strict liability extending to software and AI). Covers the transposition deadline (December 2026), burden of proof lightening, post-deployment learning liability, and practical implications for both providers and deployers.
-
-# Complementary wiki on [the website](https://compliance.dishine.it).
+A comprehensive guide to the EU's three-pillar liability framework for AI: the EU AI Act (rules), the AI Liability Directive (fault-based liability with presumption of causality), and the revised Product Liability Directive 2024/2853 (strict liability extending to software and AI). Covers the transposition deadline (9 December 2026), burden of proof lightening, post-deployment learning liability, and practical implications for both providers and deployers.
 
 ## Visual reference
 

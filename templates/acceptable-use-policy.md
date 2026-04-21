@@ -11,7 +11,7 @@ This policy establishes the acceptable use of Artificial Intelligence (AI) tools
 The purpose is to harness the productivity benefits of AI while strictly mitigating risks related to:
 - **Intellectual Property (IP) Leakage:** Inadvertent disclosure of trade secrets or proprietary code (e.g., the 2023 Samsung ChatGPT incident).
 - **Data Privacy (GDPR):** Unauthorized processing of Personally Identifiable Information (PII).
-- **Regulatory Compliance (EU AI Act):** Ensuring [Company Name] does not inadvertently deploy prohibited or high-risk AI systems without proper governance. *Note: The European Commission published updated guidance on Article 5 prohibited practices on 2 April 2026, expanding the scope of "subliminal techniques" to include recommender systems using hidden user signals for nudging.*
+- **Regulatory Compliance (EU AI Act):** Ensuring [Company Name] does not inadvertently deploy prohibited or high-risk AI systems without proper governance. *Note: consult the European Commission's published [Article 5 prohibited-practice guidelines](https://digital-strategy.ec.europa.eu/en/policies/ai-act) for the current scope of "subliminal techniques", manipulative recommender systems, and other prohibitions.*
 - **Shadow AI:** The unsanctioned use of consumer-grade AI tools that bypass IT security controls.
 
 ## 2. Approved vs. Prohibited AI Tools

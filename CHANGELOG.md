@@ -2,6 +2,68 @@
 
 All notable changes to this framework will be documented in this file.
 
+## [2.3.0] - 2026-04-20
+
+### Changed — April 2026 Content Audit, Omnibus-Aware Dating & Regulatory De-risking
+
+This release corrects licensing metadata, propagates the Digital Omnibus enforcement calendar across the wiki knowledge base and removes residual US-centric legal references.
+
+**Licensing & versioning**
+
+*   `README.md` — Fixed broken license badge (previously showed "CC0 1.0"; actual project license is MIT). Bumped header version to 2.3.0. Added a prominent Digital Omnibus status caveat so readers understand why two enforcement timelines coexist in the documentation.
+*   `CHANGELOG.md` — Corrected a duplicate `[1.4.1]` entry: the "Initial release" block (2026-04-06) has been renumbered to `[1.0.0]` to reflect what it actually represents (the first public release). The genuine `[1.4.1]` entry (Step-by-Step User Guide, Framework Navigation footers) is retained.
+*   `PLD transposition date` — Standardised as **9 December 2026** across `README.md`, `guides/how-to-use-this-framework.md`, `wiki/AI-Liability-in-the-EU.md`, and `wiki/EU-Regulatory-Landscape-for-AI.md` (previously rendered as "December 2026").
+
+**Omnibus-aware enforcement dating — wiki knowledge base**
+
+Every wiki page that cited a single "2 August 2026" deadline for Annex III high-risk obligations now reflects the Digital Omnibus proposed timeline (**2 December 2027**) while preserving the pre-Omnibus legally binding date (**2 August 2026**) and directing readers to the Enforcement Timeline page for canonical status.
+
+*   `wiki/EU-AI-Act-Enforcement-Timeline.md` — Fully rewritten. New at-a-glance timeline graphic, 2024/2025/2026/2027/2028/2030 detailed date tables, Digital Omnibus legislative-status section with trilogue dates (Council 13 March 2026, EP 26 March 2026, trilogue 28 April 2026, OJ publication targeted July 2026), and a status caveat clarifying that pre-Omnibus dates remain legally binding until publication.
+*   `wiki/High-Risk-AI-Systems.md` — Replaced "2 August 2026" with Omnibus-aware wording referencing 2 December 2027 with the pre-Omnibus caveat and a cross-link to the Enforcement Timeline.
+*   `wiki/EU-AI-Act-Risk-Classification.md` — Updated the high-risk entry-into-force paragraph; added the 2 August 2028 regulated-products date for legacy systems.
+*   `wiki/EU-AI-Database-Registration.md` — Updated the Article 49 effective-date paragraph and the timeline table (new registrations: 2 Dec 2027 / regulated products: 2 Aug 2028).
+*   `wiki/Harmonised-Standards.md` — Rewrote the "Compliance Gap" section to show both the 2 August 2026 (pre-Omnibus) and 2 December 2027 (Omnibus) milestones and clarified that the 2027 target for standards publication now aligns with the Omnibus binding date.
+*   `wiki/EU-AI-Act-Penalties-and-Fines.md` — Updated the Penalty Timeline entry for full-regime activation to show both dates.
+*   `wiki/Transparency-Obligations.md` — Corrected Article 50 effective date to **2 November 2026** (Omnibus) with the pre-Omnibus caveat.
+*   `wiki/General-Purpose-AI-GPAI.md` — Fixed incorrect statement that GPAI enforcement "becomes available from 2 August 2026"; enforcement powers and the GPAI penalty regime have been active since **2 August 2025**.
+*   `wiki/FAQ.md` — Updated the entry-into-force, regulatory-sandbox, and harmonised-standards Q&A entries with Omnibus-aware dates.
+*   `wiki/AI-Governance-and-Board-Oversight.md` — Updated the board-reporting and AI-governance-committee cadence references to reflect the dual-date regime.
+*   `wiki/Regulatory-Sandboxes.md` — Clarified that the 2 August 2026 Article 57 sandbox deadline is **retained under the Digital Omnibus proposal** (unlike the high-risk and Article 50 dates).
+*   `wiki/EU-Regulatory-Landscape-for-AI.md` — Applied the same sandbox clarification; standardised the PLD date.
+*   `wiki/AI-Liability-in-the-EU.md` — Standardised the PLD transposition date to 9 December 2026.
+
+**Residual US references removed (EU-native focus)**
+
+The v2.1.0 release removed the bulk of US regulatory references from the bias-audit and incident-response materials. This release cleans up the residuals that remained in the wiki and in one template header.
+
+*   `templates/ai-incident-response-playbook.md` — Removed the NIST AI RMF 1.0 sentence from the alignment statement. The playbook is now framed purely against EU AI Act Art. 73, GDPR Arts. 33/34, and the ENISA AI Threat Landscape.
+*   `wiki/AI-Incident-Response.md` — Removed NIST AI RMF from the framework alignment list.
+*   `wiki/Key-Regulatory-References.md` — Replaced the NIST AI RMF row in the "Industry Frameworks" table with the GPAI Code of Practice, ENISA AI Threat Landscape, OECD AI Principles, and ISO/IEC 42001 to give an EU-first reference list.
+*   `wiki/ISO-42001-and-AI-Governance-Standards.md` — Removed the NIST AI RMF row from the related-standards table.
+*   `guides/algorithmic-bias-audit-methodology.md` — Removed references to the "80% rule" / four-fifths rule (a US EEOC construct) from the introduction; replaced with an EU-native framing anchored on the CJEU *Bilka-Kaufhaus* indirect-discrimination standard (Case C-170/84) and the EU Employment Equality Directives. Rewrote the post-processing mitigation caveat in EU non-discrimination terms (positive-action justification) rather than the US "disparate impact/disparate treatment" dichotomy.
+*   `wiki/Algorithmic-Bias-and-Fairness.md` — Replaced "80% rule / four-fifths rule for disparate impact" references in the pre-audit and model-audit phases with EU-law-anchored wording (CJEU case law, statistically significant adverse impact).
+
+**Documentation handoff files added**
+
+*   `CHANGES-FOR-LOVABLE.md` — Page-level change instructions for the companion SPA at [aicompliance.dishine.it](https://aicompliance.dishine.it). Maps each content change to the corresponding route (`/`, `/framework`, `/playbook`, `/toolkit`, `/wiki`, `/about`, `/wiki/<slug>`).
+*   `CHANGES-FOR-COPILOT.md` — File-level change instructions for GitHub Copilot to replay the edits on the GitHub Wiki repository (`ai-compliance-framework.wiki.git`). Includes exact file paths, before/after strings, and validation commands.
+
+**New canonical home — [compliance.dishine.it](https://compliance.dishine.it)**
+
+The framework now has a dedicated website. Going forward, primary content updates will be published on the site first; the GitHub repository remains actively maintained as the open collaboration space for issues, pull requests, forks, and discussion. Prominent "new home" notices were added across the documentation so this model is unambiguous to any reader landing on the repo or wiki.
+
+*   `README.md` — Added a prominent "new home" notice directly below the Digital Omnibus caveat. Removed the two ad-hoc one-line references to `compliance.dishine.it` (previously above "Visual reference" and next to the "More details" heading) now that the consolidated notice replaces them.
+*   `CONTRIBUTING.md` — Added a "new home & contribution model" notice at the top clarifying that the site is the canonical version for readers, and that issues, pull requests, forks, and discussion happen in the repo.
+*   `wiki/Home.md` — Added a "new home" notice under the wiki intro paragraph.
+*   `wiki/About-This-Framework.md` — Added a "new home" notice at the top and rewrote the "Relationship Between Repository and Wiki" section into "Relationship Between the Website, the Repository, and the Wiki" to describe the three-surface model.
+*   `guides/how-to-use-this-framework.md` — Added a "new home" notice directly below the version line and bumped the stated version from `2.2.1` to `2.3.0` to align with the release metadata.
+
+### Regulatory Context (April 2026)
+
+*   The Digital Omnibus on AI Regulation remains in trilogue as of this release. Trilogue political agreement is expected 28 April 2026; publication in the Official Journal is targeted for July 2026. Until then, the original Regulation 2024/1689 dates (notably 2 August 2026 for Annex III and Article 50) remain legally binding.
+*   The revised Product Liability Directive (2024/2853) transposition deadline is **9 December 2026**.
+*   The GPAI Code of Practice final version (**10 July 2025**) remains the primary voluntary compliance instrument for GPAI providers and provides a rebuttable presumption of compliance.
+
 ## [2.2.1] - 2026-04-08
 
 ### Added — In-Depth Wiki Knowledge Base
@@ -141,7 +203,7 @@ All notable changes to this framework will be documented in this file.
 
 *   `README.md` — Updated to version 2.0.0. Cleaned language from the introductory paragraph and About section. Replaced "Regulatory Paralysis" framing with "Regulatory Uncertainty" for factual accuracy. Added Interactive Compliance Toolkit as Section 13. Added Contributing and Security sections. Updated How to Use section to reference the interactive toolkit.
 
-## [1.4.1] - 2026-04-06
+## [1.0.0] - 2026-04-06
 
 ### Added
 - Initial release of the AI Compliance Framework.

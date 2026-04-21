@@ -4,7 +4,7 @@
 
 Traditional cybersecurity incident response plans (IRPs) are insufficient for Artificial Intelligence. When an AI system fails, it rarely looks like a traditional hack; it looks like a model hallucinating sensitive data, a silent degradation in accuracy, or an algorithmic bias that triggers a regulatory investigation.
 
-This playbook provides a structured, forensic approach to AI incident response, aligned with the **EU AI Act (Article 73)**, **GDPR (Article 33/34)**, and the **ENISA AI Threat Landscape**. It also references the NIST AI Risk Management Framework (AI RMF 1.0) as a complementary international standard.
+This playbook provides a structured, forensic approach to AI incident response, aligned with the **EU AI Act (Article 73)**, **GDPR (Articles 33/34)**, and the **ENISA AI Threat Landscape**.
 
 ---
 
@@ -48,7 +48,7 @@ Determine the exact nature of the failure:
 *   **Hallucination / Stochastic Failure:** Did the LLM simply generate a statistically probable but factually incorrect output?
 
 ### Phase 5: Regulatory Notification & Communication
-*   **EU AI Act (Article 73):** If P1 (Serious Incident), the provider must report to the national Market Surveillance Authority (MSA). The notification process is multi-step: (a) initial report **without undue delay** after awareness, (b) full incident report **within 15 days**. Accelerated timelines apply: **2 days** if the incident involves widespread fundamental rights infringement; **10 days** if death has occurred or is imminent. *Note: As of April 2026, the Irish DPC has issued the first formal Article 11 documentation request against a SaaS provider of a candidate-screening AI tool, signalling that enforcement is now active across the EU.*
+*   **EU AI Act (Article 73):** If P1 (Serious Incident), the provider must report to the national Market Surveillance Authority (MSA). The notification process is multi-step: (a) initial report **without undue delay** after awareness, (b) full incident report **within 15 days**. Accelerated timelines apply: **2 days** if the incident involves widespread fundamental rights infringement; **10 days** if death has occurred or is imminent. *Note: monitor the AI Office and national Market Surveillance Authorities for published enforcement actions — use only officially confirmed cases to benchmark notification expectations.*
 *   **GDPR (Article 33/34):** If the AI incident resulted in a personal data breach (e.g., model inversion revealing PII), notify the Data Protection Authority (DPA) **within 72 hours**. If the breach is likely to result in high risk to individuals, also notify the affected data subjects (Article 34).
 *   **Internal/External Comms:** Draft communications explaining the AI failure without using overly technical jargon. Be transparent about the steps taken to fix the model.
 
