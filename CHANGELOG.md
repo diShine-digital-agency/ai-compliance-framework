@@ -2,6 +2,76 @@
 
 All notable changes to this framework will be documented in this file.
 
+## [2.4.0] - 2026-05-08
+
+### Changed — Digital Omnibus on AI Provisional Agreement (7 May 2026), AILD Withdrawal Recognition, Italy Law 132/2025 Coverage
+
+This release reflects three regulatory developments that were not yet captured in v2.3.0 (20 April 2026):
+
+1. **Digital Omnibus on AI provisional agreement (7 May 2026).** Council and Parliament reached a provisional political agreement on the Omnibus VII package after the 28 April first trilogue ended without agreement. The agreement shifts Article 50 transparency to **2 December 2026** (3-month grace period, reduced from 6), the Article 57 sandbox deadline to **2 August 2027**, and high-risk Annex III obligations to **2 December 2027**. It also adds a **ninth Article 5 prohibition** covering AI generation of non-consensual sexual or intimate content and CSAM. Source: [Council of the EU press release, 7 May 2026](https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/).
+
+2. **AI Liability Directive (AILD) formally withdrawn.** The Commission's withdrawal was formalised on 16 July 2025; the OJ notice was published on **6 October 2025**. The EU AI liability framework is now two-pillar (AI Act + revised PLD); fault-based AI claims fall under national tort law in each Member State. Source: [IAPP coverage](https://iapp.org/news/a/european-commission-withdraws-ai-liability-directive-from-consideration), [Bird & Bird](https://www.twobirds.com/en/insights/2025/proposed-eu-ai-liability-rules-withdrawn).
+
+3. **Italy Legge 132/2025 in force.** Italy's national AI law (the first national AI law in the EU) entered into force on 10 October 2025. AgID's draft guidelines for AI in public administration (Determinazione 43/2026) public consultation closed on 11 April 2026. Implementing decrees due by 10 October 2026.
+
+**Top-level documentation**
+
+*   `README.md` — Bumped to version 2.4.0. Replaced the April 2026 Digital Omnibus banner with a 7 May 2026 provisional-agreement banner. Added an AILD-withdrawal note pointing to the rewritten AI Liability page. Updated Section 18 description (AI Liability & Product Safety Guide) to reflect the two-pillar framework.
+*   `CHANGELOG.md` — Added this v2.4.0 entry.
+*   `guides/how-to-use-this-framework.md` — Bumped to version 2.4.0. Added a Digital Omnibus banner. Step 2.3 (Understand AI Liability Exposure) rewritten to reflect the AILD withdrawal and the two-pillar framework.
+
+**Wiki updates (canonical content rewrite)**
+
+*   `wiki/EU-AI-Act-Enforcement-Timeline.md` — Major rewrite. New status caveat dated 8 May 2026; new timeline-at-a-glance reflecting Article 50 in December 2026, sandboxes in August 2027 (Omnibus); updated detailed date tables with 7 May 2026 milestone; added 6 October 2025 (AILD withdrawal) and 10 October 2025 (Italy Law 132/2025) rows; updated the Digital Omnibus legislative-status section with the failed 28 April trilogue and the 7 May agreement.
+*   `wiki/Prohibited-AI-Practices.md` — Heading changed to "The Nine Prohibited Practices (Eight in Force, One Pending Omnibus Publication)"; added section 9 covering non-consensual intimate content and CSAM; updated practical-implications text to refer to nine categories.
+*   `wiki/AI-Liability-in-the-EU.md` — Full rewrite. Opens with two-pillar framework. Pillar 3 section reframed as "Withdrawn (AILD)" with OJ notice date and Commission decision date. ASCII interaction diagram updated to show "national tort law" instead of AILD. Practical implications updated for both providers and deployers.
+*   `wiki/Regulatory-Sandboxes.md` — Article 57 sandbox deadline now shown as 2 August 2026 (pre-Omnibus) / 2 August 2027 (Omnibus, provisional 7 May 2026). Italy row in Member State sandbox status table expanded to include Legge 132/2025 and AgID Determinazione 43/2026.
+*   `wiki/Transparency-Obligations.md` — Article 50 deadline updated to 2 December 2026 with 3-month-grace explanation. Code of Practice timing softened from "mid-2026" to "second half of 2026". Practical-checklist content-labelling step expanded with the December 2026 lead-time warning.
+*   `wiki/FAQ.md` — Updated entry-into-force answer with 7 May 2026 agreement, Article 50 December 2026, sandbox August 2027, and ninth Article 5 prohibition. Updated regulatory-sandbox answer with the postponed deadline.
+*   `wiki/National-Implementation.md` — Italy section expanded to cover Legge 132/2025 in detail (entry into force, designated authorities AgID/ACN/GPDP, sectoral rules, implementing decrees, AgID Determinazione 43/2026); Italy now ranked first in the Early Movers list.
+*   `wiki/EU-AI-Act-Risk-Classification.md` — Added the ninth prohibited practice row to the Article 5 table; updated high-risk obligations paragraph to reflect the 7 May 2026 provisional agreement; clarified penalty-tier statement.
+*   `wiki/High-Risk-AI-Systems.md` — Caveat at the top updated to reflect the 7 May 2026 provisional agreement.
+*   `wiki/EU-AI-Database-Registration.md` — Caveat updated to reflect the 7 May 2026 provisional agreement.
+*   `wiki/EU-AI-Act-Penalties-and-Fines.md` — Penalty timeline entry for full-regime activation updated to reflect the 7 May 2026 provisional agreement and the new ninth Article 5 prohibition.
+*   `wiki/EU-AI-Act-Overview.md` — Article 5 paragraph updated to mention the ninth prohibition; relationship-to-other-legislation paragraph updated to reflect AILD withdrawal.
+*   `wiki/General-Purpose-AI-GPAI.md` — Enforcement section split into two bullets to distinguish "rules in force from 2 August 2025" from "Commission fining powers from 2 August 2026" (one year after rules took effect).
+*   `wiki/Harmonised-Standards.md` — Compliance Gap section expanded to mention the 23 October 2025 CEN-CENELEC acceleration measures and the Q4 2026 publication target.
+*   `wiki/EU-Regulatory-Landscape-for-AI.md` — ASCII regulatory-stack diagram updated (AILD cell now reads "AILD (withdrawn) / National tort law applies"). Section 6 (AILD) reframed with withdrawal context.
+*   `wiki/Glossary.md` — Added "Digital Omnibus on AI" and "Non-Consensual Intimate Content Prohibition" entries.
+*   `wiki/Key-Regulatory-References.md` — AILD row updated to reflect withdrawal; added rows for the EDPB-EDPS Joint Opinion 1/2026, EDPB Draft Guidelines 1/2026, the 7 May 2026 Council press release, and prEN 18286. Added a National Implementation References section with Italy entry.
+*   `wiki/GDPR-and-AI.md` — Added a "Recent EDPB and EDPB-EDPS Guidance (2026)" section covering the Joint Opinion 1/2026 and Draft Guidelines 1/2026.
+*   `wiki/About-This-Framework.md` — Gartner statistic reframed as a 2024 forecast; added the EDPB-EDPS Joint Opinion, Digital Omnibus provisional agreement, and Italy Law 132/2025 to the "grounded in" sources list.
+*   `wiki/Home.md` — AI Liability description updated to reflect the two-pillar framework.
+*   `wiki/AI-Vendor-Due-Diligence.md` — Items 17, 18 and 20 updated to reflect Article 50 December 2026 enforcement, GPAI Commission enforcement powers from 2 August 2026, and the 15-day high-risk reporting window from 2 December 2027.
+*   `wiki/AI-Governance-and-Board-Oversight.md` — AILD references replaced with "national tort law (post-AILD withdrawal)" framing.
+*   `wiki/Sector-Guide-Healthcare.md` — Added a "National Implementation: Italy" section covering Law 132/2025 medical-data guidelines.
+*   `wiki/Sector-Guide-Public-Administration.md` — Added a "National Implementation: Italy" section covering Law 132/2025 and AgID Determinazione 43/2026.
+*   `wiki/Sector-Guide-Human-Resources.md` — Added Italy row to the Works Council consultation table covering Statuto dei Lavoratori Article 4 and Legge 132/2025.
+*   `wiki/Repository-Guide.md` — AI Liability Guide description updated to reflect the two-pillar framework.
+
+**New wiki articles**
+
+*   `wiki/Digital-Omnibus-on-AI.md` — Standalone canonical article on the Digital Omnibus on AI proposal, EDPB-EDPS Joint Opinion 1/2026, Council and Parliament positions, the failed 28 April trilogue, the 7 May 2026 provisional agreement, every date shift, the new Article 5 prohibition, and the path to formal adoption.
+*   `wiki/Italy-AI-Law-132-2025.md` — Standalone article on Italy's Legge 132/2025: scope, entry into force, designated authorities (AgID, ACN, GPDP), sectoral rules, implementing decrees timeline, and AgID Determinazione 43/2026.
+
+**Templates and assets**
+
+*   `templates/vendor-audit-checklist.md` — Article 50 date updated to 2 December 2026 (Omnibus); added the 9th Article 5 prohibition note; clarified the 7 May 2026 provisional agreement.
+*   `templates/conformity-assessment-guide.md` — Section 7 timeline rows updated with Omnibus dates and pre-Omnibus binding dates.
+*   `templates/eu-ai-database-registration-guide.md` — Section 5 timeline rows updated with Omnibus dates and pre-Omnibus binding dates.
+*   `templates/ai-literacy-programme.md` — Updated programme-update bullet to reference the 7 May 2026 provisional agreement and the ninth prohibition.
+*   `guides/ai-liability-product-safety.md` — Major rewrite to v2.4.0 reflecting AILD withdrawal. New "Two Pillars" framing replaces the prior "Three Pillars". AILD section reframed as "Withdrawn". Practical-implications section updated with national-tort-law guidance for both providers and deployers.
+*   `assets/eu-ai-act-timeline.mmd` — Timeline graphic source updated: Article 50 moved from 2 Nov 2026 to 2 Dec 2026; sandbox milestone separated and moved from Aug 2026 to Aug 2027; new Article 5 prohibition (CSAM/non-consensual content) added; AILD-withdrawal milestone added.
+
+### Regulatory Context (May 2026)
+
+*   On **7 May 2026**, the Council and the European Parliament reached a provisional agreement on the Digital Omnibus on AI (Omnibus VII package). Endorsement by Council and Parliament, then OJ publication, are pending in the coming weeks. Until OJ publication, the original Regulation 2024/1689 dates remain legally binding.
+*   The **AI Liability Directive (AILD, COM/2022/496)** has been formally withdrawn by the Commission. Notice of withdrawal published in the OJ on 6 October 2025. There is no AI-specific fault-based liability instrument at EU level; fault-based AI claims fall under national tort law.
+*   The **EDPB-EDPS Joint Opinion 1/2026** on the Digital Omnibus on AI was published on 20 January 2026 and remains the most recent supervisory-body input on AI-Act-and-GDPR interplay.
+*   The **EDPB Draft Guidelines 1/2026** on the processing of personal data for scientific research were published on 15 April 2026; public consultation runs until 25 June 2026.
+*   The **Italian Legge 132/2025** (in force 10 October 2025) is the first national AI law in the EU; **AgID Determinazione 43/2026** draft guidelines for AI in PA closed public consultation on 11 April 2026; implementing decrees are due by 10 October 2026.
+*   On **23 October 2025**, CEN and CENELEC adopted exceptional measures to accelerate AI Act harmonised standards delivery, with publication of the first wave targeted for Q4 2026.
+
 ## [2.3.0] - 2026-04-20
 
 ### Changed — April 2026 Content Audit, Omnibus-Aware Dating & Regulatory De-risking

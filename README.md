@@ -19,9 +19,11 @@
 
 *The Enterprise AI Compliance Toolkit is a practical framework for adopting AI responsibly in corporate environments, balancing innovation with regulatory compliance. Built in collaboration with legal advisors, this repository provides templates, decision matrices, and audit checklists for navigating the **EU AI Act**, **GDPR**, and corporate **Intellectual Property (IP)** protection.*
 
-*Updated: April 2026 | Version 2.3.0*
+*Updated: May 2026 | Version 2.4.0*
 
-> **⚖️ Digital Omnibus status (April 2026):** The December 2027 / November 2026 deadlines referenced throughout this framework reflect the **Digital Omnibus on AI Regulation** proposal adopted by the European Parliament (26 March 2026) and the Council (13 March 2026). **Final adoption is pending trilogue conclusion** (political agreement expected at the 28 April 2026 trilogue, publication in the Official Journal targeted for July 2026). Until publication, 2 August 2026 remains the legally binding date for Annex III high-risk obligations. Providers and deployers should plan for the earlier of the two dates.
+> **⚖️ Digital Omnibus status (8 May 2026):** Council and Parliament reached a **provisional agreement on the Digital Omnibus on AI on 7 May 2026**, after the 28 April first trilogue ended without agreement. Once the text is endorsed by Council and Parliament and published in the Official Journal, it shifts high-risk Annex III obligations to **2 December 2027**, Article 50 transparency to **2 December 2026** (3-month grace, reduced from 6 months), the Article 57 sandbox deadline to **2 August 2027**, and adds a **ninth Article 5 prohibition** covering AI generation of non-consensual sexual or intimate content and child sexual abuse material (CSAM). Until OJ publication, the original Regulation 2024/1689 dates (notably **2 August 2026** for Annex III, Article 50 and Article 57) remain legally binding. Providers and deployers should plan for the earlier of the two dates. Source: [Council of the EU, 7 May 2026](https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/).
+>
+> **AI Liability Directive withdrawn:** The Commission's AI Liability Directive proposal (COM/2022/496) was formally withdrawn (OJ notice **6 October 2025**). The EU AI liability framework is now **two-pillar** (AI Act + revised Product Liability Directive); fault-based AI claims fall under national tort law in each Member State. See [AI Liability in the EU](wiki/AI-Liability-in-the-EU.md).
 
 > 🌐 **The framework's new home is [compliance.dishine.it](https://compliance.dishine.it).**
 > The website is now the **canonical, up-to-date reference** for every template, guide, and wiki page in this framework — going forward, primary content updates will be published there first.
@@ -128,7 +130,7 @@ A step-by-step guide for registering high-risk AI systems in the EU AI Database 
 A practical guide for providers of high-risk AI systems to navigate the conformity assessment process. Explains the two pathways: Internal Control (Annex VI) for most Annex III systems vs. Third-Party Assessment via Notified Body (Annex VII) for regulated products and biometric identification. Includes a decision flowchart, QMS requirements (Article 17), technical documentation requirements (Annex IV), and CE marking procedures.
 
 ### 18. ⚖️ [AI Liability & Product Safety Guide](guides/ai-liability-product-safety.md)
-A comprehensive guide to the EU's three-pillar liability framework for AI: the EU AI Act (rules), the AI Liability Directive (fault-based liability with presumption of causality), and the revised Product Liability Directive 2024/2853 (strict liability extending to software and AI). Covers the transposition deadline (9 December 2026), burden of proof lightening, post-deployment learning liability, and practical implications for both providers and deployers.
+A comprehensive guide to the EU's **two-pillar liability framework** for AI after the AI Liability Directive proposal was withdrawn by the Commission in 2025 (OJ notice 6 October 2025): the EU AI Act (rules) and the revised Product Liability Directive 2024/2853 (strict liability extending to software and AI). Covers the PLD transposition deadline (9 December 2026), burden of proof lightening, post-deployment learning liability, the implications of the AILD withdrawal for fault-based claims (now governed by national tort law), and practical implications for both providers and deployers.
 
 ## Visual reference
 
