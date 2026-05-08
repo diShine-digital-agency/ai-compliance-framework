@@ -1,10 +1,10 @@
 # Prohibited AI Practices
 
-Article 5 of the EU AI Act establishes an outright ban on AI systems and practices deemed to pose an **unacceptable risk** to fundamental rights, safety, and democratic values. These prohibitions have been in force since **2 February 2025**.
+Article 5 of the EU AI Act establishes an outright ban on AI systems and practices deemed to pose an **unacceptable risk** to fundamental rights, safety, and democratic values. **Eight prohibitions have been in force since 2 February 2025**, and a **ninth was added** by the Digital Omnibus on AI provisional agreement of **7 May 2026** (covering AI generation of non-consensual intimate content and child sexual abuse material). The ninth prohibition will become legally binding once the Omnibus is published in the Official Journal of the EU.
 
 Violation of Article 5 carries the highest penalty tier: up to **€35 million or 7% of total worldwide annual turnover**, whichever is higher.
 
-## The Eight Prohibited Practices
+## The Nine Prohibited Practices (Eight in Force, One Pending Omnibus Publication)
 
 ### 1. Subliminal Manipulation (Article 5(1)(a))
 
@@ -77,6 +77,19 @@ Even in permitted cases:
 - Geographic and temporal scope must be limited
 - The rights and freedoms of the affected persons must be considered
 
+### 9. Generation of Non-Consensual Intimate Content and CSAM (Digital Omnibus, provisional 7 May 2026)
+
+**Banned (subject to entry into force of the Digital Omnibus on AI):** AI systems whose primary or foreseeable use is to generate **non-consensual sexual or intimate content** depicting identifiable persons, or to generate **child sexual abuse material** (CSAM).
+
+**Status:** This prohibition was added during the 7 May 2026 trilogue agreement on the Digital Omnibus on AI. It will become legally binding once the Omnibus is formally adopted and published in the Official Journal. Until then, organisations should treat it as imminent and align acceptable-use policies, content-moderation classifiers and image- or video-generation safety filters accordingly.
+
+**Penalty tier:** Up to €35 million or 7% of global annual turnover, in line with all other Article 5 prohibitions.
+
+**Practical implications:**
+- Update the [Acceptable AI Use Policy](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/templates/acceptable-use-policy.md) to explicitly forbid non-consensual intimate imagery and any CSAM generation, distribution or training data inclusion.
+- Generative-AI vendors must demonstrate concrete technical safeguards in your [Vendor Audit Checklist](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/templates/vendor-audit-checklist.md): input filters, output classifiers, watermarking, abuse reporting.
+- Image, video, voice and text generators in your stack should produce machine-readable provenance signals so downstream platforms can identify synthetic content.
+
 ## Clarifications from the European Commission
 
 In February 2025, the European Commission published **Guidelines on Prohibited Artificial Intelligence Practices** (C(2025) 895) providing detailed guidance on interpreting Article 5. Key clarifications include:
@@ -88,7 +101,7 @@ In February 2025, the European Commission published **Guidelines on Prohibited A
 
 ## Practical Implications for Organisations
 
-1. **Audit existing AI systems** against the eight prohibited categories. Any system that falls within a prohibition must be immediately discontinued.
+1. **Audit existing AI systems** against the nine prohibited categories (eight in force; the ninth pending Omnibus publication). Any system that falls within a prohibition must be immediately discontinued.
 2. **Update your Acceptable AI Use Policy** to explicitly list prohibited practices. The repository's [Acceptable AI Use Policy template](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/templates/acceptable-use-policy.md) includes this mapping.
 3. **Train staff** on prohibited practices as part of your AI literacy programme. The [AI Literacy Programme template](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/templates/ai-literacy-programme.md) includes a module on the regulatory landscape.
 4. **Include prohibited practice screening** in your vendor audit process. The [Vendor Audit Checklist](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/templates/vendor-audit-checklist.md) covers AI Act classification requirements.

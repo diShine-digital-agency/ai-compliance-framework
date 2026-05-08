@@ -13,9 +13,9 @@ The EU AI Act does not exist in isolation. It is part of a broader regulatory ec
 │   Data protection     │   Cybersecurity for     │   Product cyber-   │
 │                       │   essential entities     │   security         │
 ├───────────────────────┼────────────────────────┼────────────────────┤
-│   DORA (2022/2554)    │   PLD (2024/2853)      │   AILD (proposed)  │
-│   Financial sector    │   Product liability     │   AI-specific      │
-│   resilience          │   (strict)              │   liability (fault)│
+│   DORA (2022/2554)    │   PLD (2024/2853)      │   AILD (withdrawn) │
+│   Financial sector    │   Product liability     │   National tort    │
+│   resilience          │   (strict)              │   law applies      │
 ├───────────────────────┼────────────────────────┼────────────────────┤
 │   DSA (2022/2065)     │   DMA (2022/1925)      │                    │
 │   Platform content    │   Digital market        │                    │
@@ -90,16 +90,15 @@ See [Sector Guide: Technology](Sector-Guide-Technology).
 | **Liability type** | **Strict liability** — the injured party does not need to prove fault, only that the product was defective and caused the damage |
 | **AI-specific relevance** | AI systems and their outputs are explicitly covered as "products"; non-compliance with the AI Act may constitute evidence of defectiveness; burden of proof lightening for claimants |
 
-### 6. AI Liability Directive (AILD, proposed — COM/2022/496)
+### 6. AI Liability Directive (AILD) — WITHDRAWN
 
 | | |
 |---|---|
-| **Status** | Proposed by the Commission in September 2022; legislative process ongoing |
-| **Scope** | Fault-based civil liability claims involving AI systems |
-| **Liability type** | **Fault-based** but with **presumption of causality** — if a defendant violated a duty of care (such as non-compliance with the AI Act), and the damage is the kind that the duty was designed to prevent, causality is presumed |
-| **AI-specific relevance** | Makes it easier for claimants to bring civil liability claims against AI providers and deployers; the "black box" problem is addressed through disclosure obligations |
+| **Status** | **Withdrawn by the European Commission.** Notice of withdrawal published in the Official Journal on **6 October 2025** (Commission decision of 16 July 2025, formalising the February 2025 work-programme intention). |
+| **Why withdrawn** | The Commission cited "no foreseeable agreement" among co-legislators, plus the regulatory simplification agenda underlying the Digital Omnibus package. |
+| **Practical effect** | There is currently no AI-specific fault-based liability instrument at EU level. Fault-based AI claims fall under **national tort law** (which varies by Member State). Strict liability for AI-related defects flows through the revised Product Liability Directive. |
 
-See [AI Liability in the EU](AI-Liability-in-the-EU) for a comprehensive analysis of the three-pillar liability framework.
+See [AI Liability in the EU](AI-Liability-in-the-EU) for a comprehensive analysis of the now two-pillar liability framework (AI Act rules + revised PLD).
 
 ### 7. Digital Services Act (DSA, 2022/2065)
 

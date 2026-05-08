@@ -89,6 +89,14 @@ When an AI system breach involves personal data:
 
 Note: The EU AI Act has a separate **15-day** serious incident reporting requirement (Article 73) for high-risk AI systems. Both timelines may apply simultaneously. See [AI Incident Response](AI-Incident-Response).
 
+## Recent EDPB and EDPB-EDPS Guidance (2026)
+
+**EDPB-EDPS Joint Opinion 1/2026 on the Digital Omnibus on AI (20 January 2026).** The two supervisory bodies raised concerns that several simplification measures in the Omnibus risk weakening individual rights, in particular around lawful basis for AI training, special-category-data exceptions and the interaction between Article 22 GDPR and AI Act human-oversight duties. Organisations should treat the Joint Opinion as a signal of where DPAs will focus enforcement attention.
+Source: https://www.edpb.europa.eu/system/files/2026-01/edpb_edps_jointopinion_202601_proposal_ai-omnibus_en.pdf
+
+**EDPB Draft Guidelines 1/2026 on the processing of personal data for scientific research (15 April 2026).** Public consultation open until 25 June 2026. These draft guidelines refine the conditions for invoking the GDPR Article 89 research exception, with explicit attention to AI training datasets, pseudonymisation requirements and acceptable secondary uses. AI providers building on health, behavioural or other research-derived corpora should review the draft and prepare to align documentation.
+Source: https://www.ropesgray.com/en/insights/alerts/2026/04/the-european-data-protection-board-releases-new-guidelines-on-the-processing-of-personal-data
+
 ## GDPR and EU AI Act: Complementary Obligations
 
 | Obligation | GDPR | EU AI Act |

@@ -77,6 +77,7 @@ Many EU Member States have specific laws requiring **Works Council consultation*
 | **France** | Labour Code — obligation to consult the Social and Economic Committee (CSE) before introducing surveillance or performance monitoring technology |
 | **Netherlands** | Works Councils Act — consent required for monitoring systems |
 | **Belgium** | CBA No. 39 — rules on electronic surveillance |
+| **Italy** | Statuto dei Lavoratori (Law 300/1970) Article 4 (electronic monitoring requires prior agreement with workers' representatives or labour-authority authorisation) plus **Legge 132/2025** Article on workplace AI: employers must inform workers and their representatives before deploying AI systems that affect terms of work, performance evaluation, task assignment or selection. Implementing decrees by 10 October 2026 will fix exact procedures and any sectoral additions. |
 
 Non-compliance with Works Council obligations can render the AI deployment unlawful under national labour law, independently of the AI Act.
 

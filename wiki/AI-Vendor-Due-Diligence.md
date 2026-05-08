@@ -44,10 +44,10 @@ The repository's [Vendor Audit Checklist](https://github.com/diShine-digital-age
 | 14 | Human oversight — what mechanisms are built in? |
 | 15 | Accuracy and robustness — documented performance metrics |
 | 16 | Bias testing — what fairness evaluations have been conducted? |
-| 17 | Transparency — Article 50 compliance for chatbots, deepfakes |
-| 18 | GPAI model obligations (Articles 53–55) — copyright policy, training data summary |
+| 17 | Transparency — Article 50 compliance for chatbots, deepfakes, AI-generated content (full enforcement **2 December 2026** under the Digital Omnibus on AI; vendors must already demonstrate machine-readable provenance signalling) |
+| 18 | GPAI model obligations (Articles 53–55) — copyright policy, training data summary, evidence of GPAI Code of Practice adherence. Commission enforcement and fining powers for GPAI providers begin **2 August 2026** |
 | 19 | Post-market monitoring — vendor's monitoring programme |
-| 20 | Serious incident reporting — vendor's procedure and commitments |
+| 20 | Serious incident reporting — vendor's procedure and commitments. The 15-day AI Act window for high-risk systems becomes enforceable from **2 December 2027** under the Omnibus |
 
 ### Part 3: Security and IP (Items 21–25)
 

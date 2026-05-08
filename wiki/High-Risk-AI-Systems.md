@@ -1,6 +1,6 @@
 # High-Risk AI Systems
 
-High-risk AI systems are at the core of the EU AI Act's regulatory framework. They are permitted on the EU market but subject to the Act's most demanding compliance requirements. The high-risk obligations take full effect on **2 December 2027** under the Digital Omnibus proposal (**2 August 2026** remains legally binding until the Omnibus is adopted — plan for the earlier of the two dates). See the [Enforcement Timeline](EU-AI-Act-Enforcement-Timeline) for the current status.
+High-risk AI systems are at the core of the EU AI Act's regulatory framework. They are permitted on the EU market but subject to the Act's most demanding compliance requirements. The high-risk obligations are scheduled to take full effect on **2 December 2027** under the Digital Omnibus on AI (provisional agreement reached by Council and Parliament on **7 May 2026**, pending formal adoption and OJ publication). Until the Omnibus is published in the OJ, **2 August 2026** remains the legally binding date — plan for the earlier of the two dates. See the [Enforcement Timeline](EU-AI-Act-Enforcement-Timeline) for the current status.
 
 ## What Makes an AI System High-Risk
 

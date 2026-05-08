@@ -8,7 +8,7 @@ The AI Compliance Framework is an open-source collection of Markdown templates, 
 
 It addresses two systemic risks facing enterprise AI adoption:
 
-1. **Shadow AI** — employees using consumer-grade AI tools (ChatGPT, Claude, Gemini) without IT oversight, leading to intellectual property leaks and potential GDPR violations. Gartner estimated that by 2026, 80% of employees would use generative AI for work without company approval.
+1. **Shadow AI** — employees using consumer-grade AI tools (ChatGPT, Claude, Gemini) without IT oversight, leading to intellectual property leaks and potential GDPR violations. Gartner forecast in 2024 that by 2026, 80% of employees would use generative AI for work without company approval, a baseline now broadly consistent with observed enterprise behaviour.
 2. **Regulatory Uncertainty** — legal and compliance teams blocking AI initiatives due to the complexity of the EU AI Act, with penalties reaching €35 million or 7% of global turnover.
 
 The framework provides operational guardrails that balance innovation with compliance.
@@ -53,6 +53,9 @@ The framework was developed by [diShine Digital Agency](https://dishine.it) in c
 - The General Data Protection Regulation (GDPR)
 - European Commission guidelines and guidance documents
 - The GPAI Code of Practice (published July 2025)
+- The EDPB-EDPS Joint Opinion 1/2026 on the Digital Omnibus on AI (20 January 2026)
+- The Digital Omnibus on AI provisional agreement of 7 May 2026 (Council and Parliament)
+- Italy's Legge 132/2025 (first national AI law in the EU, in force 10 October 2025)
 - ISO/IEC 42001:2023
 - Industry research from IBM, Gartner, and ENISA
 - Practical experience from enterprise compliance implementations

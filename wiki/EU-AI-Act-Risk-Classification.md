@@ -20,14 +20,15 @@ Prohibited practices include:
 | **Biometric categorisation based on sensitive characteristics** | Categorising individuals using biometric data to deduce race, political opinions, trade union membership, religious beliefs, sex life, or sexual orientation |
 | **Untargeted facial image scraping** | Creating or expanding facial recognition databases through untargeted scraping from the internet or CCTV footage |
 | **Predictive policing based solely on profiling** | Making risk assessments of natural persons to predict criminal offences based solely on profiling or personality traits |
+| **Generation of non-consensual intimate content and CSAM** *(pending Omnibus)* | AI systems whose foreseeable use is to generate non-consensual sexual or intimate content depicting identifiable persons, or to generate child sexual abuse material. Added by the Digital Omnibus on AI provisional agreement of **7 May 2026**; legally binding once the Omnibus is published in the OJ |
 
-**Penalty for violation:** Up to €35 million or 7% of global annual turnover.
+**Penalty for violation:** Up to €35 million or 7% of global annual turnover. Once the Digital Omnibus is published in the Official Journal, the same tier applies to the new ninth prohibition above.
 
 For detailed guidance, see [Prohibited AI Practices](Prohibited-AI-Practices).
 
 ### 2. High Risk — Permitted with Strict Requirements (Articles 6–15, Annex III)
 
-AI systems used in sensitive domains are classified as **high-risk** and are subject to comprehensive compliance requirements. These obligations come into force on **2 December 2027** under the Digital Omnibus proposal (**2 August 2026** remains legally binding until the Omnibus is adopted; legacy systems in regulated products receive additional time until 2 August 2028).
+AI systems used in sensitive domains are classified as **high-risk** and are subject to comprehensive compliance requirements. These obligations are scheduled to come into force on **2 December 2027** under the Digital Omnibus on AI (provisional agreement of **7 May 2026**, pending formal adoption and OJ publication). **2 August 2026** remains the legally binding date until the Omnibus is published. Legacy systems in regulated products receive additional time until **2 August 2028**.
 
 **Annex III high-risk use cases include:**
 

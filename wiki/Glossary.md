@@ -51,6 +51,9 @@ Regulation (EU) 2024/2847 setting cybersecurity requirements for products with d
 
 ### D
 
+**Digital Omnibus on AI**
+A Commission proposal tabled on 19 November 2025 to amend the EU AI Act, primarily to grant additional compliance time for high-risk Annex III obligations and to streamline transparency rules. Council and Parliament reached a **provisional agreement on 7 May 2026** (Omnibus VII package). Once formally adopted and published in the OJ, the Omnibus shifts high-risk Annex III obligations to **2 December 2027**, Article 50 transparency to **2 December 2026** (3-month grace, reduced from 6), the Article 57 sandbox deadline to **2 August 2027**, and adds a ninth Article 5 prohibition covering non-consensual intimate content and CSAM. Until OJ publication, the original AI Act dates remain legally binding. See [EU AI Act Enforcement Timeline](EU-AI-Act-Enforcement-Timeline).
+
 **Deepfake**
 AI-generated or manipulated image, audio, or video content that resembles existing persons, objects, places, or events and would falsely appear to a person to be authentic or truthful (Article 3(60)). Subject to Article 50 transparency obligations. See [Transparency Obligations (Article 50)](Transparency-Obligations).
 
@@ -130,6 +133,9 @@ A national authority designated by each Member State to enforce the AI Act at th
 Regulation (EU) 2017/745 governing medical devices. AI systems that qualify as medical devices are automatically high-risk under the AI Act. See [Sector Guide: Healthcare](Sector-Guide-Healthcare).
 
 ### N
+
+**Non-Consensual Intimate Content Prohibition (pending Omnibus)**
+A ninth Article 5 prohibition added by the Digital Omnibus on AI provisional agreement of **7 May 2026**, covering AI systems whose foreseeable use is to generate non-consensual sexual or intimate imagery of identifiable persons, or to generate child sexual abuse material (CSAM). Same Tier 1 penalty as the other Article 5 prohibitions (€35M / 7% of global turnover). Becomes legally binding once the Omnibus is published in the OJ. See [Prohibited AI Practices](Prohibited-AI-Practices).
 
 **NIS2 (Network and Information Security Directive)**
 Directive (EU) 2022/2555 setting cybersecurity obligations for essential and important entities in critical sectors. See [EU Regulatory Landscape for AI](EU-Regulatory-Landscape-for-AI).

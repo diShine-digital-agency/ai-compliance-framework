@@ -16,7 +16,13 @@ Implementation progress varies significantly across Member States. As of early 2
 
 ### Early Movers
 
-- **Italy:** Among the first to designate national authorities and adopt implementing legislation. The Agenzia per l'Italia Digitale (AgID) and the Autorità Garante per la Protezione dei Dati Personali (GPDP) play central roles.
+- **Italy:** Passed **Legge 132/2025** on 17 September 2025 (entry into force **10 October 2025**) — the **first national AI law in the EU** and aligned with the EU AI Act. Key elements:
+  - Designates **AgID** (Agenzia per l'Italia Digitale) as the national notifying authority and **ACN** (Agenzia per la Cybersicurezza Nazionale) as the national market surveillance authority for high-risk systems. The **GPDP** (Garante per la Protezione dei Dati Personali) retains its GDPR remit and joint competence on AI processing personal data.
+  - Establishes domain-specific rules for AI in healthcare, scientific research, employment, justice and public administration, with emphasis on human oversight, transparency and accountability.
+  - Mandates that the Italian Government adopt **implementing decrees within 12 months** of entry into force (i.e., by **10 October 2026**) to define sanctioning powers, sectoral guidelines and operational details.
+  - The Minister of Health is expected to issue guidelines on the processing of medical data for AI research.
+  - **AgID** published draft guidelines for AI in public administration (**Determinazione 43/2026**) for public consultation, which closed on **11 April 2026**. Final guidelines are expected as part of the implementing decrees due by 10 October 2026.
+  - Source: [innovazione.gov.it](https://innovazione.gov.it/notizie/articoli/approvata-in-via-definitiva-la-legge-italiana-sull-intelligenza-artificiale/) · [AgID guidelines coverage](https://www.altalex.com/documents/2026/05/06/linee-guida-sviluppo-sistemi-intelligenza-artificiale-pubblica-amministrazione)
 - **Denmark:** Early designator of national authorities with a clear governance structure.
 - **Spain:** Created a dedicated new public body — the Agencia Española de Supervisión de Inteligencia Artificial (AESIA) — specifically for AI oversight, established in 2023 ahead of the Act's entry into force.
 

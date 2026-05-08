@@ -68,6 +68,12 @@ Healthcare AI carries particular bias risks:
 
 The [Algorithmic Bias Audit Methodology](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/guides/algorithmic-bias-audit-methodology.md) provides the audit framework applicable to healthcare AI.
 
+## National Implementation: Italy
+
+**Italy's Legge 132/2025** (in force 10 October 2025) mandates that the Minister of Health issue guidelines on the processing of medical data for AI research, expected in 2026 as part of the implementing decrees due by 10 October 2026. Italian healthcare providers using AI must align with both the EU framework above and these forthcoming national guidelines, which will likely tighten lawful-basis requirements for special-category data under GDPR Article 9 in clinical research contexts.
+
+Source: [innovazione.gov.it — Approvata in via definitiva la legge italiana sull'IA](https://innovazione.gov.it/notizie/articoli/approvata-in-via-definitiva-la-legge-italiana-sull-intelligenza-artificiale/)
+
 ## Framework Template
 
 The repository's [Healthcare & Life Sciences Sector Addendum](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/templates/sector-addendum-healthcare.md) covers:

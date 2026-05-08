@@ -50,7 +50,7 @@ The Act is structured around a **risk-based classification system** (see [EU AI 
 ## Key Provisions
 
 ### Prohibited AI Practices (Article 5)
-Certain AI applications are banned entirely because they pose an unacceptable risk to fundamental rights. These include social scoring, subliminal manipulation, exploitation of vulnerabilities, real-time remote biometric identification in public spaces (with limited exceptions), emotion recognition in workplaces and schools, and untargeted facial image scraping. See [Prohibited AI Practices](Prohibited-AI-Practices).
+Certain AI applications are banned entirely because they pose an unacceptable risk to fundamental rights. These include social scoring, subliminal manipulation, exploitation of vulnerabilities, real-time remote biometric identification in public spaces (with limited exceptions), emotion recognition in workplaces and schools, and untargeted facial image scraping. A **ninth category** covering AI generation of non-consensual sexual or intimate content and CSAM was added by the Digital Omnibus on AI provisional agreement of **7 May 2026** and will apply once the Omnibus is published in the OJ. See [Prohibited AI Practices](Prohibited-AI-Practices).
 
 ### High-Risk AI Systems (Articles 6–15, Annex III)
 AI systems used in specified sensitive domains (employment, education, critical infrastructure, law enforcement, migration, administration of justice, credit scoring, biometric identification) are classified as high-risk and must comply with requirements for risk management, data governance, technical documentation, transparency, human oversight, accuracy, robustness, and cybersecurity. See [High-Risk AI Systems](High-Risk-AI-Systems).
@@ -90,7 +90,7 @@ The AI Act establishes a multi-level governance structure:
 The AI Act does not operate in isolation. It interacts with:
 
 - **GDPR** — personal data processing by AI systems remains subject to GDPR. See [GDPR and AI](GDPR-and-AI).
-- **Product Liability Directive** and **AI Liability Directive** — non-compliance with the AI Act can trigger liability presumptions. See [AI Liability in the EU](AI-Liability-in-the-EU).
+- **Revised Product Liability Directive (2024/2853)** — non-compliance with the AI Act can constitute evidence of defectiveness in strict-liability claims. The proposed AI Liability Directive was withdrawn by the Commission in 2025. See [AI Liability in the EU](AI-Liability-in-the-EU).
 - **NIS2, DORA, and the Cyber Resilience Act** — overlapping cybersecurity and operational resilience requirements. See [EU Regulatory Landscape for AI](EU-Regulatory-Landscape-for-AI).
 - **Sector-specific legislation** — MDR/IVDR (medical devices), MiFID II (financial instruments), DORA (financial sector resilience).
 

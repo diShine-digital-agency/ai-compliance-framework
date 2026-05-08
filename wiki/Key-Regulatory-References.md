@@ -9,7 +9,7 @@ Official regulatory texts, guidance documents, and authoritative sources for EU 
 | **EU AI Act** | Regulation (EU) 2024/1689 | [Official Journal](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) |
 | **GDPR** | Regulation (EU) 2016/679 | [Official Journal](https://eur-lex.europa.eu/eli/reg/2016/679/oj) |
 | **Revised Product Liability Directive** | Directive (EU) 2024/2853 | [Official Journal](https://eur-lex.europa.eu/eli/dir/2024/2853/oj) |
-| **AI Liability Directive (Proposed)** | COM/2022/496 | [European Commission](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52022PC0496) |
+| **AI Liability Directive (proposal, withdrawn 2025)** | COM/2022/496 | Proposal withdrawn by the Commission, OJ notice **6 October 2025** |
 | **NIS2 Directive** | Directive (EU) 2022/2555 | [Official Journal](https://eur-lex.europa.eu/eli/dir/2022/2555/oj) |
 | **DORA** | Regulation (EU) 2022/2554 | [Official Journal](https://eur-lex.europa.eu/eli/reg/2022/2554/oj) |
 | **Cyber Resilience Act** | Regulation (EU) 2024/2847 | [Official Journal](https://eur-lex.europa.eu/eli/reg/2024/2847/oj) |
@@ -27,6 +27,9 @@ Official regulatory texts, guidance documents, and authoritative sources for EU 
 | **Guidelines on High-Risk AI System Classification** | European Commission (expected Feb 2026) | Guidance on Article 6 classification |
 | **GPAI Code of Practice** | European Commission (July 2025) | Voluntary compliance framework for GPAI models |
 | **AI Act Implementation Timeline** | European Commission | Phased enforcement schedule |
+| **EDPB-EDPS Joint Opinion 1/2026 on the Digital Omnibus on AI** | EDPB-EDPS (20 January 2026) | Concerns regarding simplification measures vs. fundamental-rights protection in the Digital Omnibus. URL: https://www.edpb.europa.eu/system/files/2026-01/edpb_edps_jointopinion_202601_proposal_ai-omnibus_en.pdf |
+| **EDPB Draft Guidelines 1/2026 on personal data for scientific research** | EDPB (15 April 2026, public consultation until 25 June 2026) | Refines GDPR Article 89 conditions for AI training datasets |
+| **Digital Omnibus on AI — provisional agreement** | Council of the EU (7 May 2026) | Postpones high-risk obligations to 2 December 2027, Article 50 to 2 December 2026, sandbox deadline to 2 August 2027, adds 9th Article 5 prohibition. URL: https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/ |
 
 ## EU Charter of Fundamental Rights
 
@@ -58,6 +61,7 @@ The EU Charter underpins the FRIA and many AI Act provisions. Key articles for A
 | **ISO 13485:2016** | Medical device quality management (relevant for healthcare AI) |
 | **ISO/IEC 27001:2022** | Information security management |
 | **ISO/IEC 27701:2019** | Privacy information management |
+| **prEN 18286** | AI quality management for EU AI Act regulatory purposes (CEN/CENELEC JTC 21, public Enquiry completed October 2025; OJ citation expected late 2026) |
 
 ## Anti-Discrimination Legislation
 
@@ -66,6 +70,12 @@ The EU Charter underpins the FRIA and many AI Act provisions. Key articles for A
 | **Employment Equality Directive (2000/78/EC)** | Discrimination in employment (religion, disability, age, sexual orientation) |
 | **Racial Equality Directive (2000/43/EC)** | Discrimination based on racial or ethnic origin |
 | **Gender Equality Directive (2006/54/EC)** | Equal treatment of men and women in employment |
+
+## National Implementation References
+
+| Country | Reference |
+|---|---|
+| **Italy** | **Legge 132/2025** (in force 10 October 2025) — first national AI law in the EU. URL: https://innovazione.gov.it/notizie/articoli/approvata-in-via-definitiva-la-legge-italiana-sull-intelligenza-artificiale/  ·  AgID **Determinazione 43/2026** (draft AI guidelines for public administration, public consultation closed 11 April 2026). URL: https://www.altalex.com/documents/2026/05/06/linee-guida-sviluppo-sistemi-intelligenza-artificiale-pubblica-amministrazione |
 
 ## Institutional Resources
 

@@ -118,6 +118,12 @@ When government agencies procure AI from private-sector vendors, they must:
 4. **Apply the Vendor Audit Checklist** — the [Vendor Audit Checklist](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/templates/vendor-audit-checklist.md) is directly applicable to government procurement
 5. **DPIA and FRIA** — the government agency (as deployer) is responsible for conducting these assessments, even if the vendor provides a ready-made system
 
+## National Implementation: Italy
+
+Italy's **Legge 132/2025** (in force 10 October 2025) sets specific rules for AI in public administration. **AgID** issued draft *Linee guida per lo sviluppo di sistemi di IA nella PA* (**Determinazione 43/2026**), which were placed for public consultation between 12 March and 11 April 2026. Final guidelines are expected as part of the implementing decrees due by **10 October 2026**. Italian public bodies should align FRIA processes, EU AI Database registration and human-oversight design with both the AI Act framework and the forthcoming AgID guidance.
+
+Sources: [innovazione.gov.it — Approvata in via definitiva la legge italiana sull'IA](https://innovazione.gov.it/notizie/articoli/approvata-in-via-definitiva-la-legge-italiana-sull-intelligenza-artificiale/) · [Altalex — Linee guida AgID](https://www.altalex.com/documents/2026/05/06/linee-guida-sviluppo-sistemi-intelligenza-artificiale-pubblica-amministrazione)
+
 ## Framework Templates
 
 | Need | Template |

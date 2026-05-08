@@ -10,7 +10,7 @@ This page addresses the corporate governance dimension of AI compliance — what
 
 1. **EU AI Act** — imposes obligations directly on the **provider** and **deployer** organisations. These are corporate-level duties, not individual technical responsibilities.
 2. **GDPR** — the data controller (a corporate-level designation) is responsible for data protection compliance, including for AI systems processing personal data.
-3. **AI Liability Directive (proposed)** — creates a presumption of causality when an organisation fails to comply with AI Act requirements. Non-compliance becomes direct evidence of fault.
+3. **National tort law (post-AILD withdrawal)** — the proposed AI Liability Directive was withdrawn by the European Commission in 2025 (OJ notice 6 October 2025). Fault-based AI claims now flow through national tort law in each Member State, where AI Act non-compliance is generally treated as evidence of breach of duty of care.
 4. **Product Liability Directive (revised)** — imposes strict liability on manufacturers/providers for defective AI systems. Board members with knowledge of defects or compliance gaps face personal exposure.
 5. **National corporate governance law** — directors' duties of care and diligence extend to ensuring the organisation complies with applicable regulations, including the AI Act.
 
@@ -21,7 +21,7 @@ This page addresses the corporate governance dimension of AI compliance — what
 | EU AI Act — prohibited practices | €35 million or 7% of global turnover |
 | EU AI Act — high-risk non-compliance | €15 million or 3% of global turnover |
 | GDPR | €20 million or 4% of global turnover |
-| AI Liability Directive | Civil liability — unlimited |
+| National tort law (AILD withdrawn) | Civil liability under each Member State's rules — unlimited |
 | Product Liability Directive | Strict liability — unlimited |
 
 These penalties exceed GDPR exposure in many cases. For a company with €500 million in turnover, the maximum AI Act fine for prohibited practices is €35 million — a material financial risk that demands board attention.
@@ -126,7 +126,7 @@ AI governance should not be built in isolation. It should integrate with:
 While the EU AI Act imposes fines on organisations, directors may face personal liability through:
 
 1. **National corporate law** — directors who fail to exercise due care in ensuring regulatory compliance may be personally liable
-2. **AI Liability Directive** — the presumption of causality created by non-compliance may facilitate claims against companies, with potential for follow-on director liability
+2. **National tort law** — with the AILD withdrawn, claims under each Member State's tort regime may still facilitate follow-on director liability where AI Act non-compliance is treated as evidence of breach of duty of care
 3. **Criminal liability** — in some Member States, directors can face criminal sanctions for corporate regulatory violations
 4. **D&O insurance implications** — AI-related regulatory failures may affect Directors & Officers insurance coverage
 

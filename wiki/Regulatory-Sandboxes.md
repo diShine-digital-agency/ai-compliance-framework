@@ -1,6 +1,6 @@
 # AI Regulatory Sandboxes (Article 57)
 
-Article 57 of the EU AI Act requires each Member State to establish at least one **AI regulatory sandbox** by **2 August 2026** — this deadline is **retained under the Digital Omnibus proposal** (unlike the high-risk and Article 50 deadlines, which are pushed to 2027). Regulatory sandboxes provide controlled environments where AI systems can be developed, tested, and validated under regulatory supervision before being placed on the market.
+Article 57 of the EU AI Act requires each Member State to establish at least one **AI regulatory sandbox** by **2 August 2026** (pre-Omnibus) or **2 August 2027** under the Digital Omnibus on AI (provisional agreement reached by Council and Parliament on **7 May 2026**). The 7 May agreement **postponed the sandbox deadline by one year**. Until the Omnibus is published in the Official Journal of the EU, the original 2 August 2026 date remains legally binding. Regulatory sandboxes provide controlled environments where AI systems can be developed, tested, and validated under regulatory supervision before being placed on the market.
 
 ## What Is a Regulatory Sandbox
 
@@ -18,7 +18,7 @@ The sandbox is **not** a regulatory exemption. All participants remain subject t
 
 | Feature | Detail |
 |---|---|
-| **Deadline** | Each Member State must establish at least one sandbox by 2 August 2026 |
+| **Deadline** | Each Member State must establish at least one sandbox by 2 August 2026 (pre-Omnibus), postponed to **2 August 2027** under the Digital Omnibus on AI provisional agreement of 7 May 2026 |
 | **Alternatives** | A Member State may participate in a jointly established sandbox with other Member States instead of creating its own, provided the national benefit is equivalent |
 | **Supervision** | Sandboxes are supervised by national competent authorities designated under the AI Act |
 | **Duration** | Time-limited participation — each sandbox engagement has a defined start and end |
@@ -96,7 +96,7 @@ As of early 2026, sandbox implementation varies across the EU:
 | **Netherlands** | Sandbox programme announced; intake planned for 2026 | ACM / sector-specific regulators |
 | **Denmark** | Early sandbox framework established | Danish Business Authority |
 | **Germany** | Planning phase; multiple sector-specific sandboxes under discussion | BNetzA / sector-specific authorities |
-| **Italy** | Legislative framework under development | AgID / GPDP |
+| **Italy** | **Legge 132/2025** in force since 10 October 2025 (first national AI law in the EU); AgID draft guidelines for AI in PA (Determinazione 43/2026) public consultation closed 11 April 2026; sandbox framework expected via implementing decrees due by 10 October 2026 | AgID / ACN / GPDP |
 | **Most other Member States** | Planning or early consultation stages | Various |
 
 ## Benefits of Sandbox Participation

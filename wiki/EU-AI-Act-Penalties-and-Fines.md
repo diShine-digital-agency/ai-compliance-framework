@@ -74,7 +74,7 @@ Each Member State must designate its national authorities. See [National Impleme
 
 - **2 February 2025:** Penalties for prohibited AI practices are enforceable.
 - **2 August 2025:** Penalties for GPAI non-compliance activate.
-- **2 August 2026** *(pre-Omnibus)* **/ 2 December 2027** *(Omnibus)***:** Full penalty regime in effect for all obligations, including high-risk system requirements. The applicable date depends on the adoption of the Digital Omnibus on AI Regulation.
+- **2 August 2026** *(pre-Omnibus)* **/ 2 December 2027** *(Omnibus, provisional 7 May 2026)***:** Full penalty regime in effect for all obligations, including high-risk system requirements. The applicable date depends on whether the Digital Omnibus on AI is published in the Official Journal before 2 August 2026. The 7 May 2026 trilogue text also adds a ninth Article 5 prohibition (non-consensual intimate content and CSAM) which will be enforceable at the same Tier 1 penalty level (€35M / 7%) once the Omnibus is published.
 
 ## Practical Considerations
 

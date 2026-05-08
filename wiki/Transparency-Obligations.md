@@ -2,7 +2,7 @@
 
 Article 50 of the EU AI Act establishes transparency obligations for providers and deployers of certain AI systems. These obligations define the **limited risk** tier of the AI Act's risk-based framework and apply to AI systems that interact with people, generate synthetic content, or perform emotion recognition or biometric categorisation.
 
-Article 50 obligations will be **fully enforceable from 2 November 2026** under the Digital Omnibus proposal (**2 August 2026** pre-Omnibus).
+Article 50 obligations will be **fully enforceable from 2 December 2026** under the Digital Omnibus on AI (provisional agreement reached by Council and Parliament on **7 May 2026**, which **reduced the grace period from 6 months to 3 months**). The pre-Omnibus date of **2 August 2026** remains legally binding until the Omnibus is published in the Official Journal of the EU.
 
 ## Who Must Comply
 
@@ -112,7 +112,7 @@ The European Commission, through the EU AI Office, is developing a **Code of Pra
 - Provides detailed technical guidance for implementing Article 50 obligations
 - Covers labelling methods, detection tools, and verification mechanisms
 - Expected to serve as the de facto compliance benchmark, even though formally voluntary
-- Draft published in January 2026; final version expected mid-2026
+- Draft published in January 2026; final version targeted for the second half of 2026 ahead of the Article 50 enforcement date
 - Adherence to the Code of Practice may serve as evidence of compliance
 
 ## Interaction with Other Obligations
@@ -134,7 +134,7 @@ Failure to comply with Article 50 transparency obligations can result in fines o
 1. **Inventory** all AI systems that interact with natural persons, generate content, or perform emotion recognition/biometric categorisation.
 2. **Classify** each system against the four Article 50 duties.
 3. **Implement AI interaction disclosure** — add visible notices to chatbots, virtual assistants, and interactive AI systems.
-4. **Implement content labelling** — adopt machine-readable marking (watermarking, metadata, C2PA) for all AI-generated content.
+4. **Implement content labelling** — adopt machine-readable marking (watermarking, metadata, C2PA) for all AI-generated content. Note that providers have only a **3-month grace period** from OJ publication to apply machine-readable labelling to new generative outputs once the Digital Omnibus is in force, so labelling must be live before **2 December 2026**.
 5. **Implement deepfake disclosure** — add human-readable labels to any AI-generated or manipulated media that could be mistaken for real.
 6. **Implement emotion recognition/biometric categorisation notices** — inform exposed persons and ensure GDPR compliance.
 7. **Monitor the Transparency Code of Practice** — align implementation with the Commission's technical guidance as it is finalised.

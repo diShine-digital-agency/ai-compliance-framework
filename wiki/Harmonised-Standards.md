@@ -59,6 +59,8 @@ The high-risk AI system obligations become enforceable on **2 December 2027** un
 | **2 December 2027** *(Omnibus)* | High-risk obligations fully enforceable under Omnibus timeline |
 | **After OJ publication** | Presumption of conformity available |
 
+**Acceleration measure (October 2025).** On 23 October 2025, CEN and CENELEC adopted exceptional measures to accelerate delivery: drafts that pass the public Enquiry vote can be published as European Standards without a separate Formal Vote. The boards target Q4 2026 for publication of the first wave of AI Act harmonised standards, with subsequent OJ citation by the Commission to follow. Even with this acceleration, organisations that go live with high-risk AI systems before late 2026 cannot rely on a presumption of conformity from harmonised standards, and must demonstrate compliance through documented use of ISO 42001 and Commission guidance.
+
 ### What to Do During the Gap
 
 Organisations cannot wait for harmonised standards before preparing for compliance. During the gap:

@@ -66,7 +66,8 @@ The Code is organised into three chapters:
 
 ### Enforcement
 
-- Enforcement actions by the European Commission (model recalls, information requests) for GPAI obligations have been available since **2 August 2025** (penalty provisions and AI Office enforcement powers activated on that date).
+- GPAI rules under Articles 51 to 55 entered into force on **2 August 2025**. From that date the AI Office can request information, issue voluntary recommendations and conduct evaluations of GPAI models.
+- **Formal enforcement powers (binding requests for information, model recalls, fines) for GPAI providers begin on 2 August 2026**, one year after the rules took effect. From that date the Commission can impose fines for non-compliance with GPAI obligations.
 - GPAI models placed on the market before 2 August 2025 must be brought into compliance by **2 August 2027**.
 
 ## Provider vs. Deployer Obligations for GPAI

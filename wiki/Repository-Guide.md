@@ -103,7 +103,7 @@ ai-compliance-framework/
 |------|-------------|------------------|
 | [Step-by-Step User Guide](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/guides/how-to-use-this-framework.md) | Master orchestration guide — maps the full compliance journey across 4 phases, assigns owners to each step, explains the regulatory rationale | All roles |
 | [Algorithmic Bias Audit Methodology](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/guides/algorithmic-bias-audit-methodology.md) | 4-phase statistical audit methodology covering Demographic Parity, Equal Opportunity, Equalized Odds, Predictive Parity, and the Chouldechova/Kleinberg impossibility theorems | Data Scientists, Compliance Officers |
-| [AI Liability & Product Safety Guide](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/guides/ai-liability-product-safety.md) | The EU's three-pillar liability framework: AI Act (rules), AI Liability Directive (fault-based), revised Product Liability Directive (strict liability) | Legal Counsel, C-Suite, Risk Management |
+| [AI Liability & Product Safety Guide](https://github.com/diShine-digital-agency/ai-compliance-framework/blob/main/guides/ai-liability-product-safety.md) | The EU's two-pillar liability framework after the AILD withdrawal (October 2025): AI Act (rules) and revised Product Liability Directive (strict liability), with national tort law for fault-based claims | Legal Counsel, C-Suite, Risk Management |
 
 ### Templates — Policy & Training
 

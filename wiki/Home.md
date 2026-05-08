@@ -33,7 +33,8 @@ This wiki complements the repository's templates, guides, and tools with in-dept
 |------|-------------|
 | [EU AI Act Overview](EU-AI-Act-Overview) | Structure, scope, and objectives of Regulation (EU) 2024/1689 |
 | [EU AI Act Risk Classification](EU-AI-Act-Risk-Classification) | The four-tier risk model: Unacceptable, High, Limited, Minimal |
-| [EU AI Act Enforcement Timeline](EU-AI-Act-Enforcement-Timeline) | All key compliance dates from August 2024 through August 2027 |
+| [EU AI Act Enforcement Timeline](EU-AI-Act-Enforcement-Timeline) | All key compliance dates from August 2024 through August 2030, with Digital Omnibus on AI shifts |
+| [Digital Omnibus on AI](Digital-Omnibus-on-AI) | The 7 May 2026 provisional agreement: shifted dates and the new ninth Article 5 prohibition |
 | [EU AI Act Penalties and Fines](EU-AI-Act-Penalties-and-Fines) | The three-tier penalty structure and how fines are calculated |
 | [EU AI Act Roles](EU-AI-Act-Roles) | Provider, Deployer, Importer, Distributor — obligations by role |
 | [Prohibited AI Practices](Prohibited-AI-Practices) | What is banned under Article 5, effective February 2025 |
@@ -50,8 +51,9 @@ This wiki complements the repository's templates, guides, and tools with in-dept
 |------|-------------|
 | [GDPR and AI](GDPR-and-AI) | How the General Data Protection Regulation intersects with AI systems |
 | [EU Regulatory Landscape for AI](EU-Regulatory-Landscape-for-AI) | How the AI Act interacts with NIS2, DORA, CRA, DSA, and the Product Liability Directive |
-| [AI Liability in the EU](AI-Liability-in-the-EU) | The three-pillar liability framework: AI Act, AILD, and revised PLD |
+| [AI Liability in the EU](AI-Liability-in-the-EU) | The two-pillar liability framework: AI Act and revised PLD (AILD proposal withdrawn 2025) |
 | [National Implementation by Member States](National-Implementation) | Member state progress on designating competent authorities |
+| [Italy National AI Law (Legge 132/2025)](Italy-AI-Law-132-2025) | The first national AI law in the EU, in force since 10 October 2025 |
 | [AI Regulatory Sandboxes (Article 57)](Regulatory-Sandboxes) | Regulatory sandboxes for supervised AI testing before market deployment |
 | [Harmonised Standards (CEN/CENELEC)](Harmonised-Standards) | The standardisation process and the presumption of conformity |
 | [Open-Source AI and the EU AI Act](Open-Source-AI-and-the-EU-AI-Act) | Scope and limits of the open-source exemption |
