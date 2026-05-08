@@ -1,8 +1,10 @@
 # How to Use the AI Compliance Framework: A Step-by-Step Guide
 
-**Version:** 2.3.0
+**Version:** 2.4.0
 
 > 🌐 **New home:** The framework's canonical, up-to-date version now lives at **[compliance.dishine.it](https://compliance.dishine.it)**. Primary content updates will be published there first. This GitHub repository remains **actively maintained** as the open collaboration space for issues, pull requests, forks, and discussion.
+
+> **⚖️ Digital Omnibus status (8 May 2026):** Council and Parliament reached a **provisional agreement on the Digital Omnibus on AI on 7 May 2026**. Once formally adopted and published in the OJ, the Omnibus shifts high-risk Annex III obligations to **2 December 2027**, Article 50 transparency to **2 December 2026** (3-month grace, reduced from 6), the Article 57 sandbox deadline to **2 August 2027**, and adds a ninth Article 5 prohibition (non-consensual intimate content and CSAM). Until OJ publication, the original AI Act dates (notably **2 August 2026** for Annex III, Article 50 and Article 57) remain legally binding. Plan for the earlier of the two dates.
 
 This framework is not a collection of isolated documents; it is a sequential, operational engine designed to move an enterprise from "Shadow AI chaos" to "auditable, compliant AI deployment" under the EU AI Act and GDPR. 
 
@@ -62,8 +64,8 @@ Once the bleeding is stopped, you must evaluate the third-party AI tools your co
 ### Step 2.3: Understand AI Liability Exposure
 *   **Tool:** [`guides/ai-liability-product-safety.md`](ai-liability-product-safety.md)
 *   **Owner:** Legal Counsel & Risk Management.
-*   **Why it matters:** The EU AI Act sets rules, but the revised **Product Liability Directive** (2024/2853, transposition deadline **9 December 2026**) and the proposed **AI Liability Directive** create private rights of action for individuals harmed by AI. Non-compliance with the AI Act triggers a presumption of causality in liability claims.
-*   **Action:** Review the three-pillar liability framework. Update vendor contracts with liability allocation and indemnification clauses. Assess whether AI-specific product liability insurance is needed.
+*   **Why it matters:** The EU AI Act sets rules, but the revised **Product Liability Directive** (2024/2853, transposition deadline **9 December 2026**) creates private rights of action for individuals harmed by defective AI products under strict liability. The previously proposed **AI Liability Directive** was withdrawn by the Commission in 2025 (OJ notice **6 October 2025**), so fault-based AI claims now flow through national tort law in each Member State.
+*   **Action:** Review the **two-pillar liability framework** (AI Act rules + revised PLD). Update vendor contracts with liability allocation, indemnification clauses, choice-of-law and forum clauses (with attention to which Member State's tort regime will govern fault-based claims). Assess whether AI-specific product liability insurance is needed.
 
 ---
 

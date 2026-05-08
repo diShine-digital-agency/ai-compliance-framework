@@ -5,7 +5,7 @@
 **Vendor Name:** [Vendor]
 **Date:** [Date]
 
-This checklist is designed to evaluate third-party AI vendors (SaaS, APIs, or integrated tools) against the stringent requirements of the **EU AI Act** and the **GDPR**. High-risk AI system obligations under Annex III apply from **2 December 2027** (as revised by the Digital Omnibus); transparency obligations under Article 50 apply from **2 November 2026**.
+This checklist is designed to evaluate third-party AI vendors (SaaS, APIs, or integrated tools) against the stringent requirements of the **EU AI Act** and the **GDPR**. High-risk AI system obligations under Annex III apply from **2 December 2027** (as revised by the Digital Omnibus on AI, provisional agreement of 7 May 2026); transparency obligations under Article 50 apply from **2 December 2026** (Omnibus, with the grace period reduced from 6 months to 3 months in the 7 May 2026 trilogue agreement). Until OJ publication, **2 August 2026** remains the legally binding date for both. Note also the new ninth Article 5 prohibition (non-consensual intimate content and CSAM) added by the same agreement.
 
 It goes beyond standard SOC 2 or ISO 27001 questionnaires to address the unique risks of Large Language Models (LLMs) and Generative AI.
 

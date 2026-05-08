@@ -132,9 +132,9 @@ Notified Bodies are independent organisations designated by EU Member States to 
 
 | Milestone | Deadline |
 | :--- | :--- |
-| Transparency/Art. 50 systems | **2 November 2026** |
-| High-risk systems — Annex III (standalone) | **2 December 2027** |
-| High-risk systems — regulated products (Art. 6.1) | **2 August 2028** |
+| Transparency/Art. 50 systems | **2 December 2026** *(Omnibus, provisional 7 May 2026; 2 August 2026 pre-Omnibus)* |
+| High-risk systems — Annex III (standalone) | **2 December 2027** *(Omnibus, provisional 7 May 2026; 2 August 2026 pre-Omnibus)* |
+| High-risk systems — regulated products (Art. 6.1) | **2 August 2028** *(Omnibus, provisional 7 May 2026)* |
 
 ---
 *This guide is provided by [diShine Digital Agency](https://dishine.it) as part of the AI Compliance Framework.*

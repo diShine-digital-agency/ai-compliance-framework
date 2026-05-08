@@ -82,7 +82,7 @@ If a national Market Surveillance Authority (MSA) or Data Protection Authority (
 *   [ ] Produce the AI Literacy Programme document (this template, customised).
 *   [ ] Provide the training register with completion rates.
 *   [ ] Demonstrate that the programme is proportionate to the roles and AI systems in use.
-*   [ ] Show evidence of regular updates (e.g., the programme was updated after the Digital Omnibus trilogue finalisation).
+*   [ ] Show evidence of regular updates (e.g., the programme was updated after the Digital Omnibus on AI provisional agreement of 7 May 2026, including the new ninth Article 5 prohibition covering non-consensual intimate content and CSAM).
 
 ---
 *This template is provided by [diShine Digital Agency](https://dishine.it) as part of the AI Compliance Framework.*

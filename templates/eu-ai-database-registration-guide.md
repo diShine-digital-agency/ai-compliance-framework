@@ -88,9 +88,9 @@ Ensure the following are complete **before** starting the registration:
 
 | Obligation | Deadline |
 | :--- | :--- |
-| Art. 50 transparency systems (chatbots, deepfakes) | **2 November 2026** |
-| High-risk AI systems under Annex III | **2 December 2027** |
-| High-risk AI in regulated products (Art. 6.1) | **2 August 2028** |
+| Art. 50 transparency systems (chatbots, deepfakes) | **2 December 2026** *(Omnibus, provisional 7 May 2026; 2 August 2026 pre-Omnibus)* |
+| High-risk AI systems under Annex III | **2 December 2027** *(Omnibus, provisional 7 May 2026; 2 August 2026 pre-Omnibus)* |
+| High-risk AI in regulated products (Art. 6.1) | **2 August 2028** *(Omnibus, provisional 7 May 2026)* |
 
 ---
 
